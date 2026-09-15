@@ -45,19 +45,34 @@ app.add_middleware(
 
 
 def get_qa_chain():
-    """Build the QA chains lazily so importing the module is cheap.
-
-    The vector store is built once and shared by both the primary and
-    fallback chains, so we only embed the knowledge base a single time.
-    """
+    """Return the QA chains, building them on first use if needed."""
     global qa_chain, fallback_chain, vectorstore
     if qa_chain is None:
-        print("Building QA chains (first request)...")
-        vectorstore = build_vectorstore()
-        qa_chain = build_qa_chain(vectorstore=vectorstore, model_name=PRIMARY_MODEL)
-        fallback_chain = build_qa_chain(vectorstore=vectorstore, model_name=FALLBACK_MODEL)
-        print("QA chains ready.")
+        build_chains()
     return qa_chain, fallback_chain
+
+
+def build_chains():
+    """Build the vector store + primary and fallback QA chains.
+
+    Called eagerly at startup (see @app.on_event("startup")) so the
+    first user request is fast and Railway's health check waits for
+    the chains to be ready before routing traffic.
+    """
+    global qa_chain, fallback_chain, vectorstore
+    if qa_chain is not None:
+        return
+    print("Building QA chains (startup)...")
+    vectorstore = build_vectorstore()
+    qa_chain = build_qa_chain(vectorstore=vectorstore, model_name=PRIMARY_MODEL)
+    fallback_chain = build_qa_chain(vectorstore=vectorstore, model_name=FALLBACK_MODEL)
+    print("QA chains ready.")
+
+
+@app.on_event("startup")
+def startup_event():
+    """Eagerly build the QA chains so the first request is fast."""
+    build_chains()
 
 
 class Question(BaseModel):
@@ -67,7 +82,12 @@ class Question(BaseModel):
 
 @app.get("/health")
 def health():
-    return {"status": "ok", "chain_loaded": qa_chain is not None}
+    """Health check. Returns 503 until the QA chains are ready so Railway
+    keeps waiting (up to healthcheckTimeout) instead of routing traffic
+    to a cold app."""
+    if qa_chain is None:
+        raise HTTPException(status_code=503, detail="chains not ready")
+    return {"status": "ok", "chain_loaded": True}
 
 
 @app.get("/", response_class=HTMLResponse)
