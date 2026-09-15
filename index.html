@@ -57,9 +57,32 @@
         .header-text p { font-size: 0.75rem; color: var(--text-muted); }
         .status-dot {
             width: 8px; height: 8px; border-radius: 50%;
-            background: #22c55e; margin-left: auto;
+            background: #22c55e; margin-left: 0;
             box-shadow: 0 0 8px rgba(34, 197, 94, 0.5);
         }
+
+        /* ── Layout mode toggle ─────────────────────────── */
+        .mode-toggle {
+            margin-left: auto;
+            margin-right: 0.75rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            color: var(--text);
+            padding: 0.4rem 0.8rem;
+            border-radius: 8px;
+            font-size: 0.8rem;
+            font-family: inherit;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+            transition: all 0.2s;
+        }
+        .mode-toggle:hover {
+            border-color: var(--accent);
+            color: var(--accent-hover);
+        }
+        .mode-toggle svg { width: 16px; height: 16px; }
 
         /* ── Chat area ──────────────────────────────────── */
         #chat {
@@ -228,16 +251,111 @@
             margin-bottom: 0.5rem;
             text-align: center;
         }
+
+        /* ── App wrapper ─────────────────────────────────── */
+        #app {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            width: 100%;
+        }
+
+        /* ── Widget (corner) mode ─────────────────────────── */
+        body.widget-mode {
+            background: #ffffff;
+            overflow: visible;
+        }
+        body.widget-mode #app {
+            position: fixed;
+            right: 20px;
+            bottom: 90px;
+            width: 380px;
+            height: 560px;
+            max-width: calc(100vw - 40px);
+            max-height: calc(100vh - 120px);
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 8px 40px rgba(0, 0, 0, 0.4);
+            background: #000000;
+            display: none;
+            opacity: 0;
+            transform: translateY(20px) scale(0.95);
+            transition: opacity 0.3s ease, transform 0.3s ease;
+        }
+        body.widget-mode.open #app {
+            display: flex;
+            opacity: 1;
+            transform: translateY(0) scale(1);
+        }
+        body.widget-mode header {
+            background: linear-gradient(135deg, var(--accent), #a855f7);
+        }
+        body.widget-mode .header-text h1 { color: white; }
+        body.widget-mode .header-text p { color: rgba(255,255,255,0.8); }
+        body.widget-mode .mode-toggle {
+            background: rgba(255,255,255,0.15);
+            border-color: rgba(255,255,255,0.3);
+            color: white;
+        }
+        body.widget-mode .mode-toggle:hover {
+            background: rgba(255,255,255,0.25);
+            color: white;
+        }
+
+        #widget-bubble {
+            display: none;
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+            width: 60px; height: 60px;
+            background: linear-gradient(135deg, #6366f1, #a855f7);
+            border-radius: 50%;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: 0 4px 20px rgba(99, 102, 241, 0.4);
+            z-index: 2147483000;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        body.widget-mode #widget-bubble { display: flex; }
+        #widget-bubble:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 28px rgba(99, 102, 241, 0.55);
+        }
+        #widget-bubble svg { width: 28px; height: 28px; }
+        #widget-bubble .chat-icon { fill: white; }
+        #widget-bubble .close-icon { stroke: white; display: none; }
+        body.widget-mode.open #widget-bubble .chat-icon { display: none; }
+        body.widget-mode.open #widget-bubble .close-icon { display: block; }
+
+        @media (max-width: 480px) {
+            body.widget-mode #app {
+                right: 0; left: 0; bottom: 0;
+                width: 100vw; height: 100vh;
+                border-radius: 0;
+                max-width: 100%; max-height: 100%;
+            }
+            body.widget-mode #widget-bubble { right: 16px; bottom: 16px; }
+        }
     </style>
 </head>
 <body>
 
+<div id="app">
 <header>
     <div class="logo">S</div>
     <div class="header-text">
         <h1>SafePay Assistant</h1>
         <p>Ask me anything about SafePay</p>
     </div>
+    <button id="mode-toggle" class="mode-toggle" onclick="toggleMode()" title="Switch between full page and corner widget">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="3" width="18" height="18" rx="2"></rect>
+            <line x1="3" y1="9" x2="21" y2="9"></line>
+            <line x1="9" y1="21" x2="9" y2="9"></line>
+        </svg>
+        <span id="mode-label">Widget</span>
+    </button>
     <div class="status-dot" title="Online"></div>
 </header>
 
@@ -268,6 +386,17 @@
         </button>
     </div>
 </div>
+</div>
+
+<div id="widget-bubble" onclick="togglePanel()" title="SafePay Assistant">
+    <svg class="chat-icon" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12 3C6.5 3 2 6.9 2 11.7c0 2.6 1.3 4.9 3.4 6.5-.1 1-.5 2.4-1.6 3.3 1.9-.1 3.4-.8 4.4-1.4 1.2.3 2.4.5 3.8.5 5.5 0 10-3.9 10-8.7S17.5 3 12 3z"></path>
+    </svg>
+    <svg class="close-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+    </svg>
+</div>
 
 <script>
     const input = document.getElementById('input');
@@ -279,6 +408,25 @@
     // Unique session id so the backend can keep per-conversation memory
     const sessionId = (crypto.randomUUID && crypto.randomUUID()) ||
         'sess-' + Date.now() + '-' + Math.random().toString(36).slice(2);
+
+    // ── Layout mode toggle (full page ↔ corner widget) ──
+    function toggleMode() {
+        const body = document.body;
+        const isWidget = body.classList.toggle('widget-mode');
+        document.getElementById('mode-label').textContent = isWidget ? 'Full page' : 'Widget';
+        if (isWidget) {
+            body.classList.add('open');
+        } else {
+            body.classList.remove('open');
+        }
+        input.focus();
+    }
+
+    function togglePanel() {
+        const body = document.body;
+        body.classList.toggle('open');
+        if (body.classList.contains('open')) input.focus();
+    }
 
     input.addEventListener('keydown', e => { if (e.key === 'Enter' && !loading) send(); });
 
