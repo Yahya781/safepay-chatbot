@@ -13,6 +13,7 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse, FileResponse
 from pydantic import BaseModel
+import uvicorn
 from chatbot import (
     build_qa_chain,
     build_vectorstore,
@@ -143,3 +144,14 @@ async def ask(q: Question):
             sources.append(snippet)
 
     return {"answer": answer, "sources": sources}
+
+
+if __name__ == "__main__":
+    import uvicorn
+    port = int(os.getenv("PORT", 8000))
+    uvicorn.run(
+        "main:app",
+        host="0.0.0.0",
+        port=port,
+        log_level="info",
+    )
