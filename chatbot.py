@@ -52,8 +52,8 @@ Your job is to answer questions about SafePay's products, features, pricing, int
 ## Answer (as the SafePay Assistant):"""
 
 
-PRIMARY_MODEL = "llama-3.3-70b-versatile"
-FALLBACK_MODEL = "openai/gpt-oss-20b"
+PRIMARY_MODEL = "qwen/qwen3.8-27b"
+FALLBACK_MODEL = "openai/gpt-oss-120b"
 
 
 def build_llm(model_name):
@@ -62,6 +62,8 @@ def build_llm(model_name):
         api_key=os.getenv("GROQ_API_KEY"),
         model_name=model_name,
         temperature=0.2,
+        timeout=30,
+        max_retries=1,
     )
 
 
