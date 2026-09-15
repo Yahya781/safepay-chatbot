@@ -1,0 +1,2077 @@
+# Safepay Knowledge Base — Main Website
+# Cleaned and structured from safepay.pk / getsafepay.pk
+# This is the sole source of truth for the SafePay assistant.
+
+## Safepay | Engineered for the aspirational
+
+# Innovating for the ambitious
+
+Accelerate your business with our groundbreaking fintech platform. Safepay unifies payments, analytics, and routing in one innovative solution, empowering growth from startups to enterprises.
+Get started
+See pricing
+Modular solutions
+
+# One platform to manage it all
+
+From seamless payment experiences and robust solutions to routing transactions and end-to-end Raast infrastructure, we provide everything you need to meet your collection goals. Use Safepay to reduce costs, grow revenue, and run your business more efficiently on a fully integrated platform. Handle all of your payments-related needs, manage revenue operations, and launch (or invent) new business models.
+Payments
+
+# Accept and optimize payments from anywhere in the world.
+
+Increase authorization rates, optimize your checkout conversion, and offer local payment methods in every market. We have payment solutions fit for every platform.
+- Embedded Checkout
+- Hosted Checkout
+- Shopify
+- SDKs
+- APIs
+- Plugins
+Start with Payments
+Subscriptions
+
+# Capture recurring revenue
+
+Capture recurring revenue, support recurring business models, minimize churn, and automate finance operations.
+- Buy Now Pay Later (BNPL)
+- Software as a Service (SaaS)
+- Memberships
+- Online Courses & E-Learning
+- Health & Wellness Services
+Start with Subscriptions
+Connect
+
+# Connect multiple payment gateways
+
+Connect multiple payment gateways and route payments through custom rules with our enterprise-grade payment orchestrator.
+- Customize Your Own Rules
+- Optimize Payments
+- Keep Your Preferred Provider
+- Maximize Profit and Reduce Costs
+- Unified Data Analytics and Reporting
+Start with Routing
+
+### Unlock global payment diversity with one integration
+
+Seamlessly tap into worldwide commerce by instantly accessing popular local payment methods through a single, powerful integration. Our platform empowers you to accept credit and debit cards globally, alongside the most current and preferred payment options in each market.
+Empowering innovators: streamlined payment solutions
+
+### Accelerate your development with intuitive, robust APIs
+
+Maximize your team's productivity with our unified payment ecosystem. We've navigated the complex web of gateways, payments, and rails distilling it into a single, powerful platform. This allows your developers to focus on what truly matters: building exceptional experiences for your customers.
+Explore the docs
+```
+12345678910111213141516constsafepay=require('@sfpy/node-core')('12aslkad23887234234',{authType:'secret'host:'https://api.getsafepay.com'});safepay.payments.session.setup({"merchant_api_key":"sec_faed47eb-0044-4968-b7e9-2fb7d7853eb9","intent":"CYBERSOURCE","mode":"payment","currency":"PKR","amount":600000}).then(payment=>console.log(payment.tracker.token)).catch(error=>console.error(error));
+```
+```
+constsafepay=require('@sfpy/node-core')('12aslkad23887234234',{authType:'secret'host:'https://api.getsafepay.com'});safepay.payments.session.setup({"merchant_api_key":"sec_faed47eb-0044-4968-b7e9-2fb7d7853eb9","intent":"CYBERSOURCE","mode":"payment","currency":"PKR","amount":600000}).then(payment=>console.log(payment.tracker.token)).catch(error=>console.error(error));
+```
+
+#### Rapid Integration
+
+Our user-friendly APIs enable swift implementation
+
+#### Comprehensive Solution
+
+One platform for all your payment needs
+
+#### Global Reach
+
+Seamlessly operate across multiple markets
+
+#### Developer-Centric
+
+Tools and documentation designed for ease of use
+
+## Simplified integration options for global businesses
+
+Whether you're a small business owner or a growing enterprise, Safepay offers flexible solutions to meet your payment needs, no extensive technical knowledge required.
+Payment links
+
+### Payment links
+
+Create an invoice, or share a payment link directly from your Dashboard to start generating revenue in minutes—no code required. You can share the link through Social Media, Whatsapp, Email, SMS or even a Call Centre.
+
+## Streamlined international invoicing
+
+Expand your global reach with our multi-currency invoicing system. Generate and send professional invoices in 8 different currencies.
+
+## Invoices made easy
+
+Streamline B2B payments by adding clickable payment links to digital invoices, making payments seamless for everyone.
+
+## Ease of collection
+
+Send links to anyone anywhere in the world. Even if their local currency is not supported they can still use Visa or Mastercard to pay in USD from any country.
+
+### Innovative customizable components
+
+Select from our suite of advanced UI components and tailor the user experience to match your site design, theme and brand identity.
+
+## Boost Conversions
+
+Pre-built components with accessibility, error handling, and autofill. Streamline development and enhance user experience.
+
+## Expand Your Market
+
+Innovative payment integration for new opportunities. Easily manage methods and gain insights through your Safepay Dashboard.
+
+## Future-Ready Payments
+
+Stay ahead with Safepay's evolving Atoms. Continuously updated to keep you at the forefront of payment technology.
+
+### Pre-integrated e-commerce solutions
+
+Get up and running quickly with our pre-built integrations for popular e-commerce platforms:
+
+## Shopify hosted checkout
+
+Seamlessly integrate Safepay into your Shopify store's checkout process.
+
+## Shopify onsite checkout
+
+Offer a smooth, on-brand embedded payment experience directly on your Shopify site.
+
+## WooCommerce plugin
+
+Easily add Safepay to your WordPress-based online store.
+
+## Start accepting payments today
+
+With Safepay's user-friendly tools and pre-built integrations, you can begin processing payments and growing your business in no time—regardless of your technical expertise.
+Start now
+Contact sales
+
+#### Transparent pricing
+
+Clear, upfront costs with no hidden fees.
+
+#### Seamless onboarding
+
+From sign-up to first transaction in no time.
+Sign up today
+
+---
+
+## Safepay | Engineered for the aspirational
+The platform built to transform Pakistani businesses into global players through innovative payment solutions.
+
+# The platform built to transform Pakistani businesses into global players through innovative payment solutions.
+
+
+#### Over 200,000 unique customers in the last year
+
+
+#### Backed by Stripe & Y-Combinator
+
+
+#### Over Rs. 2BN Billion processed in the last year
+
+
+### Our story
+
+
+## Company milestones
+
+- 2025 Commercial License Officially granted a Full Commercial License by the State Bank of Pakistan after rigorous evaluation and successful pilot operations.
+
+#### 2025
+
+- 2024 Payment Orchestration First Pakistani fintech to build and offer payment orchestration allowing merchants to leverage their existing relationships with payment partners
+
+#### 2024
+
+- 2024 Embedded Checkout 2.0 Redesigned the UI and UX for embedded checkout, Introduced one-click checkout allowing for faster purchases for repeat customers
+- 2024 Shopify Onsite First and only Pakistani payment platform with an approved Shopify onsite payment app. No more redirects, no more lost orders.
+- 2023 Innovative Product Development We introduced key enhancements, such as Embedded Checkout, Quick Links, Tokenization and Subscriptions
+
+#### 2023
+
+- 2022 Live Launched our proprietary technology and started onboarding merchants for live operations using its hosted checkout and plugins for e-commerce
+
+#### 2022
+
+- 2022 Approval for Pilot test granted In August, 2022 State Bank of Pakistan approved Safepay for the 2nd stage of its Commercial license process
+- 2021 Development Safepay started hiring resources and building its own technology from the ground up to serve Merchants & Customers
+
+#### 2021
+
+- 2021 In Principle Approval State Bank of Pakistan granted Safepay the initial approval to go ahead and start operations in June, 2021
+- 2020 Funding The vision is born, Accepted & Graduated as the first Pakistani Fintech from Y-Combinator. Backed by Stripe.
+
+#### 2020
+
+
+### Our Guiding Principles
+
+Our operations are anchored in core principles that steer our actions and decisions.
+Meet our team
+
+# Meet our team
+
+Management
+
+## Ziyad Parekh
+
+Chief Executive Officer
+
+## Iman Urooj
+
+Chief Operating Officer
+
+## Suleman Shishmahal
+
+Chief Strategy & Growth Officer
+
+## Sameer Sheikh
+
+Head of Human Resources & Administration
+
+## Mikhaal Haroon
+
+Head of Finance & Accounts
+
+## Fatima Rizvi
+
+Head of Legal
+
+## Mirza Ali Baig
+
+Head of Compliance
+
+## Talha Umar
+
+Engineering Manager
+
+## Bilal Qureshi
+
+Senior Software Engineer
+
+## Asadullah Farooqui
+
+Software Engineer
+
+## Thomas Smith
+
+
+## Hamza Rizvi
+
+
+## Marium Shah
+
+
+## Muhammad Rashid
+
+
+## Fatima Aurangzeb
+
+
+## Muhammad Umar
+
+Junior Software Engineer
+
+## Asfand
+
+
+## Muhammad Hasan
+
+
+## Aliya Haider
+
+Customer Success Specialist
+
+## Sajjad Hussain
+
+Merchant Onboarding Manager
+
+## Arman Shamshad
+
+Assistant Manager IT & Administration
+
+## Nazish Hussain
+
+Merchant Onboarding Officer
+
+## Asad Hussain
+
+Senior Manager Disputes & Settlements
+
+## Mussab Hussain
+
+Officer
+
+## Shoaib Hasan
+
+Deputy Manager Finance & Accounts
+
+## Gulfam Safdar
+
+Human Resource & Administration Assistant
+
+## Ready to get started?
+
+We’re here whenever you need to help you make the best choices for your business.
+Get in touch
+See documentation
+
+---
+
+## Safepay | Engineered for the aspirational
+Atoms
+
+# Build your ideal payment experience
+
+Harness Safepay's cutting-edge UI components to design a secure, conversion-optimized payment experience that seamlessly integrates with your platform’s aesthetics.
+Get started
+See documentation
+
+#### Innovative customizable components
+
+Select from our suite of advanced UI components and tailor the user experience to match your site design, theme and brand identity.
+
+#### Optimized for conversion
+
+Save development time and eliminate user confusion with built-in accessibility, error messages, input masking, autofill, and more
+
+#### Expand your reach
+
+Tap into new markets with our innovative payment solution. Our innovative integration allows you to easily manage and optimize payment methods, and make data-driven decisions from your Safepay Dashboard.
+
+#### Future-proof your payments
+
+Stay ahead of the curve with Safepay's continuously evolving Atoms. Our commitment to innovation ensures you're always equipped with the latest in payment technology.
+
+### Innovative building blocks optimized for conversion
+
+Use our suite of optimized and composable UIs to seamlessly collect payment details, customer addresses, offer mobile wallets, and more. Businesses using Safepay's Atom saw 9.9% more revenue on average.
+Tailored Integration, powered by innovation
+
+### Build your perfect payment experience
+
+Our cutting-edge platform empowers you to create a truly personalized payment solution. With our flexible APIs and comprehensive libraries, you have the freedom to design a checkout experience that perfectly aligns with your brand and customer needs.
+Explore the docs
+
+### Secure data, seamless tokenization
+
+Elevate your customer experience with our advanced tokenization technology. This innovative feature transforms sensitive card information into unique, encrypted identifiers, revolutionizing how you interact with returning customers. Giving you enhanced security, cross-channel recognition, frictionless transactions, all with compliance made simple.
+Read more on tokenization
+
+## Don’t waste time reinventing the payments wheel
+
+Building a conversion-optimized payments experience is hard. Elements lets you take advantage of Safepay's collective experience across front-end, design, and analytics, so that you can spend less time on payments and more time on your product.
+
+## UI optimizations
+
+- Client-side input validation
+- Input masking
+- Autofill via browser and authentication services
+- Custom styling
+
+## Mobile-friendly
+
+- Responsive layout
+- Dynamic numeric keypad
+- Mobile-friendly navigation
+
+## Simplified Compliance
+
+- Card numbers encrypted with AES-256
+- SBP-regulated solutions
+- Effortless PCI validation
+
+## Reach out to us about Atoms
+
+We’re here whenever you need to help you make the best choices for your business.
+Get in touch
+Revamped offers & discounts
+
+### Revamped offers & discounts
+
+Boost conversion rates with targeted discount strategies
+Go to offers
+Try Our Revolutionary Vault
+
+### Try Our Revolutionary Vault
+
+Simplify data entry, reduce friction, and expedite payments securely
+Go to vault
+
+---
+
+## Safepay | Engineered for the aspirational
+Checkout
+
+# Revolutionize checkout with our innovation
+
+Experience the future of online transactions. Our cutting-edge, conversion-optimized checkout system redefines payment processing. Seamlessly integrate or use our secure hosted page for one-time or subscription payments. Focus on growth while our innovative solution handles the complexities of next-gen transactions.
+Get started
+Try the demo
+
+#### Streamlined for transactions
+
+Enhance your customers' experience with our frictionless checkout process. Utilize our one-click checkout which leverages our PCI-DSS with real-time error detection to ensure smooth transactions every time.
+
+#### Responsive design for all your devices
+
+Deliver a consistent, user-friendly experience across desktop, tablet, and mobile platforms. Our adaptive checkout automatically optimizes for any screen size for maximum convenience.
+
+#### Tailored for global commerce
+
+Empower your global business with our versatile payment solution. Supporting 8+ major currencies, our technology and authentication rates  boost conversion rates for your international customers.
+Innovate across all your platforms
+
+## Innovate across all your platforms
+
+
+### A unified experience everywhere.
+
+Our adaptive checkout solutions seamlessly integrate across web and mobile, revolutionizing your payment process. Choose hosted or embedded options - our innovative platform continuously evolves with customer needs.
+
+### Integrate with a simple API
+
+Streamline your online payments with Safepay's innovative platform. Our API lets you integrate multiple payment solutions, all through a single integration.
+See documentation
+
+## Pioneering payment solutions
+
+Tailored innovation for every industry, revolutionizing all your payment needs.
+See our solutions
+
+## Hosted checkout
+
+Redirect to our optimized payment page for swift, secure transactions.
+
+## Embedded checkout
+
+Seamlessly integrate our customizable solution into your digital platforms.
+
+## Unified innovation
+
+One integration powers multiple touchpoints - web, mobile, and beyond.
+
+## Offers 2.0
+
+Check out our new revamped offers, allowing more customizations and control.
+
+### Revolutionize digital transactions
+
+
+### Manage everything in one Dashboard
+
+Use our comprehensive dashboard tools to view the status of every payment. Add discounts, generate quick links, reconciliation, refunds, reports and more. Manage everything from within the Safepay Dashboard.
+
+## Enhance website operations
+
+Why Choose Safepay?
+
+## Fastest Settlement
+
+We take pride in offering one of the quickest settlement cycles in the industry.
+
+## Leader in Conversions
+
+Our merchants benefit from some of the best conversion rates in the industry.
+
+## Transparent Fees
+
+Our pricing is straightforward and flexible: Standard, Custom, or Routing options.
+
+## Best in Class Support
+
+Our dedicated support team ensures merchants have an exceptional payment experience.
+
+## Unify all payments
+
+Our integrated platform, seamlessly processes and tracks all transactions.
+
+#### Actionable insights
+
+Use advanced data analytics to make informed decisions to grow your business.
+
+#### Increased customer engagement
+
+Reducing data entry, boosting conversions and a seamless payments experience.
+
+## Talk to us about your checkout experience
+
+We’re here whenever you need to help you grow your business.
+Get in touch
+Explore Online Payments
+
+### Explore Online Payments
+
+Enhance your conversion rates with our innovative payment solutions
+Go to payments
+Shareable payment links
+
+### Shareable payment links
+
+Accept payments swiftly with our no-code-required solution
+Go to payment links
+
+## Pricing
+- Actionable insights: Increased customer engagement
+
+---
+
+## Safepay | Engineered for the aspirational
+Legal
+
+# Legal
+
+
+#### Services Agreement
+
+Read more
+
+#### Privacy Policy
+
+
+#### Acceptable use policy
+
+
+#### Customer Terms
+
+
+---
+
+## Safepay | Engineered for the aspirational
+Offers
+
+# Revamped offers & discounts
+
+Transform your sales strategy with our powerful, flexible discount system. Create, customize, and control promotional offers effortlessly through our intuitive dashboard or API.
+Get started
+See documentation
+
+#### Customizable Promotional Codes
+
+Design specific promotional codes tailored to your marketing campaigns. From seasonal celebrations to targeted promotions, generate trackable codes that provide insights into conversion rates and customer engagement.
+
+#### Bank-Specific Bin Discounts
+
+Leverage your strategic bank partnerships by offering exclusive discounts tied to specific card bins. Incentivize usage of partnered financial institutions and create targeted marketing opportunities for specific card types.
+
+#### Flexible Discount Structures
+
+Configure adjustable discount models with comprehensive rule sets. Choose between percentage-based or fixed amount discounts, set maximum discount limits, and establish minimum spend thresholds to optimize promotional strategies.
+
+#### Universal Flat Discounts
+
+Implement straightforward, uniform discounts across your entire product range. Eliminate complexity with a simple flat discount feature that applies equal price reductions, ensuring a consistent and transparent pricing approach.
+
+### Dashboard Control
+
+Take command of your promotions and manage all aspects of your discount campaigns from our user-friendly dashboard. Create, edit, and analyze your offers in real-time, giving you complete control over your promotional strategy.
+
+### Control your Promotions
+
+Leverage advanced targeting capabilities to craft dynamic discounts that recognize customer behavior across channels. Deliver tailored offers that enhance engagement while maintaining robust data privacy and security protocols.
+Signup for a Sandbox account to test discounts
+
+## Boost sales with smart discount strategies
+
+Creating effective discount campaigns can be challenging. Our Offers module leverages Safepay's expertise in easing the marketing, analytics, and user experience to help you craft promotions that drive conversions and customer loyalty, allowing you to focus on growing your business.
+
+## Promotion Optimizations
+
+- Dynamic discount calculations
+- Automatic code application
+- Real-time offer visibility
+
+## Customer-Centric Features
+
+- Mobile-responsive discount displays
+- Easy-to-use redemption process
+- Personalized offer recommendations
+
+## Simplified Management
+
+- Intuitive discount creation interface
+- Real-time performance analytics
+- Automated expiry and usage limits
+
+## Reach out to us about offers
+
+We’re here whenever you need to help propel your payments processes into the future.
+Get in touch
+Revolutionize Your Payment Strategy
+
+### Revolutionize Your Payment Strategy
+
+Elevate your payment processes with our innovative routing solutions
+Go to payment orchestration
+Explore our Atoms solution
+
+### Explore our Atoms solution
+
+Customize your business operations with tailored payment UI components
+Go to atoms
+
+---
+
+## Safepay | Engineered for the aspirational
+Web payments
+
+# Simplify payments with quick links
+
+Streamline your payment process with our secure, customizable Quick Links. Create and share payment links in seconds, allowing your customers to complete transactions effortlessly.
+Get started
+
+## Turn any channel into your checkout
+
+Our versatile hosted checkout pages allow you to receive payments from customers through a secure link, adaptable to multiple communication channels.
+
+#### Call center
+
+Enable secure transactions during customer calls with easy-to-share payment links.
+
+#### WhatsApp
+
+Facilitate quick and convenient payments through instant messaging with integrated payment links.
+
+#### Social media
+
+Seamlessly guide customers to purchase directly from any social platform.
+
+#### Email & SMS
+
+Integrate payment links into your digital communications for instant transactions.
+
+#### Invoice
+
+Streamline B2B payments by adding clickable payment links to digital invoices.
+
+#### QR code
+
+Generate QR codes for contactless payments It’s simple & easy.
+
+## Revolutionize sales with quick links
+
+Transform every interaction into a sales opportunity Innovate your sales approach. Accept payments anywhere, anytime - no website, app, or POS required. Our cutting-edge Quick Links turn every touchpoint into a potential transaction
+
+### Seamless omnichannel experience
+
+Redefine customer experience with our adaptive, secure checkout links - revolutionizing how you transact across all platforms.
+
+### Built-in security and compliance
+
+3D Secure 2.0 Integration: Enhance transaction security with built-in strong customer authentication.
+
+#### Boost conversion rates
+
+Turn browsing into buying by sending timely payment links to interested customers, reducing cart abandonment and increasing sales completion.
+
+#### Future-proof your payments
+
+Stay ahead of the curve with our continuously updated payment system, automatically adapting to new technologies and market trends.
+
+#### Cross-channel integration
+
+Create a unified payment experience across all digital touchpoints, allowing customers to start & complete all their transactions with ease.
+Two ways to use quick links with Safepay
+
+## Two ways to use quick links with Safepay
+
+Safepay Dashboard
+
+### Via the Safepay Dashboard
+
+Create customized payment pages effortlessly from your dashboard.
+
+## Generate your quick link
+
+Specify the country, currency, amount, expiry date, and internal reference to create your personalized payment link..
+
+## Share the link
+
+Copy and paste the URL into your preferred channels such as email, WhatsApp, social media platforms, or digital invoices.
+
+## Receive instant notifications
+
+Get automatic updates when customer completes the payment, all payment information is available in our dashboard.
+
+### Via an API call
+
+Create payment links automatically via an API call for larger projects.
+
+## Customize your process
+
+Easily create multiple links through our API
+
+## Share payment information
+
+Your system will ping our Checkout API with payment details such as country, currency, amount and expiration date of the link.
+
+## Retrieve payment link
+
+Safepay's platform will create a link based on the information above and you can automatically embed the link on preferred channels.
+
+## Ready to take the next step?
+
+Get in touch
+See documentation
+Revolutionize Your Checkout
+
+### Revolutionize Your Checkout
+
+Seamlessly integrate one-click checkout across web & mobile platforms
+Go to checkout
+Explore Our Subscriptions
+
+### Explore Our Subscriptions
+
+Optimize your recurring payments with our subscription services
+Go to subscriptions
+
+---
+
+## Safepay | Engineered for the aspirational
+Routing
+
+# Revolutionize Your Payment Strategy
+
+Transform the way you handle transactions with Safepay’s intelligent payment routing technology. Our platform seamlessly integrates with your existing providers, giving you access to advanced payment orchestration without disrupting your current setup. Optimize success rates, lower costs, and gain unmatched flexibility—all while keeping your preferred payment partners.
+Get started
+See documentation
+
+#### Key innovations
+
+- Unified integration
+- Flexible processing
+- Customizable rule engine
+
+#### Unparalleled integration
+
+- Effortless onboarding
+- Maintain existing relationships
+- Reduce technical debt
+
+#### Comprehensive product suite
+
+- Intuitive dashboard
+- Efficient refund handling
+- Dynamic UI and interface
+
+#### Supported platforms:
+
+- Shopify
+- WooCommerce
+- Hosted & Embedded checkout
+
+### Smarter Payment Routing with Our Rules Engine
+
+Take control with Safepay’s AI-powered rules engine. Configure custom routing strategies based on success rates, transaction costs, and real-time performance metrics. Our dynamic system automatically selects the best gateway for each transaction. Whether you want to prioritize cost savings or maximize payment success rates, Safepay’s flexible engine empowers your business to scale without friction.
+Built to Maximize Your Profits
+
+### Enhance your payment streams
+
+Safepay gives you the tools to boost revenue and control costs without vendor lock-in. Leverage our powerful payment orchestration platform to: Diversify payment options while maintaining your existing providers Reduce overhead by automating transaction routing Gain insights into payment performance for smarter financial decisions Why settle for rigid payment solutions when you can have the best of all worlds?
+Signup now
+
+### Future-Proof Your Payments
+
+Ask us about payment orchestration
+
+## Boost sales with smart routing strategies
+
+
+## Reach out to us about payment orchestration
+
+We’re here whenever you need to help propel your payments processes into the future.
+Get in touch
+Explore our subscriptions
+
+### Explore our subscriptions
+
+Optimize your recurring payments with our subscription services
+Go to subscriptions
+Revamped offers & discounts
+
+### Revamped offers & discounts
+
+Boost conversion rates with targeted discount strategies
+Go to offers
+
+---
+
+## Safepay | Engineered for the aspirational
+Payments
+
+# Revolutionize your online payments
+
+Embrace the future of payments with our groundbreaking solutions. Accept transactions globally, on any device, with our innovative all-in-one platform. Seamlessly designed for businesses of all sizes, we're redefining digital payments - one payment at a time.
+Get started
+See pricing
+
+#### Maximize conversion
+
+Enhance your conversion rates by leveraging our technology and experience to identify the most successful authentication route for every transaction.
+
+#### Highest authentication rates
+
+Utilize our advanced technology and extensive experience to consistently deliver the highest success rates, ensuring more successful transactions.
+
+#### Flexible payment options
+
+Offer a variety of payment options to your customers, including credit and debit cards, mobile wallets, RAAST, enhancing their payment experience and satisfaction.
+
+#### Global reach
+
+Accept payments from customers around the world with support for multiple currencies and popular local payment methods, enabling you to expand your market and grow your customer base.
+
+#### Real-time analytics
+
+Gain valuable insights into your payment processes with our comprehensive real-time analytics dashboard. Monitor transactions, track performance, and make data-driven decisions to optimize your payment strategy.
+
+#### Dedicated support
+
+Benefit from our dedicated customer support team available 24/7 to assist you with any issues or questions. We are committed to ensuring your payment processes run smoothly and efficiently.
+Elevate your payment flow
+
+## Elevate your payment flow
+
+
+## Seamless integration, endless possibilities
+
+Transform your online payments with our cutting-edge solution. Our innovative single back-end integration unlocks a world of implementation options.
+
+## Checkout
+
+Add digital payments to your online checkout quickly and easily with our ready-made solutions. Ideal for businesses looking to integrate a robust payment system with minimal setup.
+
+## Atoms
+
+Combine your own user interface with our pre-built components to create a semi-customizable checkout experience. Our Atoms solution allows you to maintain your brand's unique look and feel.
+
+## Plugins
+
+Directly access our payment solution through your ecommerce platform via any of our plugins, such as Shopify or Woocommerce and more. Our plugins provide seamless integration.
+
+## API
+
+For businesses that require control over the user interface and checkout process, our API offers the best solution. Build your own UI and create a fully customized checkout experience.
+
+### Learn more about the multiple ways to integrate
+
+Read our documentation
+
+## Serve your customers better with omnichannel payment solutions
+
+Empower your customers by providing a seamless and enhanced payment experience across all sales channels. By adopting our innovative omnichannel payment solutions, you can better serve your customers, streamline your operations, and drive business growth.
+- Hosted Checkout
+
+## Hosted Checkout
+
+- Embedded Checkout
+
+## Embedded Checkout
+
+- SDKS
+
+## SDKS
+
+- RAAST
+
+## RAAST
+
+- Shopify onsite
+
+## Shopify onsite
+
+
+## Ready to take the next step?
+
+We’re here whenever you need to help you make the best choices for your business.
+Get in touch
+See documentation
+Try Our Revolutionary Vault
+
+### Try Our Revolutionary Vault
+
+Simplify data entry, reduce friction, and expedite payments securely
+Go to vault
+Revolutionize Your Checkout
+
+### Revolutionize Your Checkout
+
+Seamlessly integrate one-click checkout across web & mobile platforms
+Go to checkout
+
+---
+
+## Safepay | Engineered for the aspirational
+Pricing built to help businesses achieve their aspirations faster
+
+# Pricing built to help businesses achieve their aspirations faster
+
+
+### Standard
+
+Access a complete payments platform with simple, pay-as-you-go pricing. No setup fees, monthly fees, or hidden fees.
+Get started
+
+### 2.9% + Rs 30
+
+Per successful charge for domestic cards
+
+### Custom
+
+Design a custom package— available for businesses with large payments volume or unique business models.
+Get in touch
+Custom pricing
+Domestic/International rates
+Premier support
+Risk management
+
+### Routing
+
+Plugin in your existing gateway, configure rules and forward your payments through Safepay. Get access to the entire suite.
+
+### Rs 15,000
+
+Per month
+
+## Everything included
+
+Get access to a growing list of features out of the box with Safepay's integrated per-transaction pricing
+
+#### Tools to build optimized checkout flows
+
+- Embedabble checkout
+- Simplified PCI compliance
+- One-click payments
+
+#### Global payments with a single integration
+
+- 7 major currencies
+- Accept international payments
+- Accept local payment methods
+
+#### Comprehensive security and rigorous compliance
+
+- Comprehensive security and rigorous compliance
+- Data security and encryption
+- Regulated by the State Bank of Pakistan
+
+#### Developer platform and third-party integrations
+
+- Client libraries and SDKs
+- Comprehensive testing tools
+- Webhooks dashboard for developers
+
+#### Financial reconciliation and reporting
+
+- Real-time reporting
+- Take action from the Dashboard
+- Roles and permissions
+
+#### Phone, chat, and email support
+
+- Comprehensive knowledge base
+- Real-time support on email, phone and WhatsApp
+- Detailed developer documentation
+
+## Grow your business with out-of-the-box solutions
+
+Software and infrastructure for e-commerce, recurring billing, services, and more
+
+#### Payments
+
+A complete payments platform designed to fuel aspirations
+Learn more
+
+#### Credit and Debit cards
+
+Integrated per-transaction pricing means no setup fees or monthly fees. The price is the same for all cards and digital wallets.
+
+#### 2.9% + Rs 30
+
+per successful charge for domestic cards
++0.3% for international cards
+Not applicable for routing. The MDR negotiated with your primary payment gateway will apply.
+
+#### Wallets
+
+Increase conversion by supporting popular payment methods around the world with a single integration.
+
+#### 1.5%
+
+per successful charge
+
+#### Raast
+
+Get access to Pakistan's first Instant Payments System.
+
+#### Tokenization
+
+Secure payment credentials that help increase revenue and improve the customer experience.
+
+#### Included
+
+Rs 5 per token provisioned for accounts with custom interchange pricing.
+Currently only applies to Visa and MasterCard.
+If routing payments through Safepay, please contact your primary gateway to enable tokenization.
+
+#### Instant payouts
+
+In addition to our standard free payout options, Instant Payouts lets you access funds within minutes using an bank account.
+of Instant Payouts volume
+Currently only applies to payments processed through Safepay.
+
+#### Disputes
+
+Disputed payments (also known as chargebacks) on card transactions.
+- Resolve disputes directly from the dashboard
+- Get access to consultation with our dispute specialists
+
+#### Rs 3000
+
+per dispute.
+Dispute management is not supported for transactions that are routed
+
+#### Checkout
+
+A prebuilt payment form optimized for conversion.
+- Accept one-time and recurring payments
+- Domestic and international payment methods
+- Built-in conversion optimizations
+No Checkout-specific fees
+
+#### Atoms
+
+Embedded payments that perfectly matches your site and helps drive conversion
+- Building blocks to accept payments
+- Embedded into your website with full customizability
+- Security and compliance built-in
+No Atoms-specific fees
+
+#### Payment Links
+
+Sell products and services across any channel—no code required.
+- Generate links directly from the Dashboard, no coding necessary
+- Share across any channel and with multiple customers
+- Set expiry dates, send emails and remind customers
+No Payment Links-specific fees
+
+#### Plugins and SDKs
+
+Build custom payment flows or use Safepay on popular e-commerce platforms
+
+#### Native SDKs
+
+Take advantage of our open-source SDKs to build custom payment flows across web, mobile and backend integrations.
+No SDK-specific fees
+
+#### E-commerce plugins
+
+Direct access to our solution through your ecommerce platform
+- Supports the latest versions of Wordpress and WooCommerce
+- Shopify off-site payment app to accept all available payment methods through Checkout
+- Shopify embedded payment app to accept card payments natively on Shopify
+No Plugin-specific fees for payments processed through our standard pricing.
++0.35% per successful charge for accounts with custom pricing
++0.35% per successful charge for accounts with Routing
+
+#### Subscriptions
+
+Grow your recurring revenue
+- Recurring subscriptions through auto debit
+- Create multiple plans, offer free trials and more
+- Incentivize your customers with offers
+No Subscriptions-specific fees
+Subscriptions are not supported for accounts with Routing.
+
+## Any questions?
+
+Talk to our sales team to learn more about how our pricing works.
+
+## Pricing
+- Credit and Debit cards: 2.9% + Rs 30
+- Wallets: 1.5%
+- Raast: 1.5%
+- Tokenization: Included
+- Instant payouts: 1.5%
+- Disputes: Rs 3000
+- Native SDKs: Included
+- E-commerce plugins: Included
+
+---
+
+## Safepay | Engineered for the aspirational
+Subscription payments
+
+# Innovative subscription solutions for tomorrow's businesses
+
+Pioneering payment technology that evolves with your recurring business model.
+Get started
+
+## Revolutionizing recurring payments
+
+Our cutting-edge platform ensures seamless sign-ups and uninterrupted service delivery. We provide innovative solutions for forward-thinking industries:
+
+#### Buy Now Pay Later (BNPL)
+
+Reimagine purchasing power with our advanced flexible payment options.
+
+#### Software as a Service (SaaS)
+
+Automate and optimize your billing cycle with our intelligent subscription management.
+
+#### Memberships
+
+Transform free trials into lifelong memberships using our subscription tools.
+
+#### Health & Wellness Services
+
+Innovate the learning experience with adaptive payment structures and seamless access.
+
+## Innovating the customer journey: From first sign-up to loyal subscriber
+
+Stay ahead in the subscription economy with our constantly evolving payment innovations.
+
+### Revolutionize sign-ups
+
+Transform customer acquisition with our cutting-edge onboarding process. Our innovative platform streamlines sign-ups, significantly reducing costs and friction.
+
+### Smart renewal technology
+
+Experience worry-free subscription management with our advanced renewal system. Our platform automates and optimizes the renewal process, allowing you to focus on core business growth.
+Recover
+
+### Innovating the subscription experience
+
+Our cutting-edge platform streamlines every step of the customer lifecycle, from initial sign-up to long-term retention.
+Our innovative retry logic intelligently times and manages failed transaction attempts, significantly improving success rates while maintaining customer satisfaction.
+Our advanced algorithms optimize payment recovery, reducing the number of retries needed. This innovative approach ensures higher authorization rates while minimizing costs.
+Leverage our state-of-the-art payment technology to dramatically increase your authorization rates, turning potential losses into consistent revenue streams.
+
+### The ultimate guide to subscription success
+
+Discover how our innovative payment platform can be a powerful catalyst for your subscription business growth.
+Read more
+
+## Read it now to unlock the full potential of your subscription model with our revolutionary payment solutions.
+
+Get in touch
+See documentation
+Shareable payment links
+
+### Shareable payment links
+
+Accept payments swiftly with our no-code-required solution
+Go to payment links
+Revolutionize Your Payment Strategy
+
+### Revolutionize Your Payment Strategy
+
+Elevate your payment processes with our innovative routing solutions
+Go to payment orchestration
+
+---
+
+## Safepay | Engineered for the aspirational
+Vault
+
+# Innovating payment security and convenience
+
+Safepay Vault represents a leap forward in secure tokenization technology, offering unparalleled convenience for customers and powerful capabilities for merchants and payment service providers.
+Get started
+See documentation
+
+#### First unified payment network
+
+Securely store your cards with us and use your cards across the entire Safepay ecosystem. Our vault service enables effortless access to saved payment methods for all Safepay-integrated merchants.
+
+#### Uncompromising on security
+
+PCI-DSS compliant infrastructure and state-of-the-art security protocols. We prioritize protection of sensitive customer data, ensuring a perfect balance between accessibility and robust security measures.
+
+#### Versatile payment solutions
+
+Tailored for merchants, PSOs, and PSPs alike, our vault service accommodates a range of payment methods. From local to international, cards, bank accounts, digital wallets and RAAST as well as Google Pay.
+
+#### Streamlined user experience
+
+Experience the future of online payments with our advanced vault technology. Let your customers enjoy our secure card storage, multi-card management, and significantly reduced checkout times.
+
+## See how our vault technology works
+
+Our vault technology securely stores sensitive customer payment information using advanced tokenization methods. This process replaces sensitive data with unique tokens, ensuring compliance with industry regulations and enhancing transaction security. By safeguarding customer information, our vault enables seamless and secure payment experiences
+
+### Customer enters personal details
+
+During the checkout process, customers provide their personal and payment information. This data is securely captured and processed, ensuring confidentiality and integrity throughout the transaction. Our system adheres to stringent security protocols to protect customer information at all times.
+
+### Tokenization
+
+Upon receiving customer data, our system employs tokenization to replace sensitive information, such as credit card numbers, with unique, non-sensitive tokens. This process enhances security by ensuring that actual payment details are neither stored nor transmitted during transactions, reducing the risk of data breaches.
+
+### One-click Checkout
+
+Eliminate the need for customers to repeatedly enter their card details. Our One-Click Checkout feature streamlines the payment process by securely storing payment and shipping information, allowing returning customers to complete purchases with a single click. This seamless experience not only enhances customer satisfaction but also significantly reduces cart abandonment rates, leading to increased conversion rates and fostering customer loyalty.
+
+### The Safepay Network
+
+Embrace the next generation of online payments with our Safepay Network - The first of its kind in Pakistan, all while protecting your customers' data with our advanced security infrastructure:
+
+### Transform your customers' payment experience
+
+Elevate your checkout process with Safepay Vault. Enable customers to securely save their payment details for seamless one-click transactions on future visits. Reduce data entry, eliminate friction, and accelerate payments. Contact our team to learn how Safepay Vault can enhance your customers' journey and boost your business efficiency.
+Reach out to us about Safepay's Vault product
+
+## Secure and scalable payment solutions
+
+Safeguard sensitive data while scaling your business. Our PCI-DSS compliant Vault securely stores payment information, reducing your compliance burden. Discover how Safepay Vault can provide robust security and flexibility for your evolving business.
+
+## For customers
+
+- Stay ahead with our cutting-edge payment technology
+- Benefit from our robust, compliance-ready infrastructure
+- Enjoy a superior, frictionless payment experience
+
+## For merchants
+
+- Offer secure card tokenization to your customers
+- Streamline repeat purchases
+- Enhance customer loyalty through convenience
+
+## For PSOs/PSPs
+
+- White-label our vault technology for your merchants
+- Provide a separate, dedicated vault for your merchants
+- Differentiate your service offerings in the market
+
+## Reach out to us about Vault
+
+We’re here whenever you need to help you transform your payments into the future.
+Get in touch
+Explore Our Atoms Solution
+
+### Explore Our Atoms Solution
+
+Customize your business operations with tailored payment UI components
+Go to atoms
+Explore Online Payments
+
+### Explore Online Payments
+
+Enhance your conversion rates with our innovative payment solutions
+Go to payments
+
+---
+
+## Safepay Services Agreement
+Legal
+- Services Agreement
+- Privacy Policy
+- Acceptable use policy
+- Customer Terms
+7th October 2025
+
+# Safepay Services Agreement
+
+Please read our Services Agreement thoroughly
+
+## 1. Introduction
+
+This Safepay Services Agreement ("Agreement") is a legal agreement and is intended to create legal relations between Safepay (Private) Limited, a private limited company registered with the Securities and Exchange Commission of Pakistan with registration number 0162364 and registered office no. 42C, South Park Avenue, Phase 2 Extension, DHA, Karachi, Pakistan and an authorized payment service provider regulated by the State Bank of Pakistan ("Safepay") and a merchant that shall use the Safepay Services and shall be connected to a Safepay Account ("Merchant").
+
+## 2. Interpretation
+
+2.2 In this Agreement, except where the context requires otherwise:
+- words indicating one gender include all genders;
+- words indicating the singular also include the plural and words indicating the plural also include the singular;
+- "written" or "in writing" means hand-written, type-written, printed or electronically made, and resulting in a permanent record;
+- references to clauses are, unless the context otherwise requires, references to clauses of this Agreement;
+- headings shall not be taken into consideration in the interpretation of this Agreement;
+- references to a person shall include any individual, firm, body corporate, unincorporated association, association, joint venture or partnership, in each case whether or not having a separate legal personality; and
+- a reference to any law, or any statutory form, schedule, annexure attached thereto, or any filing required to be made thereunder shall be construed to include such law, statutory form, schedule, annexure or filing as may be amended or replaced from time to time.
+
+## 3. Effectiveness and Term
+
+This Agreement shall become effective from the Effective Date and shall continue to apply in full force and effect unless terminated in accordance with its terms.
+
+## 4. Safepay Services
+
+4.1 Safepay agrees to provide Merchant access to Safepay Services, which includes but is not limited to the processing of payment transactions through various methods, including credit cards, debit cards, digital wallets and other electronic payment methods. The Safepay Services shall be provided in accordance with the terms and conditions set forth in this Agreement.
+4.2 Merchant acknowledges that Safepay is not a bank and cannot directly accept deposits, provide loans or extend credit.
+
+## 5. Service Specific Terms
+
+5.1 The rights and obligations of the parties concerning specific Safepay Services are governed by the Service-Specific Terms applicable to those Safepay Services. In the absence of Service-Specific Terms for a particular Safepay Service, the provisions of this Agreement shall solely govern. By accessing or utilizing any Safepay Service, the Merchant agrees to be bound by the relevant Service-Specific Terms and also the terms of this Agreement.
+5.2 In the event of any inconsistency or conflict between the provisions of this Agreement and the Service-Specific Terms, or any other terms incorporated by reference into this Agreement, the following order of precedence shall apply unless explicitly stated otherwise: (a) the Service-Specific Terms; (b) the terms of this Agreement; and (c) any other incorporated terms.
+
+## 6. Acceptable Use of Safepay Services
+
+6.2 Merchant shall not:
+- (i) work around any of the technical limitations of the Safepay Services or enable functionality that is disabled or prohibited;
+- (ii) perform or attempt to perform any actions that would interfere with the normal operation of the Safepay Services or affect use of the Safepay Services by other users; or
+- (iii) impose an unreasonable or disproportionately large load on the Safepay Services.
+6.3 The Merchant shall be independently responsible for complying with all Applicable Laws related to its use of the Website and the Safepay Services.
+
+## 7. Safepay Account and API Keys
+
+7.1 In order to use the Safepay Services, the Merchant shall create a Safepay Account on the Website. Safepay shall also allow the Merchant to provide access of its Safepay Account to multiple people in different roles. The Merchant shall bear full responsibility for all activities conducted through its Safepay Account. It is the Merchant's duty to monitor access to its Safepay Account and to implement adequate security measures and controls to mitigate the risk of security incidents and protect against any unauthorized access or misuse, regardless of the manner.
+7.2 Safepay shall also make publishable and secret API keys for live and test Transactions using the Safepay Services available to the Merchant. Publishable keys identify Transactions with the Customers, and secret keys permit any API call to the Merchant's Safepay Account. The Merchant is solely responsible for securing the secret keys and shall not publish or share them with any unauthorized persons.
+7.3 Merchant further undertakes to ensure that any person that has been provided access to the Safepay Account and/or the API Keys by the Merchant has taken all reasonable steps to protect the security of the personal electronic device through which they or any other person access the Safepay Account and/or the API Keys (including not sharing their device with any unauthorized third party).
+7.4 Safepay shall not be held liable for any losses or damages incurred by the Merchant for any mis-use of the Safepay Account and the API Keys if the Merchant shares its Safepay Account's log in details and/or the API Keys with any third party.
+
+## 8. Safepay Charges and Taxes
+
+8.2 In the case that Merchant refunds a Transaction, for any reason whatsoever, Safepay reserves the right to not reimburse the Safepay Charges and Taxes already charged for the Transaction either partially or entirely and/or charge Merchant a penalty in connection with this up to the value of any loss incurred by Safepay in processing such refund.
+8.3 Safepay's Charges exclude all Taxes, except where expressly stated otherwise in the applicable pricing documentation. The Merchant shall bear sole responsibility and liability for determining which, if any, Taxes or fees are applicable to the sale of the Merchant's products and services, the acceptance of donations, or payments made or received in connection with the use of the Safepay Services; and assessing, collecting, reporting, and remitting all applicable Taxes in relation to the Merchant's business operations.
+8.4 In the event that Safepay is legally obligated to withhold any Taxes, Safepay reserves the right to deduct such Taxes from the amounts otherwise payable to the Merchant and to remit the withheld Taxes to the appropriate taxing authority. Should the Merchant be exempt from paying or be eligible for a reduced rate on such Taxes, the Merchant shall submit to Safepay a valid and legally sufficient certificate attesting to the Merchant's tax-exempt status or eligibility for a reduced tax rate, in which case Safepay shall not withhold the Taxes covered by the certificate.
+8.5 The Merchant is required to provide accurate and complete information regarding its tax status as reasonably requested by Safepay and shall promptly notify Safepay of any inaccuracies or omissions in the tax information prepopulated by Safepay. Safepay may issue and submit tax-related documents to the Merchant and to the appropriate taxing authorities for Transactions processed through the Safepay Services. Furthermore, Merchant agrees and acknowledges that Safepay may be required by law to file periodic informational returns with taxing authorities in relation to the Merchant's use of the Safepay Services.
+
+## 9. Relationship with Acquiring Bank(s) and Networks (only applicable on Card Payment Method)
+
+9.1 The Merchant acknowledges and agrees that Safepay may appoint any Acquiring Bank and/or Network as a Sub-Agent on the Merchant's behalf to receive funds from a Customer and/or to perform any actions necessary for the provision and execution of Safepay Services.
+9.2 The Merchant hereby agrees and acknowledges that Merchant's acceptance and use of Safepay Services is subject to applicable Acquiring Bank and Network Rules. The use of Safepay Services by the Merchant constitutes acceptance to all applicable Acquiring Bank and Network Rules, if any. In the event of any inconsistency between any provision of this Agreement and the Acquiring Bank or Network Rules, the applicable Acquiring Bank and Network Rules will prevail to the extent of the inconsistency. The Acquiring Bank and Network Rules may be amended from time to time. Merchant's continued use of Safepay Services constitutes its agreement to those amended terms.
+9.3 The Merchant acknowledges that it has no direct relationship with any Acquiring Bank or Network. All communication and transactions with the Acquiring Bank or Network will be managed by Safepay as part of Safepay Services.
+9.4 The Merchant understands that, in connection with Safepay Services, it is not establishing a depository account with any Acquiring Bank. The relationship with the Acquiring Bank is limited solely to the extent necessary for Safepay to perform Safepay Services.
+9.5 The Merchant acknowledges that any Acquiring Bank and/or Network is not responsible for the provision of the Safepay Services and bears no obligation to provide the Merchant with any information, support, or customer service related to the Safepay Services.
+9.6 The Merchant agrees that in addition to the Safepay Charges, Merchant shall also be responsible for any penalties or fines imposed in relation to the Merchant's Safepay Account by Safepay or the Acquiring Bank, Regulator any Network and/or any other governmental authority.
+
+## 10. Relationship with Regulator (only applicable on Raast Payment Service)
+
+10.1 The Merchant acknowledges and agrees that the Safepay Services will also allow Merchants to receive payments from Customers via Pakistan's instant payment system, Raast as implemented by the Regulator.
+10.2 The Merchant hereby agrees and acknowledges that Merchant's acceptance and use of Safepay Services in connection with Raast payments are subject to the applicable rules and regulations set forth by the Regulator for Raast and the Merchant's use of the Safepay Services constitutes acceptance of all such applicable rules and regulations (as amended from time to time). In the event of any inconsistency between any provision of this Agreement and the Raast rules and regulations, the Raast rules and regulations will prevail to the extent of the inconsistency.
+10.3 The Merchant agrees that, in addition to the Safepay Charges, the Merchant shall also be responsible for any penalties, fines, or fees imposed in relation to the Merchant's Safepay Account by Safepay, Regulator or any other third party in relation to Raast transactions.
+
+## 11. Merchant Business and Customers
+
+11.1 Merchant hereby agrees and acknowledges that Safepay's principal role is facilitating and managing Transactions between Merchant and the Customers as specifically provided in this Agreement. Safepay explicitly disclaims any involvement or obligation regarding the quality, performance, or delivery aspects of Merchant's products or services that the Customers may choose to purchase or subscribe to or any other activities conducted by the Merchant for which Transactions are initiated.
+11.2 Safepay shall have no responsibility or liability towards a Customer for the nature and quality of the products or services or charitable projects/activities that form the basis of any Transaction. Safepay shall not be responsible in any way for (i) the fulfilment of any Transaction (including, but not limited to, deliveries, maintenance, support, refunds, returns or any add-on services provided by the Merchant to the Customers or (ii) ensuring that any Transaction is fit for any particular purpose.
+11.3 Merchant shall be solely responsible for verifying the identity of any Customer, ensuring that they are authorized to carry out any Transaction on Merchant's platform, and determining their eligibility to purchase Merchant's products or services or make donations, as applicable. In the event that Merchant suspects any fraudulent activity by a Customer, Merchant agrees to notify Safepay immediately and use best efforts to suspend the delivery of the products or services or the acceptance of donations, as applicable.
+11.4 Merchant agrees to make the following information available to the Customers (either through Merchant website/mobile application or any other means of communications):
+- complete description of the goods and/or services being offered for sale or subscription;
+- terms and conditions;
+- refund and return policy;
+- customer service contact including electronic mail address;
+- shipping/delivery policy;
+- privacy policy; and
+- subscription plan terms (where applicable);
+- terms and conditions governing the donation (where applicable);
+- details of the charitable projects or activities conducted by the Merchant (where applicable).
+
+## 12. Transactions
+
+12.1 The Merchant agrees that all Transactions conducted by Customers using Safepay Services will be 3-D secured.
+12.2 The Merchant agrees and acknowledges that Safepay is not responsible for any Transactions conducted as part of the Merchant's business or any activity carried out by the Customers and Safepay does not confirm the accuracy, completeness, or typicality of any Transaction for the Merchant's business/activities and has no control over the Customer's identity.
+12.3 The Merchant is solely responsible for identifying and assessing Transactions for errors, fraud, or other suspicious activity, including unintended purchases or unauthorized transactions. If the Merchant has any doubts regarding a Transaction, it shall conduct its own investigation and, if necessary, contact the Customer before fulfillment or completion. In the event the Merchant suspects an unauthorized or otherwise suspicious Transaction, it shall promptly notify Safepay. Upon such notification, Safepay shall take reasonable measures, where practicable, to mitigate potential financial losses.
+12.4 The Merchant acknowledges and agrees that, while Safepay Services incorporate a fraud management system designed to monitor and mitigate suspicious or fraudulent transactions, Safepay does not guarantee or warrant that the Services will provide complete protection against fraud. Safepay shall not be liable for any losses or damages incurred by the Merchant as a result of any erroneous or fraudulent Transactions in connection with the use of the Safepay Services.
+
+## 13. Refusal of a Transaction
+
+
+## 14. Appointment of a Reserve
+
+14.1 Merchant hereby agrees that Safepay shall have the right to impose a Reserve on the Merchants in the following situations:
+- Any activity of Merchant or the Customers increases the risk of loss to Safepay, its Acquiring Bank, or any Network;
+- Merchant has committed a breach of this Agreement;
+- Safepay deems it necessary due to pending disputes, excessive or anticipated excessive Chargebacks, Reversals or Refunds, or other suspicious activity associated with Merchant's use of the Safepay Services and the Safepay Account;
+- Safepay suspects that there has been unauthorized, fraudulent or illegal activity on Merchant's Safepay Account;
+- if Safepay is required to do so by the Acquiring Bank, any Network or the Regulator.
+14.2 Unless restricted by any Law, if Safepay imposes a Reserve, it shall establish the terms of the Reserve and provide Merchant Notice of the amount, timing, and conditions upon which the funds held in the Reserve will be released.
+
+## 15. Transaction Information
+
+Safepay shall provide information regarding any payment in connection with a Transaction on the Safepay Dashboard. While Safepay provides a transaction history in the Safepay Dashboard, the Merchant shall be solely responsible for compiling and retaining permanent records of all Transactions and other data associated with its Safepay Account as may be required by the Merchant or its business. Safepay is not responsible for maintaining the Merchant's Transaction history or other records in a manner consistent with the Merchant's record retention obligations or requirements.
+
+## 16. Linked Bank Account
+
+16.1 The Merchant shall designate a Linked Bank Account in the Safepay Dashboard in connection with their use of Safepay Services. The Merchant represents and undertakes that the Linked Bank Account that is connected to the Safepay Dashboard is a valid bank account opened in the Islamic Republic of Pakistan for the purposes of conducting Merchant's business.
+16.2 Merchant undertakes to keep the Linked Bank Account information up-to-date and valid and promptly provide Safepay with a new Bank Account Maintenance Certificate when the Merchant updates the Linked Bank Account information on the Safepay Dashboard.
+16.3 Merchant represents and undertakes that Linked Bank Account is only used for the sole purpose of conducting the Merchant's business and the Merchant will not use the Linked Bank Account for any personal transactions or any other illegal purposes. The Merchant further agrees and acknowledges that Safepay shall not have any liability for Merchant's usage of the Linked Bank Account for any illegal purpose or any purpose other than the Merchant's business.
+16.4 If the Merchant's Linked Bank Account becomes non-operational and the Merchant fails to designate a new Linked Bank Account, leaving funds associated with its Safepay Account dormant and without settlement instructions, Safepay may, in accordance with Applicable Law, treat such funds as abandoned and remit them to the appropriate governmental authority. Where required by law, Safepay shall make reasonable efforts to notify the Merchant before proceeding with such remittance.
+
+## 17. Safepay Settlement Account
+
+17.1 The Merchant agrees and acknowledges that prior to settlement in accordance with provisions below, the Available Net Funds will be held in the Safepay Settlement Account. The Safepay Settlement Account is a pooled account where Safepay accepts, collects, administers and handles funds from all merchants that use the Safepay Services.
+17.2 All Funds in the Safepay Settlement Account will be made available in Pakistani Rupees. The Merchant agrees and acknowledges that Safepay shall apply any foreign exchange rate (for any Transaction in any currency other than Pakistani Rupees) offered by the Acquiring Bank on the date of that Transaction.
+17.3 While the Available Net Funds are within the Safepay Settlement Account, Merchant agrees that Merchant shall not be entitled to access the Available Net Funds prior to the same being credited to the Linked Bank Account. Without prejudice to the foregoing, it is hereby agreed that the ownership of the Available Net Funds shall, at all times (including when the same are in the Safepay Settlement Account), remain with the Merchant.
+17.4 The Merchant agrees and acknowledges that Safepay may administer the Funds as it considers reasonable for the purpose of providing and performing the Safepay Services (for example, if we have to move the Safepay Settlement Account to another Acquiring Bank) provided that Safepay shall provide 10 Business Days' notice in writing before performing any such action.
+17.5 The Merchant agrees and acknowledges that the Funds Safepay collects from a Customer are due consideration for a Transaction and the Merchant shall not have any right to direct any Acquiring Bank to distribute any Available Net Funds, and may not grant or assign any interest in the Available Net Funds held at any Acquiring Bank to any third party until such time the same are deposited into the Linked Bank Account.
+
+## 18. Settlement into Linked Bank Account
+
+18.1 Safepay shall also provide funds settlement services as part of the Safepay Services for each successful Transaction to the Merchant via the Linked Bank Account through its settlement bank.
+18.2 Merchant's Linked Bank Account shall be automatically settled with the aggregate Available Net Funds collected by Safepay for Transactions according to the Settlement Schedule. For avoidance of doubt, it is clarified that the Settlement Schedule only provides an estimated time for settlements and delays may occur due to reasons beyond the reasonable control of Safepay. Merchant hereby agrees that Safepay shall have no liability towards the Merchant for any delays in settlement caused by reasons beyond Safepay's reasonable control.
+18.3 Merchant hereby expressly grants permission to Safepay to credit the Linked Bank Account of the Merchant through its settlement Bank with the Available Net Funds for each Transaction and agrees that all settlement obligations on Safepay for a Transaction shall stand discharged following a successful transfer of Available Net Funds to the Linked Bank Account. Thereafter, Safepay shall not have any further liability towards the Merchants in this regard.
+18.4 Merchant hereby agrees and acknowledges to open a bank account with United Bank Limited within 6 (six) calendar months of getting approved as a Merchant with Safepay.
+
+## 19. Payment Errors
+
+19.1 Merchant shall notify Safepay immediately if any error is detected while reconciling Transactions. Safepay shall use reasonable endeavors to investigate and rectify the errors where verified.
+19.2 In case Safepay owes any money to the Merchant as a result of any such error(s), it will use its best endeavors to credit the Linked Bank Account with Available Net Funds linked to such error(s) together with any Available Net Funds that would normally be credited to the Linked Bank Account for Transactions that take place on the next Business Day (or as agreed differently) after identification of such error(s).
+19.3 In case Merchant owes money to Safepay as a result of any such error(s), Safepay will reduce any payout of Available Net Funds to the Linked Bank Account by the amount linked to such error(s) that would normally be credited for Transactions that take place on the next Business Day after identification of such error(s).
+19.4 Safepay may also require return of any money owed by Merchant via a bank transfer to any account specified by Safepay. Merchant further agrees that any amounts owed to Safepay will be considered a debt. This debt is payable on demand to Safepay and Safepay shall be entitled to set-off any amounts owed by Merchant against future Funds attributable to Merchant.
+19.5 All claims against Safepay related to errors in payments should be made within 30 (thirty) days after the date of such payment. Failure to notify Safepay within 30 (thirty) days of the date of payment, to the fullest extent permitted by Applicable Law, shall constitute a waiver of Merchant's rights to amounts that are owed to Merchant due to an error.
+
+## 20. Refunds, Chargebacks and Reversals
+
+20.1 Merchant shall only process payments authorized by a Customer. Safepay shall only process Transactions that have been authorized by the applicable Network and the card issuer/payment instrument issuer. Safepay does not guarantee or assume any liability for any Transaction authorized and completed that is later subject to a dispute including but not limited to a Refund, Reversal or Chargeback. Merchant shall be solely responsible for all Transactions that are subject to a Refund, Reversal or Chargeback, regardless of the reason for, or timing of, the Refund, Reversal or Chargeback.
+20.2 For clarity, Safepay is not responsible for monitoring any Customer activity on behalf of Merchant. Merchant acknowledges that Safepay Charges are non-refundable, regardless of whether the transaction is accurate, fraudulent, or erroneous. Safepay may (but is not obligated to) assist Merchant with any transaction disputes, but it is not Safepay's responsibility to investigate any Network fees, chargebacks, or related losses for Merchant.
+20.3 Merchant shall be required to maintain information and proof of service or product delivery to a Customer in relation to every Transaction. In case of a dispute, Merchant shall be required to provide such information and proof of service or product delivery to Safepay within two (2) Business Days of request. If after the provision of such evidence a decision is made against Merchant by Safepay, that decision will be final and binding unless Merchant can provide evidence to the contrary to Safepay's satisfaction.
+20.4 In the event that Safepay makes any payment to the Acquiring Bank, any Network and/or a Customer due to a Refund, Reversal or Chargeback or other dispute in connection with a Transaction that Merchant has processed using the Safepay Services, the Merchant agrees that such amounts paid by Safepay will be considered a debt that Merchant owes to Safepay and Safepay will be entitled to set-off any amounts owed by Merchant against future Funds attributable to Merchant's Safepay Account.
+20.5 In the event, Safepay, for any reason whatsoever, is unable to set-off any amounts owed by Merchant to Safepay against any future Funds attributable to Merchant in the Merchant's Safepay Account, the Merchant shall pay such outstanding amount by direct transfer to Safepay within three (3) Business Days' from the date of the demand made by Safepay for the same.
+
+## 21. Process of Refunds from Safepay Dashboard
+
+21.1 The Merchant may process a Refund to a Transaction through a Card Payment Method directly through the Safepay Dashboard only within ninety (90) calendar days of that Transaction. After expiry of ninety (90) calendar days of a Transaction, the Merchant will be unable to refund a Customer through the Safepay Dashboard.
+21.2 After expiry of ninety (90) calendar days from the date of Transaction but before expiry of one hundred and twenty (120) calendar days of that Transaction, the Merchant shall request Safepay in writing to process the Refund, in which case Safepay shall either (i) process the Refund directly from back end or (ii) temporarily enable the Merchant to process the particular Refund directly through the Safepay Dashboard. The Merchant acknowledges and agrees that Safepay shall require Customer's information including but not limited to bank name, account number, routing number from the Merchant.
+21.3 The Merchant further agrees and acknowledges that after expiry of one hundred and twenty (120) calendar days of a Transaction, Safepay shall not be responsible for processing any Refunds in any manner whatsoever.
+21.4 The Merchant agrees and acknowledges that for Safepay to process a Refund in relation to a successful Transaction through a Card Payment Method on Merchant's behalf Safepay shall deduct the Available Net Funds associated with the Merchant's Safepay Account against the refunded amount. If the Available Net Funds associated with the Merchant's Safepay Account are less than the amount of the refund(s), Safepay shall reduce any subsequent payout of Available Net Funds to the Merchant's Linked Bank Account by the amount linked to such refund(s) that would normally be credited for Transactions that take place following such refund(s).
+21.5 In the event that Merchant has insufficient Available Net Funds associated to its Safepay Account to process a Refund, Reversal or Chargeback attributable to a Merchant, Merchant agrees to deposit by itself any and all amounts Safepay deems necessary into a bank account specified by Safepay in order to process the relevant Refund.
+21.6 Unless otherwise agreed in writing between the parties, the Merchant shall bear full responsibility for processing refunds to Customers for any Transactions conducted through a Direct Bank Payment Method. This entails that the Merchant must issue the refund directly to the Customer, either via a separate bank transfer or by other means. Safepay shall have no obligation or liability to assist the Merchant in facilitating refunds for Transactions conducted through a Direct Bank Payment Method.
+
+## 22. Confidentiality
+
+22.1 The Parties acknowledge that in the performance of their duties under this Agreement, either party may communicate to the other (or its designees) certain confidential and proprietary information, including without limitation information concerning each party's services, know how, technology, techniques, or business or marketing plans (collectively, the "Confidential Information") all of which are confidential and proprietary to, and trade secrets of, the disclosing party. Confidential Information does not include information that:
+- (i) is public knowledge at the time of disclosure by the disclosing party;
+- (ii) becomes public knowledge or known to the receiving party after disclosure by the disclosing party other than by breach of the receiving party's obligations under this section or by breach of a third party's confidentiality obligations;
+- (iii) was known by the receiving party prior to disclosure by the disclosing party other than by breach of a third party's confidentiality obligations;
+- (iv) is independently developed by the receiving party.
+22.2 As a condition to the receipt of the Confidential Information from the disclosing party, the receiving party shall:
+- (i) not disclose in any manner, directly or indirectly, to any third party any portion of the disclosing party's Confidential Information;
+- (ii) not use the disclosing party's Confidential Information for any purpose except to perform its duties under this Agreement or with the disclosing party's express prior written consent;
+- (iii) disclose the disclosing party's Confidential Information, in whole or in part, only to employees and authorized representatives who have a bona fide need to have access thereto for the purposes of this Agreement;
+- (iv) take all necessary steps to ensure that its employees and authorized representatives are informed of and comply with the confidentiality restrictions contained in this Agreement; and
+- (v) take all necessary precautions to protect the confidentiality of the Confidential Information received hereunder and exercise at least the same degree of care in safeguarding the Confidential Information as it would with its own confidential information, and in no event shall apply less than a reasonable standard of care to prevent disclosure.
+22.3 In the event of any legal action or proceedings or asserted legal requirement for disclosure of proprietary or Confidential Information furnished under this Agreement, the receiving party will, to the extent permissible by law, promptly notify the disclosing party and, upon the request and at the expense of the disclosing party, will cooperate with the disclosing party in lawfully contesting such disclosure or obtaining a protective order. Except in connection with any failure to discharge its responsibilities under the preceding sentence, the receiving party will not be liable for any disclosure pursuant to any legal action or proceedings or asserted legal requirement, if no protective order is obtained.
+22.4 All Confidential Information will remain the property of the disclosing party and upon termination and/or expiry of this Agreement the Parties shall forthwith return to the other party all Confidential Information in its possession and in possession of its employees and shall not retain copies of such Information. This obligation to return shall not apply to the transaction data records stored and retained by Safepay pursuant the directions issued by the Regulator.
+22.5 The obligations of confidentiality set out in this clause shall survive expiry or termination of this Agreement.
+
+## 23. Data Privacy
+
+23.2 Merchant agrees and acknowledges that Safepay may share any information from the Registration Documents, any other documents or evidence that Safepay may have requested from Merchant with any Acquiring Bank, Network and/or Regulator in order to:
+- (i) verify Merchant's eligibility to use the Safepay Services;
+- (ii) conduct risk management and compliance reviews; or
+- (iii) facilitate with applicable rules and laws issued by the Regulator and the Network.
+23.3 Safepay also acknowledges and covenants that it shall be responsible for the security and protection of Customer card holder data that it collects and stores. Safepay warrants that it implements access control measures, security protocols and standards including the use of encryption and firewall technologies to ensure that such data is kept safe and secure in compliance with PCI DSS requirements. Safepay also warrants to implement periodical security updates to ensure that our security infrastructures are in compliance with reasonable industry standards.
+
+## 24. Intellectual Property
+
+24.1 Any and all Intellectual Property Rights and any other proprietary rights in the data, information, software or hardware including the Safepay Services to be made available for access by Safepay to the Merchant and any technology in respect of and attached thereto shall vest in and continue to be the sole and exclusive property of Safepay.
+24.2 Merchant shall only use the Safepay Services to extent of the licenses or permissions granted by Safepay under this Agreement.
+24.3 Nothing herein contained shall be construed to mean or imply the transfer of any proprietary right, title or interest nor the grant of any copyrights or other Intellectual Property Rights in the Safepay Services from and by Safepay to the Merchant.
+24.4 Merchant hereby agrees and acknowledges that the Acquiring Bank and/or the Networks own all rights, title, and interest in the patents, copyrights (including rights in derivative works), moral rights, rights of publicity, trademarks or service marks, logos and designs, trade secrets, know-how, domain names, database rights and any other intellectual property that belongs to them.
+24.5 Merchant hereby grants Safepay permission to use Merchant's name and logo in Safepay's marketing materials including, but not limited to use on Safepay's Website, in customer listings, in interviews and in press releases.
+
+## 25. Licenses
+
+25.1 Safepay hereby grants the Merchant a revocable, non-exclusive, non-transferable license to use the Safepay Services only in the manner described in this Agreement. The license granted to the Merchant in the Safepay Services includes all updates, upgrades, new versions and replacement software for its use in connection with the Safepay Services.
+25.2 Unless agreed by Safepay in writing, Merchant shall not have the right to:
+- (i) alter, reproduce, adapt, distribute, display, publish, reverse engineer, translate, disassemble, decompile or otherwise attempt to create any source code that is derived from the Safepay Services or
+- (ii) sublicense the Safepay Services to any third party, whomsoever. Upon expiration or termination of this Agreement, Merchant shall immediately cease all use of any Safepay Services.
+25.3 Safepay reserves the right to suspend, revoke or terminate the license granted to the Merchant to use the Safepay Services at any time if Merchant's use of these is in a manner prohibited by this Agreement.
+25.4 Upon suspension and/or termination of this Agreement and/or any of the Merchant's Safepay Account, Merchant will immediately cease all display, advertising and use of all licenses provided by Safepay to use the Safepay Services.
+
+## 26. Updates and Maintenance
+
+26.1 Safepay reserves the right to update, enhance, or modify the Safepay Services from time to time. Such updates may include new features, improvements, bug fixes, or other modifications aimed at improving performance, security, or usability. Safepay will use reasonable endeavors to notify the Merchant of any material updates or changes that may affect the Merchant's use of the Safepay Services but it may require action on Merchant's part before it may use the new Safepay Services (including activation through the Dashboard, or acceptance of new or additional terms).
+26.2 Safepay may perform scheduled maintenance on the Safepay Services to ensure their proper functioning and security. Safepay shall provide the Merchant with reasonable advance notice of any scheduled maintenance activities that may result in temporary unavailability or limited functionality of Safepay Services. The Merchant acknowledges that scheduled maintenance is necessary for the continued operation and improvement of the Safepay Services.
+26.3 Merchant hereby agrees and acknowledges that in certain circumstances, Safepay may need to perform emergency maintenance on the Safepay Services to address critical issues, security vulnerabilities, or other urgent matters. In such cases, Safepay may not be able to provide advance notice to the Merchant. Safepay will, however, use reasonable efforts to minimize the impact of emergency maintenance on the Merchant's use of the Safepay Services and to restore normal operation as quickly as possible.
+26.4 Safepay shall not be liable for any loss, damage, or inconvenience arising from the temporary unavailability of the Safepay Services due to scheduled or emergency maintenance activities, provided that Safepay has acted in accordance with the terms of this Agreement.
+26.5 The Merchant agrees to take all reasonable precautions and implement necessary measures to mitigate any potential impact on its business operations resulting from scheduled or emergency maintenance activities. This may include, but is not limited to, planning for potential downtime and ensuring that critical transactions are completed outside of the maintenance windows.
+26.6 The Merchant acknowledges that updates to Safepay Services may change the appearance, functionality, or performance of the Safepay Services. Safepay will use reasonable efforts to ensure that such updates do not materially and adversely affect the Merchant's use of the Safepay Services. The Merchant agrees to accept and implement such updates as they become available to maintain continued access to and use of the Safepay Services.
+
+## 27. Warranties and Representations
+
+The Merchant hereby warrants and represents that:
+- it is duly organized, authorized and in good standing under the laws of the Islamic Republic of Pakistan and duly authorized to carry on the business for which it will use the Safepay Services;
+- any Person that enters this Agreement on behalf of the Merchant has been duly authorized to enter into this Agreement with Safepay;
+- it has the capacity, power and authority to enter into and perform its obligations under this Agreement and has taken all requisite corporate actions, as applicable to approve execution, delivery and performance of this Agreement;
+- this Agreement constitutes a legal, valid and binding obligations of Merchant, enforceable against it in accordance with its terms and the fulfilment of its obligations does not and will not constitute or result in a violation of any existing Applicable Laws, or any agreement to which it is a party or the terms of any license held by it;
+- all Registration Documents provided to Safepay as part of the Application are true and currently valid and the Merchant shall promptly update Safepay if there are any changes or updates to such documents during the subsistence of this Agreement;
+- Merchant's use of the Safepay Services and all Transactions conducted through the Safepay Services shall comply with all Applicable Laws, regulations, and prevailing industry standards, including but not limited to those imposed by the Regulator, Acquiring Bank, Networks and any other regulatory authorities.
+
+## 28. Safepay Disclaimers
+
+Safepay provides the Safepay Services on an "as is" and "as available" basis. Safepay makes no representations or warranties of any kind, express or implied, regarding the operation or availability of Safepay Services, or that the Safepay Services will be uninterrupted, timely and error-free. Except as expressly stated as a "warranty" in this Agreement, and to the fullest extent permitted by Applicable Law, Safepay expressly disclaims all warranties, express, implied, statutory, or otherwise, including but not limited to any implied warranties of merchantability, fitness for a particular purpose, non-infringement, and any warranties arising out of the course of dealing, usage, or trade practice. Safepay shall not be liable for any losses, damages, or costs that the Merchant or any other party may suffer arising out of or relating to hacking, tampering, or other unauthorized access or use of the Safepay Services, Safepay Account, or Confidential Information, or Merchant's failure to use or implement anti-fraud or data security measures.
+
+## 29. Indemnification and Limitation of Liability
+
+29.1 The Merchant hereby agrees and undertakes to indemnify, keep indemnified, defend and hold Safepay, its directors, officers, shareholders, representatives, successors, assigns employees, and agents (together the "Indemnified Parties") harmless from and against any and all claims, actions, suits, demands, assessments, judgments, losses, liabilities, recoveries, damages, costs and expenses that may be incurred or suffered by the Indemnified Parties resulting or arising from or related to:
+- a breach or non-compliance by Merchant with any terms, representations, warranties, or obligations of this Agreement; or
+- any misuse of the Safepay Account or failure by Merchant to secure the API keys shared by Safepay under this Agreement.
+- any violation or non-compliance by Merchant with any Applicable Laws in relation to this Agreement; or
+- use of the Safepay Services by Merchant under this Agreement; or
+- any negligence, fraud or willful misconduct of Merchant or its employees, contractors, agents or representatives in relation to this Agreement;
+- all third part indemnity obligations Safepay incurs as a direct or indirect result of any act or omission of Merchant (including indemnification of any Acquiring Bank, Network, card issuer or intermediary bank).
+29.2 Safepay shall indemnify, keep indemnified, defend and hold harmless the Merchant against any third-party claim alleging that Safepay's technology, services, or trademarks infringe or misappropriate intellectual property rights ("IP Claim") and shall cover all direct losses, damages, and reasonable legal fees incurred in connection with such claims ("IP Claim Losses"). Safepay's indemnification obligations shall not apply where the IP Claim arises from the Merchant's use of Safepay's technology or Safepay Services in combination with third-party software, hardware, data, or processes not provided by Safepay, the Merchant's failure to use Safepay's technology or Safepay Services in accordance with this Agreement and applicable documentation, the Merchant's breach of this Agreement, or the Merchant's negligence, fraud, or willful misconduct. The Merchant shall promptly notify Safepay of any IP Claim and provide reasonable assistance in its defense. Safepay shall have sole control over the defense and settlement of any IP Claim, provided that the Merchant may participate in the defense at its own expense and that Safepay shall not settle any claim imposing non-monetary obligations on the Merchant without its prior written consent. If an IP Claim arises, Safepay may, at its discretion and cost, modify or replace the infringing technology or Safepay Service to be non-infringing, obtain a license for the Merchant to continue its use, or terminate the Merchant's use of the affected technology or service with thirty (30) days' notice. This clause states the Merchant's sole remedy and Safepay's exclusive liability for any intellectual property infringement claims.
+29.3 Neither Party shall be liable to the other Party for special, incidental, consequential, indirect, punitive or exemplary damages (including but not limited to lost data, lost profits or savings, loss of business or other economic loss) arising out of or related to this Agreement.
+29.4 The Merchant shall have no claim against Safepay for any liability except as expressly provided in this Agreement. To the fullest extent permitted by law, Safepay disclaims all liability, whether arising in contract, negligence, strict liability, tort, or any other legal or equitable theory. Where liability cannot be excluded under applicable law, Safepay's total aggregate liability to the Merchant under this Agreement shall be limited to the total Safepay Charges paid by the Merchant in the one (1) month preceding the event giving rise to such liability.
+
+## 30. Force Majeure
+
+30.1 Neither party shall be liable for any failure or delay in performing its obligations under this Agreement, if and to the extent that such failure or delay is caused by, or results from, events beyond the reasonable control of the affected party (hereinafter referred to as a "Force Majeure Event"). Force Majeure Events shall include, but are not limited to, acts of God, natural disasters, fire, flood, earthquake, explosion, pandemics, acts of war, terrorism, civil unrest, strikes, labor disputes, acts or decrees of governmental or regulatory authorities, power outages, or failures in telecommunications or internet services.
+30.2 The party affected by a Force Majeure Event shall promptly notify the other party in writing of the occurrence of such event, detailing the nature of the event and its expected impact on the performance of obligations under this Agreement. The affected party shall exercise all reasonable efforts to mitigate the effects of the Force Majeure Event and to resume full performance of its obligations as soon as practicable.
+30.3 During the continuation of a Force Majeure Event, the obligations of the affected party under this Agreement shall be suspended to the extent and for the duration of the Force Majeure Event. The unaffected party shall also be relieved from its corresponding obligations that are contingent on the performance of the affected party's obligations.
+30.4 If the Force Majeure Event continues for a period exceeding [60] days, either party shall have the right to terminate this Agreement by providing written notice to the other party. Upon such termination, neither party shall have any further liability or obligation to the other except for any payment obligations or other obligations that have accrued prior to the effective date of termination.
+
+## 31. Suspension of Safepay Services
+
+31.1 Safepay reserves the right, at its sole discretion, to suspend the Safepay Services and/or the Safepay Account at any time. Safepay shall provide the Merchant with written notice of such suspension, except in circumstances where immediate suspension is necessary to protect Safepay, its customers, or its services from harm or loss, including, but not limited to any breach by the Merchant of the terms of this Agreement, any fraudulent activity conducted by the Merchant, or any threat to the security, integrity, or operation of the Safepay Services.
+31.2 During the suspension period, the Merchant acknowledges and agrees that it shall not be entitled to process any payment transactions through Safepay Services. Safepay shall make reasonable efforts to resolve the issues leading to the suspension and may reinstate Safepay Services upon satisfactory resolution. However, Safepay shall not be liable for any damages, losses, or liabilities incurred by the Merchant as a result of the suspension of Safepay Services.
+31.3 In case of suspension, Safepay shall not settle any Net Available Funds to Merchant Linked Bank Account until the circumstances or breach leading to such suspension have been resolved or remedied by the Merchant. For the avoidance of doubt, if the Merchant maintains multiple Safepay Accounts and Safepay suspends any one of these accounts for any reason, Safepay reserves the right to suspend the Merchant's access to Safepay Services across all other Safepay Accounts held by the Merchant.
+
+## 32. Termination
+
+32.1 This Agreement may be terminated, and the Safepay Account may be closed, without any cause, by Safepay by giving the Merchant a prior notice of not less than three (3) Business Days.
+32.2 Safepay shall have the right to terminate this Agreement immediately upon notice, at any time, if:
+- Safepay, in its sole discretion, determines that Merchant is ineligible for the Safepay Services because of significant fraud or credit risk, or any other risks associated with the Safepay Services and Safepay Account;
+- Safepay terminates another Safepay Account of Merchant;
+- Merchant uses the Safepay Services in a prohibited manner;
+- Any Acquiring Bank, Network, Regulator or governmental authority requires Safepay to do so;
+- Merchant commits any breach of any of its obligations, warranties, representations or covenants under this Agreement;
+- Merchant is subject to any insolvency, winding-up, liquidation (voluntary or involuntary), bankruptcy or any other similar or analogous proceedings.
+32.3 Merchant shall also have the right to terminate this Agreement and request Safepay to close the Safepay Account by providing a prior written notice of not less than three (3) Business Days to Safepay. For avoidance of doubt, it is clarified that this Agreement shall not be terminated until Safepay closes the Safepay Account.
+32.4 Upon termination of this Agreement and the Safepay Account, for any reason whatsoever:
+- Safepay shall not settle any Available Net Funds until Merchant settles all its financial obligations towards Safepay until the date of termination;
+- Merchant shall complete all Transactions and remove all Safepay logos from its website and from any other material where it refers to Safepay (such as marketing material or Merchant's social media pages);
+- All licenses granted to the Merchant under this Agreement shall stand revoked;
+- Safepay shall not be liable for any compensation, reimbursement or damages arising out of Merchant's use of Safepay Services or termination thereof; and
+- Merchant shall be liable to pay any or all amounts incurred by Safepay in relation to the Safepay Services provided to Merchant up till the date of termination.
+32.5 Without prejudice to the foregoing, upon termination of this Agreement (for any reason, whatsoever) Merchant hereby agrees to settle all outstanding liabilities towards Safepay within 30 days from the date of termination.
+32.6 Termination of this Agreement shall be without prejudice to the rights and obligations which have accrued prior to the termination or which by their terms are intended to operate/continue after termination.
+
+## 33. Notices
+
+33.1. All agreements, notices, disclosures, and other communications provided electronically by Safepay shall satisfy any legal requirement that such communications be in writing. Sending an email to the email address associated with the Safepay Account shall be considered a valid form of communication from Safepay.
+[email protected]
+
+## 34. Amendments to this Agreement
+
+34.1 Safepay reserves the right to amend any part of this Agreement at any time by posting a revised version of this Agreement on the Website, or by providing the Merchant with notice of such amendments. The amended Agreement will become effective upon posting or, if Safepay provides notice, as specified in the notice. The Merchant's continued use of the Safepay Services after the effective date of any amendment constitutes acceptance of the amended Agreement. It is Merchant's responsibility to regularly review the Website for any changes to this Agreement.
+34.2 For any amendments specific to Merchant's relationship with Safepay that do not apply generally to all merchants, such amendments shall only be effective if made in writing and signed by both Merchant and Safepay.
+
+## 35. Dispute Resolution
+
+35.1 In case there is a dispute between the Parties, the Parties shall endeavor to settle it amicably, failing which shall be referred to the arbitration. The arbitration will be conducted as per the Arbitration Act, 1940, as amended from time to time. The seat of arbitration shall be Karachi, Pakistan and its language English. The decision of the arbitration shall be final and binding on both the Parties.
+35.2 Subject to the arbitration clause above, should any recourse to the courts of law become necessary, the Parties hereto submit to the jurisdiction of the courts of law at Karachi, Pakistan which courts shall have exclusive jurisdiction to settle any claims and/or dispute arising out of this Agreement.
+
+## 36. Assignment
+
+Nothing in this Agreement shall be construed to permit the assignment by Merchant of any of its rights and/or its obligations hereunder, and such assignment without the prior written consent of Safepay, is expressly prohibited
+
+## 37. Severability
+
+If any provision of this Agreement or of a clause hereof is determined to be illegal or unenforceable by any court of law or any competent governmental or other authority, the remaining provisions within that clause and the remainder of this Agreement shall be severable and enforceable in accordance with their terms so long as this Agreement without such terms or provisions does not fail of its essential purpose. The parties shall negotiate in good faith to replace any such illegal or unenforceable provisions with suitable substitute provisions that shall maintain, as far as possible, the purposes and the effect of this Agreement.
+
+## 38. Waiver
+
+Failure by Safepay on any occasion to insist upon the observance or performance by the Merchant of any obligation and/or provision herein contained shall not amount to a waiver of such breach or acceptance of such variation by Safepay. Furthermore, no waiver by Safepay of any breach of an obligation and/or provision of this Agreement, express or implied shall operate as a waiver of another breach of the same or of any other obligation and/or provision of this Agreement, express or implied.
+
+## 39. Non-Exclusivity
+
+Nothing herein contained is intended to nor shall limit or restrict Safepay's ability to enter into similar agreements, understandings or arrangements with other persons, parties or entities.
+
+## 40. Governing Law
+
+This Agreement shall, in all respects, be governed by and construed in accordance with the laws of the Islamic Republic of Pakistan.
+
+## 41. Definitions
+
+- Acceptable Use Policy means Safepay's acceptable use policy which can be accessed here .
+- Acquiring Bank means any bank(s), financial institution(s) or other partner(s) (as may change from time to time) that have a relationship with any Network through which Safepay is able to make the Safepay Services available to Merchants. Where the singular term "Acquiring Bank" is used, this refers to any and all entities through which Safepay is able to access any and all Networks.
+- Acquiring Bank and Network Rules means any or all rules, regulations, and guidelines established by any Acquiring Bank and/or any Network or any other payment processors involved in the facilitation of Safepay Services in connected with Card Payment Method.
+- Applicable Laws means any applicable law of Pakistan including but not limited to any constitutional law, statute, regulation, resolution, rule, ordinance, enactment, judgment, order, code, decree, directive, notification, clarification, guideline, policy, license, injunction, permit, requirement, or other governmental restriction and any decision of or determination by or interpretation of any of the foregoing (whether or not having the force of law) by any competent authority, now or hereafter in effect, in each case as amended, re-enacted or replaced in the relevant jurisdiction.
+- Application means the process after the Merchant has created a Safepay Account with Restricted Access and submits the Registration Documents and/or any other information to Safepay in order to enable Safepay to provide a Safepay Account with Unrestricted Access to the Merchant.
+- Available Net Funds means Funds minus any applicable Safepay Charges that are transferred to the Merchant's Linked Bank Account.
+- Bank Account Maintenance Certificate means the document issued by Merchant's bank which identifies the Merchant's account number, account name and date of account opening to confirm the Linked Bank Account.
+- Business Day means a day (other than a Saturday or Sunday or public holiday) on which banks are open for business in Pakistan.
+- Card Payment Method means a Transaction in which a Customer pays the Merchant using a Network enabled credit or debit card whether directly used by the
+Customer or provisioned through a Digital Wallet.
+- Charge means an instruction to capture Funds from an account that a Customer maintains with a bank or other financial institution through which they pay the Merchant using the Safepay Services in connection with a Transaction.
+- Chargeback means when a Customer raises a dispute with their card/payment instrument issuing institution (such as a bank). This usually occurs when a merchant fails to provide the product or service that was part of a Transaction to the Customer, or where the payment card/instrument holder did not authorize the Charge.
+- Customer means any Person that attempts to and/or uses the Safepay Services to pay the Merchant in connection with a Transaction.
+- Demonstration Safepay Account means a sandbox Safepay account created on the Website for demonstration and testing purposes and which does not allow real payments to be made to a Merchant.
+- Digital Wallet means a payment service that enables Customers to make Transactions using stored payment credentials or tokenized versions of such credentials through a mobile device or other supported platform including but not limited to Google Pay.
+- Direct Bank Payment Method means a Transaction in which a Customer pays the Merchant using their bank account (including Raast) or mobile wallet present in Pakistan.
+- Effective Date means the date this Safepay Services Agreement is electronically signed by both Parties.
+- Funds means the gross amount the Merchant charges a Customer in connection with a Transaction that is processed using the Safepay Services.
+- Intellectual Property Rights means patents, inventions (whether patentable or not), copyrights, moral rights, design rights, trade-marks, trade names, business names, service marks, brands, logos, service names, trade secrets, know-how, domain names, database rights and any other intellectual property or proprietary rights (whether registered or unregistered, and whether in electronic form or otherwise) including rights in computer software, and all registrations and applications to register any of the aforesaid items, rights in the nature of the aforesaid items in any country or jurisdiction, any rights in the nature of unfair competition rights, and rights to sue for passing off.
+- Linked Bank Account means the bank account that Merchant has connected to the Production Safepay Account to receive any Available Net Funds.
+- Network means Visa, Mastercard, Raast, or any other organization through which we make the Safepay Services available to Merchants and collect the Funds from a Customer.
+- Network Charges means any fees, costs or expenses that are payable to the Networks due to the provision of Safepay Services to Merchants receiving payment from a Customer in connection with a Transaction.
+- Notice means a notice sent by either Safepay or the Merchant in accordance with this Agreement.
+- Payment Method means either (1) a Card Payment Method or (2) a Direct Bank Payment Method (depending on which of the Safepay Services are being used).
+- Person means any natural or legal person. A legal person can be any validly registered sole-proprietors, private limited companies, public limited companies, partnerships, limited liability partnerships, validly registered non-profit organizations, trusts, societies and voluntary social welfare agencies.
+- Privacy Policy means our privacy policy which can be accessed here .
+- Production Safepay Account means a production Safepay Account created on the Website that is capable of accepting real payments from Customer in relation to a Transaction.
+- Refund means the return of Funds to a Customer, initiated by the Merchant or Safepay, in response to a transaction dispute or Chargeback and Reversal.
+- Registration Documents means all the documents provided by the Merchant at the time of on-boarding with Safepay.
+- Regulator means the State Bank of Pakistan.
+- Reserve means when Safepay shall hold the settlement of any Available Net Funds to the Merchant by imposing certain conditions for release or when Safepay requires the Merchant to place funds in reserve in the Safepay Settlement Account (or any other bank account of Safepay).
+- Reversal means an instruction initiated by an Acquiring Bank, Network or Safepay to return Available Net Funds to a Customer for an existing Charge. Reversals may result from (i) invalidation of a charge by an Acquiring Bank or a Network; (ii) submission of a Charge in violation of the applicable Network Rules, or where submission of the Charge or Merchant's use of the Safepay Services violates this Agreement.
+- Restricted Access means a Safepay Account that is not able to accept real payments.
+- Safepay Account means any Demonstration Safepay Account and/or Production Safepay Account.
+- Safepay Accounts means all Safepay Accounts that Merchant has opened with Safepay, in case Merchant has more than one Safepay Account with Safepay.
+- Safepay Charges means any or all amounts to be paid by the Merchant to Safepay in consideration for making the Safepay Services available to the Merchant in accordance with pricing available here , which may be amended by Safepay from time to time.
+- Safepay Dashboard means the dashboard created by Safepay to which the Merchant has access to when the Merchant logs-in to its Safepay Account.
+- Safepay Settlement Account means any bank account opened with a third-party settlement bank in compliance with the rules of the Regulator for the purposes of settlement of a Transaction.
+- Safepay Services means all financial and technological services provided by Safepay to facilitate electronic payment transactions between Merchants and Customers. This includes, but is not limited to, services related to integration, transaction processing, payment authorization, settlement of Funds or any other services or products that Safepay may offer from time to time. Safepay Services expressly encompass products and platforms such as checkout, quick links, Safepay Dashboard, subscriptions, routing, Shopify plug-ins, APIs, and SDKs, which are an integral part of the overall services provided by Safepay.
+- Service-Specific Terms means the additional terms in this Agreement that apply to particular Safepay Services as maybe seen below .
+- Settlement Schedule means the timeline listed in Annexure C to this Agreement Safepay signs with Merchant for settlement of Available Net Funds in the Merchant's Linked Bank Account following a Transaction.
+- Sub-Agent means any entity we appoint as sub-agent on Merchant's behalf to provide and perform the Safepay Services pursuant to the provisions of this Agreement.
+- Taxes mean any taxes, customs, duties, fees and other charges imposed by any governmental authority, including any value added tax, goods and services tax, provincial sales tax, federal sales tax and/or withholding tax applicable on Safepay for providing the Safepay Services to the Merchant.
+- Transaction means any purchase, sale, order, donation or other transaction that takes place as part of Merchant's business or any other activities for which Merchant is paid using Safepay Services.
+- Unrestricted Access means a Safepay Account that is able to accept real payments.
+- Website means our website which can be accessed here .
+
+## 42. Service-Specific Terms
+
+
+### 42.1 Subscriptions
+
+These additional terms for subscription services provided to Merchants shall be read in conjunction with and interpreted in light of this Agreement.
+
+#### 42.1.1 Creation of Subscription Plans via Safepay Dashboard
+
+All subscription plans must be created by the Merchant through the Safepay Dashboard.
+The Merchant acknowledges and agrees that it is solely responsible for accurately entering all relevant information required for the creation of subscription plans, including but not limited to plan name, pricing, currency, product ID, type (recurring/one-time), intervals, interval counts, frequency, and trial period. The Merchant also has the discretion to set the activation date for each subscription plan created.
+
+#### 42.1.2 Supported Currencies
+
+Safepay currently offers various supported currency options, as well as subscription intervals and billing cycle frequencies. Any changes to these options will be duly communicated to the Merchant in writing.
+
+#### 42.1.3 Errors and Inaccuracies in Plan Instructions
+
+The Merchant acknowledges that Safepay's role is limited to facilitating the billing and collection of payments for subscription plans based on the Merchant's instructions. Safepay shall not be liable for any errors or inaccuracies arising from incorrect information entered by the Merchant during the creation of subscription plans.
+
+#### 42.1.4 Modification of Subscription Plans
+
+After creating a subscription plan on the Safepay Dashboard, the Merchant may only modify the plan's name, product ID, description, and trial period.
+Any changes to the name, product ID, or description will apply to both existing and future subscriptions under the modified plan. Changes to the trial period will only affect future subscriptions initiated after the modification date.
+
+#### 42.1.5 Deactivation, Pausing, or Cancellation of Subscription Plans
+
+The Merchant may deactivate a subscription plan via the Safepay Dashboard, which will prevent any new Customers from subscribing to the plan. This deactivation will not affect existing subscriptions under the plan.
+The Merchant may pause or cancel individual subscriptions on the Safepay Dashboard, either at its discretion or upon a Customer's request. Once a subscription is cancelled, it cannot be automatically reactivated. Customers will need to re-subscribe through the Merchant's website.
+
+#### 42.1.6 Indemnification
+
+Safepay assumes no responsibility for any requests from Customers to modify, pause, or cancel a subscription. The Merchant agrees to fully indemnify and hold Safepay harmless from any claims, damages, or losses arising from the modification, pausing, or cancellation of any subscription plans or individual subscriptions.
+
+#### 42.1.7 Failed Payments
+
+Safepay's system will attempt to charge a Customer's payment instrument up to three (3) times for a subscription payment. If all three attempts fail, the subscription will automatically be cancelled. The Merchant is strongly advised to regularly monitor the status of subscriptions via the Safepay Dashboard. Safepay shall not be liable for any cancellation resulting from failed payment attempts.
+
+### 42.2 Digital Wallets
+
+
+#### 42.2.1 Google Pay
+
+
+---
+
+## Privacy Policy
+Legal
+- Services Agreement
+- Privacy Policy
+- Acceptable use policy
+- Customer Terms
+
+# Privacy Policy
+
+These terms supplement and form part of your Agreement with Safepay for payment processing and related services.
+
+## 1. Safepay and privacy
+
+
+### 1.1 Our Commitment to Privacy
+
+Protecting any personal data we gather as part of our operations is a priority for Safepay (Private) Limited ("Safepay", "we", "us" or "our"). This is a responsibility we take seriously and is one of our core values. This privacy policy ("Privacy Policy") applies to the collection and processing of personal data ("Personal Data") by Safepay in connection with our provision of online payment products and/or services. References in this Privacy Policy to "you" or "your" are references to:
+- Online visitors to our main website at www.getsafepay.com and or www.getsafepay.pk .
+- Persons who register with us as merchants ("Safepay Partners").
+- Persons that sign up to our payment products and/or services in order to conduct transactions with Safepay Partners, in other words, the end customers of our Safepay Partners.
+
+### 1.2 Purpose of this Policy
+
+This Privacy Policy will help you understand how we collect and use your Personal Data ("Personal Data") and what we do with it. Personal Data includes any information about an individual from which that person can be identified. It does not include Personal Data where the identity has been removed (anonymous data, e.g. your IP Address).
+
+### 1.3 Scope of Application
+
+This Privacy Policy applies to our website and all related sites, applications, services and tools regardless of how you access or use them. Please read it carefully to understand our policies regarding your Personal Data and how we will treat it. By continuing to use our products and/or services, you consent to our Privacy Policy.
+
+### 1.4 Policy Updates
+
+[email protected]
+
+### 1.5 Format of this Policy
+
+This Privacy Policy is provided in a tiered format.
+
+## 2. The Personal Data we collect about you
+
+
+### 2.1 Collection Circumstances
+
+Personal Data is mostly collected by Safepay where:
+- You visit our website. We do not collect your Personal Data when you visit the website. However, so we can monitor and improve our website and services we may collect non-personally-identifiable information. We will not share or disclose this information with third parties except as a necessary part of providing our website and products and/or services. We may use the information to target advertisements to you.
+- You sign up for a Safepay account and provide your full name, address, email address, phone number, account log-in credentials and/or bank account information (such as account name and number). This includes whenever you sign up and use our sandbox environment.
+- You sign up for our products and/or services and provide your full name, business name, address, email address, phone number, account log-in credentials, bank account information (such as account name and number) and any identification documentation (including government identifiers) relating to an individual that we require for regulatory and/or our own internal KYC purposes. This includes whenever you sign up and use our sandbox environment.
+- You make payments or conduct transactions through our products and/or services. We will receive your name, email address, billing address, shipping address and transaction information. The information that we collect will include payment method information (such as credit or debit card number, or bank account information), purchase amount, date of purchase, and payment method. We may also receive your name, email, billing or shipping address and in some cases your transaction history to authenticate you.
+- You communicate, request information or request assistance from our customer support team and provide your full name, email address and phone number (including any identifier through Whatsapp, Zoom or equivalent technology).
+- You communicate with us through other methods including: (i) in response to marketing or other communications, (ii) through social media or online forums, (ii) in connection with an actual or potential business relationship with us, or (iii) by giving us your business card or contact details in other circumstances.
+
+### 2.2 Fraud Prevention Data
+
+Additionally, when we conduct fraud monitoring, prevention and detection activities, we may also receive Personal Data about you from other publicly available sources (e.g., name, address, phone number, country), as necessary to confirm your identity and prevent fraud. Our fraud monitoring, detection and prevention services may use technology that helps us assess the risk associated with an attempted transaction that is enabled on the Safepay Partner's website or the application that collects information.
+
+## 3. Cookies and Third-party analytics
+
+We use cookies for authentication (to identify you as a user), fraud detection and prevention (to help ensure that your account security is not compromised, limit risk and prevent fraud). Cookies allow our servers to remember your account log-in information when you visit our website, IP addresses, date and time of visits, monitor web traffic and prevent fraudulent activities. If your browser permits, you have the choice to disable cookies on our website. We use Google Analytics to collect and analyze certain information. You can learn about Google's practices on the Google website.
+
+## 4. The Personal Data about others we collect from you
+
+
+### 4.1 Third-Party Personal Data
+
+On certain occasions, in the course of our services, you may provide us with Personal Data of individuals who are not aware of our involvement or of our processing of their Personal Data. For example, if a customer of a Safepay Partner provides the shipping address of another person which is different from their own billing address.
+
+### 4.2 Your Responsibility for Third-Party Data
+
+In such situations, we are likely to not have direct contact with individuals whose Personal Data we are processing. Before you pass any such Personal Data to us, you must ensure that the relevant individuals have received any requisite privacy notices in connection with the performance of our services. If we receive information from you about another data subject in the course of providing our services to you, we expect you to have complete responsibility for ensuring that the contents of this Privacy Policy are brought to their attention and you have obtained their consent in the process.
+
+## 5. How we use the information we collect
+
+Our general approach is to keep the Personal Data we collect to a minimum. We use Personal Data for the following:
+- Provide you with the required services and/or products.
+- Maintain and expand our business relationships with Safepay Partners and potential Safepay Partners.
+- Respond to your questions or requests.
+- Improve our operations.
+- Prevent, detect and manage risk against fraud and illegal activities.
+- Comply with our financial regulatory and other legal obligations.
+- Target advertisements, newsletter and service updates.
+- Improve content and website layout.
+- Resolve disputes that may arise.
+
+## 6. Who do we share your Personal Data with?
+
+
+### 6.1 Service Providers
+
+To enable us to provide our services to you on our website, we may share your information with trusted third parties, such third parties include financial institutions, payment processors verification services, as well as any third parties that you have directly authorized to receive your Personal Data.
+
+### 6.2 Business Partners
+
+We share Personal Data with third party business partners when this is necessary to provide our products and/or services. Examples of third parties to whom we may disclose Personal Data for this purpose are banks and payment method providers (such as credit card networks) when we provide payment processing services.
+
+### 6.3 Legal Disclosures
+
+We are allowed to disclose your Personal Data in the following cases:
+- To a potential buyer if we want to sell our business, or our company.
+- We can disclose it if we have a legal obligation to do so, or in order to protect other people's property, safety or rights.
+- We can exchange information with others to protect against fraud or credit risks.
+- We may contract with third parties to supply services to you on our behalf. These may include advertising, marketing and other services, including professional services. In some cases, the third parties may require access to some or all of your data. These are the third parties that have access to your information: To cloud provider(s); Law firms - for the purpose of receiving legal advice; Accountants - in order to comply with our legal requirements.
+
+### 6.4 Data Protection Assurances
+
+Where any of your Personal Data is required for such a purpose, we will take all reasonable steps to ensure that your data will be handled safely and securely. We will not share or disclose your Personal Data with a third party without your consent, unless required to by law.
+
+## 7. How we protect your Personal Data
+
+
+### 7.1 Security Measures
+
+We make reasonable efforts to ensure a level of security appropriate to the risk associated with the processing of Personal Data.
+
+### 7.2 Card Information Security
+
+To ensure any card information is kept safe and secure on our servers, we implement access control measures (physical and virtual), security protocols, policies and standards including the use of encryption and firewall technologies in compliance with the PCI DSS Requirements and we implement periodical security updates to ensure that our security infrastructures are in compliance with reasonable industry standards.
+
+### 7.3 Information Sharing Limitations
+
+We may share your contact information with merchants as part of your purchase details for record purposes. We will not share this information with other third parties except as a necessary part of providing our website and services. We do not store, share or disclose sensitive card information.
+
+### 7.4 Organizational Safeguards
+
+We ensure the maintenance of organizational, technical and administrative measures designed to protect Personal Data within our organization against unauthorized access, destruction, loss, alteration or misuse.
+
+### 7.5 PCI Compliance
+
+In compliance with the Payment Card Industry Data Security Standard, we implement access control measures, security protocols and standards including the use of encryption and firewall technologies to ensure your card information is safe and secure in our servers, additionally, we implement periodical security updates to ensure that our security infrastructures are in compliance with reasonable industry standards.
+
+### 7.6 Data Breach Procedures
+
+We have also put in place procedures to deal with any suspected Personal Data breach and will notify you and any applicable regulator of a breach where we are legally required to do so.
+
+## 8. How long do we store your information?
+
+
+### 8.1 Retention Period
+
+We will only retain your Personal Data for as long as necessary to fulfil the purposes we collected it for. This includes for example the purposes of satisfying any legal, regulatory, accounting, reporting requirements, to carry out legal work, for the establishment or defence of legal claims.
+
+### 8.2 Active Account Retention
+
+We will retain your information for as long as your account is active or as needed to provide you with our services, comply with our legal and statutory obligations or verify your information with a financial institution.
+
+### 8.3 Data Deletion Circumstances
+
+We will delete any Personal Data we store on you in the following circumstances:
+- Your account has not been approved by us. In this case we will delete any Personal Data of yours within 20 business days of sending you a rejection email.
+- Your account has been terminated by us. In this case we will delete any Personal Data of yours within 20 business days of sending you an account termination email.
+
+### 8.4 Legal Requirements for Retention
+
+Safepay is required to retain the data you provide us with in order to process transactions, ensure settlements, make refunds, identify fraud and in compliance with laws and regulatory guidelines applicable to us, our banking providers and card processors. Therefore, even after closing your Safepay account, we will retain certain data to comply with these obligations.
+
+## 9. Third Party Privacy Policies
+
+
+### 9.1 Third Party Information Practices
+
+Some of the parties that we work with may collect your Personal Data. We therefore ask you to review such third parties' privacy statements, typically available on their official websites, to understand their information practices. This Privacy Policy does not apply to third-party websites, products, or services, even if they link to our services or sites, and you should consider the privacy practices of those third-parties carefully. Safepay is not responsible for their actions, including their information protection practices.
+
+### 9.2 Third Party Policy Application
+
+The use of your Personal Data by such third party will be subject to their applicable privacy policy, which you should carefully review.
+
+---
+
+## Acceptable use policy
+Legal
+- Services Agreement
+- Privacy Policy
+- Acceptable use policy
+- Customer Terms
+
+# Acceptable use policy
+
+You may go over our Acceptable use policy
+
+## 1. Introduction
+
+This Policy outlines the standards and practices required for all users of Safepay Services and specifies the types of activities and businesses that are prohibited. By accessing or using Safepay, you agree to comply with the terms and conditions of this Policy.
+
+## 2. Prohibited Businesses
+
+Safepay Services cannot be used for the activities or business types listed below.
+
+### 2.1. Illegal and Unlawful Activities
+
+- Any activities deemed illegal/unlawful by any governmental or regulatory authority in Pakistan or not permitted under the laws of Pakistan.
+- Fraudulent activities, money laundering, or financing of terrorism.
+- Sale or purchase of stolen property, burglary tools, or items obtained through illegal means.
+- Telecommunications manipulation equipment including jamming devices
+- Businesses that engage in, encourage, promote or celebrate unlawful violence or physical harm to persons or property.
+
+### 2.2. Health & Safety, Drugs, Narcotics and Dangerous Substances
+
+- Transactions involving recalled items that are banned from sale due to health or safety concerns.
+- Sale of blood, bodily fluids, or body parts.
+- Pseudo pharmaceuticals or nutraceuticals focused on significant weight loss or sexual performance or making any unsupportable or harmful claims
+- Sale and distribution of banned narcotics, steroids, controlled substances, or any other products that pose a risk to consumer safety.
+- Sales involving illegal drugs and drug paraphernalia, including but not limited to cannabis and related accessories.
+- Equipment and items intended to be used for making or using drug
+- Transactions related to chemicals that are regulated or prohibited by law.
+
+### 2.3. Weapons, Explosives, and Firearms
+
+- Sale of firearms, firearm parts or accessories, ammunition, weapons, or knives.
+- Explosives, including fireworks, destructive devices, and other hazardous materials.
+
+### 2.4. High-Risk Financial Services and Securities
+
+- Unlicensed financial services, including currency exchanges, sales of currency without a license, and unauthorized cryptocurrency operators.
+- Forex trading, binary options, and other unregulated investment schemes.
+- Sale or purchase of stocks or securities without the necessary licensing.
+
+### 2.5. Adult Content and Services
+
+- Pornography, obscene material, or other adult content including literature, imagery and other media.
+- Provision of certain sexually oriented materials or services including escort services, adult chat, and entertainment.
+- Any artificial-intelligence-generated content that meets the above criteria.
+
+### 2.6. Gambling and Betting
+
+- Unlicensed or unauthorized gambling services, including but not limited to lottery tickets, sweepstakes entries, slot machines, and online betting platforms.
+- Any online games, competitions or tournaments involving monetary prizes or fees.
+
+### 2.7. Intellectual Property and Counterfeiting
+
+- Sale of counterfeit items, including pirated software, fake goods, and any other products that infringe on intellectual property rights of any third party.
+- Illegally imported or exported products
+- Unauthorized sale of brand name or designer products or services
+- Any other activities that violate copyright, trademarks, or other proprietary rights, including sales of items that infringe on the right of privacy or publicity in any jurisdiction.
+
+### 2.8. Personal Data and Government Documents
+
+- Sales or purchases of identity documents, government-issued documents, personal financial records, or other forms of personal information, such as mailing lists or credit card data, without proper authorization.
+- Transactions involving police/ military badges, uniforms, or other official symbols.
+
+### 2.9. Offensive Material and Hate Speech
+
+- Sale or promotion of offensive material or content that encourages hate speech, violence, or racial intolerance.
+- Items that promote the financial exploitation of a crime, or glorify illegal activities.
+- Businesses that engage in, encourage, promote or celebrate unlawful violence toward any group based on race, religion, disability, gender, sexual orientation, national origin, or any other immutable characteristic
+
+### 2.10. Others Prohibited Items and Activities
+
+- File sharing services or cyberlockers.
+- Sale of items that are restricted or banned by any governmental authority in Pakistan.
+- Any other products or services that Safepay considers risky or inappropriate or leading to the possibility of any adverse liability for Safepay.
+
+## 3. Restricted Use of Safepay Services
+
+In addition to prohibiting specific business activities, the Safepay Services cannot be used for the following purposes:
+
+### 3.1. Fraud and Deception
+
+- Engaging in fraudulent activities, including attempts to deceive customers, financial institutions, or regulators.
+- Use of Safepay Services to create or operate Ponzi schemes, pyramid schemes, or other forms of deceptive multi-level marketing.
+
+### 3.2. Abuse of Service
+
+- Any action that could disrupt, interfere with, or degrade the operation of Safepay Services, including unauthorized access to the payment gateway, tampering with security features, or attempts to overload the system.
+- Use of Safepay Services to facilitate or participate in activities that may cause damage or harm to the reputation of Safepay, its Acquiring Bank or a Network or other partners or users.
+
+### 3.3. Unauthorized Transactions
+
+- Processing or facilitating unauthorized payments on behalf of others, including activities such as payment aggregation, money transmission without appropriate licensing, or using the service to move funds on behalf of other individuals or entities without authorization.
+- Engaging in transactions without the proper consent of involved parties, such as charging a customer’s payment method without proper authorization.
+
+### 3.4. Money Laundering and Terrorism Financing
+
+- Using the payment gateway for money laundering, hiding the origin of funds, or facilitating illegal financial transactions.
+- Processing payments related to terrorism financing, criminal syndicates, or other illegal organizations.
+
+### 3.5. Circumvention of Controls
+
+- Attempts to bypass legal, regulatory, or internal controls, including falsifying or omitting information required by applicable laws of Pakistan or by Safepay’s due diligence procedures.
+- Engaging in activities aimed at avoiding restrictions on the types of transactions or businesses prohibited under this policy or any applicable law of Pakistan.
+
+### 3.6. Violation of Laws and Regulations
+
+- Any activity which violates any rule or regulation of our Acquiring Bank or a Network;
+- Use of Safepay Services to conduct activities that violate local, national, or international laws, including but not limited to financial crimes, bribery, corruption, or evasion of sanctions.
+- Transactions intended to circumvent the laws and regulations of Pakistan, such as restrictions on cross-border payments, foreign exchange controls, or tax evasion.
+
+### 3.7. Data Privacy Violations
+
+- Collecting, processing, or distributing personal information in violation of data protection laws, including processing payments using stolen or unauthorized credit card information.
+- Engaging in activities that could compromise the privacy or security of customer data, including unauthorized sharing or selling of customer information.
+
+### 3.8. Offensive and Abusive Behavior
+
+- Any activity which causes or threatens reputational damage to Safepay, our Acquiring Bank or any Network;
+- Use of the Safepay Services to engage in harassment, abuse, or intimidation of others, including activities that promote violence or threaten the safety of individuals or groups.
+- Conducting transactions or using our services to promote discriminatory practices, including but not limited to racial, religious, or gender-based discrimination.
+
+## 4. Consequences of violation
+
+If, in our sole discretion, we believe that you are in violation of this Acceptable Use Policy, we may (with or without notice to you) take such actions as we deem appropriate to mitigate risk to Safepay and any impacted third parties and to ensure compliance with this Acceptable Use Policy. Such actions may include, without limitation:
+- Blocking the settlement or completion of one or more payments as permitted under our Services Agreement;
+- Suspending your Safepay Accounts in accordance with the provisions of our Services Agreement;
+- Terminating your Safepay Accounts pursuant to our rights under Services Agreement;
+- Initiating legal proceedings against you for breach;
+- Disclosing information related to such violations to the following parties, as deemed necessary: (i) individuals or entities who have engaged in transactions with you, including the sale or purchase of goods or services; (ii) any financial institutions, banks, or Networks associated with your business or transactions; (iii) Law enforcement or regulatory bodies; and (iv) any other third parties who may have been affected by such violations;
+- Imposing any fees, penalties, assessments, or costs, including reasonable attorney's fees, incurred by us as a result of such violations, which you agree to promptly pay upon receiving notice.
+
+## 5. Updates to this Policy
+
+We may need to update, modify or amend this Policy. We reserve the right to make changes to this Policy by giving Notice in accordance with our Services Agreement.
+
+---
+
+## Customer Terms
+Legal
+- Services Agreement
+- Privacy Policy
+- Acceptable use policy
+- Customer Terms
+
+# Customer Terms
+
+Please read our customer terms thoroughly
+
+## 1. Introduction
+
+Safepay (Private) Limited ("Safepay"), is a private limited company registered with the Securities and Exchange Commission of Pakistan (Registration No. 0162364) and operates as a payment service provider regulated by the State Bank of Pakistan. Safepay facilitates Pakistani businesses in accepting online payments from their customers, both locally and internationally.
+These customer terms ("Customer Terms") set forth the legal basis on which Safepay permits the Customers to use any of the Safepay Services. By using the Safepay Services, each Customer agrees and acknowledges as follows:
+
+## 2. Definitions
+
+Unless the context states otherwise, all capitalized terms used in these Customer Terms shall have the meanings ascribed to them as follows:
+- Customer means any person (natural or legal) that attempts to and/or uses the Safepay Services to pay a Merchant in connection with a Transaction.
+- Merchant means any person (natural or legal) on-boarded with Safepay as a merchant and that uses the Safepay Services to accept online payments from Customers in connection with a Transaction.
+- Safepay Services means all financial and technological services provided by Safepay to facilitate electronic payments for Transactions between Merchants and Customers including but not limited to integration services, transaction processing, payment authorization, settlement of Funds enabled via various products including Checkout, Quicklinks, Safepay Dashboard, Subscriptions, Routing, Shopify Plug-ins, APIs and SDKs.
+- Transaction means any particular purchase, sale, order, donation or other transaction that takes place as part of Merchant's business or any other activities for which the Merchant is paid by the Customer using Safepay Services.
+
+## 3. Covenants, Representations, and Warranties
+
+3.1 Customer hereby represents and warrants that it is at least eighteen (18) years of age or the age of majority as prescribed by applicable law in their jurisdiction.
+3.2 Customer agrees not to use Safepay Services for any purpose that is fraudulent, unlawful, abusive, or otherwise prohibited by applicable laws and regulations.
+3.3 Customer agrees that it will be solely responsible for maintaining the confidentiality of its account credentials and for all activities that occur under its account with Safepay, if any.
+3.4 Customer further represents and warrants that all transactions initiated through Safepay Services are conducted in compliance with all relevant legal requirements and that it shall not engage in any activities that could compromise the integrity, security, or lawful operation of Safepay Services.
+3.5 Any breach of this clause 3 may result in the immediate suspension or termination of access to Safepay services, as well as potential legal action.
+
+## 4. Responsibility for Merchant Products and Services:
+
+Safepay bears no responsibility or liability for the products or services advertised, offered, or sold by any Merchant through its platform. Any transaction initiated through Safepay Services for the purchase of goods or services is solely between the Customer and the Merchant. The Customer remains solely responsible for their contractual relationship with the Merchant, and Safepay disclaims all liability in connection with such transactions.
+
+## 5. Legitimacy of Merchants
+
+While Safepay takes reasonable efforts to ensure that Merchants using Safepay Services operate legitimate businesses, Safepay does not warrant or guarantee the legitimacy, quality, or legality of the products or services offered by Merchants. Safepay shall not be held liable for any claims, disputes, or issues arising from the purchase or use of products or services offered by a Merchant through its platform.
+
+## 6. Completion of Transactions:
+
+Safepay makes no representation or warranty regarding the successful completion of any Transaction conducted through Safepay Services. The Merchant is solely responsible for the delivery of goods or services purchased by the Customer, as well as for providing any necessary support related to such purchases. Customer is strongly advised to review the Merchant's return, refund, and exchange policies prior to completing any Transaction through Safepay Services.
+
+## 7. Donations:
+
+In the case of donations made using Safepay Services, Safepay is not responsible for any communications, representations, or assurances made by the Merchant regarding the use of such donations. The Merchant remains solely accountable for the application of donated funds and any related communications with the Customer.
+
+## 8. Subscription Payments
+
+8.1 In case the Customer is using Safepay Services to make subscription payments, it must acquaint itself fully with all the terms and conditions laid out by the Merchant regarding the subscription plan it wishes to purchase. In cases where disputes or liabilities arise from these Merchant-imposed terms and conditions, the Merchant bears sole responsibility. Safepay shall not intervene in these matters nor accept any liability for them.
+8.2 Safepay allows Customer to save and manage information for an accelerated experience by storing information (via tokenization) upon authorization by the Customer and retrieving it for faster checkouts. When a Customer makes a subscription purchase, the Customer will be asked to create a Customer Account and save its information with Safepay or use its already saved information to an existing Customer Account for future payments across Merchants when the Customer is logged in with Safepay on the same browser, app or device.
+8.3 By signing up to create a Customer Account, Customer authorizes Safepay to collect and save the following information: Customer's first name, last name, email address, password, and mobile phone number ("Account Information"); and Customer's credit/ debit card number, expiry and CVV, contact details of the card owner and billing details (country, address and city) ("Payment Information"). Collectively, Account Information and Payment Information is referred to as "Information."
+8.4 All Information collected from the Customer in connection with its use of subscriptions is governed by Safepay's Privacy Policy. Notwithstanding anything to the contrary contained in the Privacy Policy, Safepay confirms that Safepay does not store any Payment Information on its system or servers in any manner, whatsoever. Safepay only facilitates the tokenization of the credit/debit card using the Payment Information Customer provides with its Payment Partner.
+8.5 By providing Safepay the Information, the Customer agrees and confirms that it is authorized to share and use the Payment Information provided and Safepay shall not, in any manner, be held liable or responsible for any errors or inaccuracies resulting from the incorrect insertion of Information OR an authorized sharing of the Information on Customer's part.
+8.6 The Customer may be allowed to modify or add new payment instruments (such as credit or debit cards) to their Customer Account. The Customer authorizes Safepay to securely store the details of each new payment instrument as part of the Customer's Payment Information within their account. In the event that multiple payment instruments are added by the Customer, it is required that the Customer select one credit or debit card to be designated as the payment instrument for each subscription plan the Customer subscribes to. Once a payment instrument is selected for a particular subscription, the Customer will not be permitted to change the designated payment instrument during the term of the active subscription.
+8.7 After selecting the preferred payment instrument, the Customer will be automatically directed to a subscription terms page. This page will provide a comprehensive summary of the chosen subscription plan, including details about the designated payment instrument and the associated payment schedule. The Customer is strongly advised to carefully review this summary to ensure its accuracy and confirm that the correct payment instrument has been properly recorded. It is important to note that any errors or inaccuracies resulting from the Customer's incorrect selection of a designated payment instrument will not render Safepay liable or responsible.
+8.8 The Customer may remove their Payment Information from their Customer Account. Please be aware that removing a designated payment instrument from the Customer Account does not cancel or alter any outstanding amounts owed to a Merchant. However, such removal will result in the next payment cycle being unsuccessful, and Safepay will not be responsible for any further actions related to or arising from the Customer's subscription with the Merchant.
+8.9 Any requests for modification or cancellation of the subscription chosen by the Customer from a Merchant are subject to the sole discretion of the Merchant. Safepay does not assume any responsibility or authority concerning these requests. For inquiries or requests related to changes in the subscription, the Customer should directly contact the Merchant providing the services or refer to the Merchant's official website for detailed information and instructions.
+
+## 9. Dispute Resolution:
+
+Although Safepay reserves the right to intervene in disputes between Customer and Merchants concerning payments made through Safepay Services, Safepay is under no legal obligation to do so. Any such intervention shall be at Safepay's sole discretion and does not imply an assumption of responsibility for the outcome of the dispute.
+
+## 10. Security
+
+
+## 11. Disclaimers
+
+11.1 Safepay Services, including all content, software, technology, functions, and materials provided in connection with the same, are provided on an "as is" basis. To the fullest extent permitted by law, Safepay, its directors, employees, affiliates, agents, merchants, and independent contractors (collectively, the "Disclaiming Entities") make no warranties, either express or implied, regarding the Safepay Services, including without limitation, non-infringement, merchantability, or fitness for a particular purpose.
+11.2 The Disclaiming Entities do not warrant that Safepay Services will operate uninterrupted or error-free, nor are they responsible for any service interruptions, including system failures or disruptions affecting payment transactions. Furthermore, the Disclaiming Entities are not liable for the accuracy of payment instrument details or reward program information provided through the services.
+
+## 12. Limitations of Liability
+
+12.1 Under no circumstances shall any Disclaiming Entity be held responsible or liable to the Customer or any third party for any indirect, consequential, special, punitive, or exemplary damages, including, but not limited to, damages for loss of profits, loss of goodwill, loss of use, loss of data, or any other intangible losses, arising out of or in connection with the Safepay Services or any goods, services, or information purchased, received, sold, or paid for through the Safepay Services. This limitation applies regardless of the nature of the claim or the cause of action, whether based in contract, tort (including negligence), or otherwise, even if the Disclaiming Entity has been advised of the possibility of such damages.
+12.2 In no event shall the total cumulative liability of the Disclaiming Entities, arising from or related to these Customer Terms or the use of Safepay Services, exceed the amount of fifteen hundred (1,500) Pakistani Rupees. Both parties expressly acknowledge that this limitation of liability is a fundamental element of the agreement between the parties and that Safepay would not be able to provide Safepay Services on the same terms without this limitation.
+
+## 13. Force Majeure
+
+Additionally, and without limiting any of the foregoing, no Disclaiming Entity shall be liable for any failure or delay in the performance of its obligations under these Paying Customer Terms of Service resulting from any cause beyond its reasonable control. Such causes include, but are not limited to, governmental actions, acts of terrorism, earthquakes, fires, floods, pandemics, epidemics, other acts of God, labor strikes, power failures, internet disruptions, or any other similar events.
+
+## 14. Termination
+
+Safepay may suspend or terminate the Customer's access to Safepay Services if the Customer violates these Customer Terms or for any other reason at its discretion. Upon termination, Customer's access to Safepay Services will be terminated, but any transactions completed prior to termination will remain valid.
+
+## 15. Governing Law
+
+These Customer Terms are governed by the laws of the Islamic Republic of Pakistan.
+
+## 16. Data Privacy
+
+
+## 17. Miscellaneous
+
+Safepay's failure to enforce any provision of these terms shall not be deemed a waiver of that provision. If any part of these terms is deemed invalid or unenforceable by a court, the remaining provisions shall continue to be enforceable to the fullest extent permitted by law.
+
+## 18. Contact Information
+
+[email protected]

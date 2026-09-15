@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafePay Assistant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+        :root {
+            --bg: #0f172a;
+            --surface: #1e293b;
+            --border: #334155;
+            --text: #f1f5f9;
+            --text-muted: #94a3b8;
+            --accent: #6366f1;
+            --accent-hover: #818cf8;
+            --accent-light: rgba(99, 102, 241, 0.1);
+            --user-bubble: #6366f1;
+            --bot-bubble: #1e293b;
+            --danger: #ef4444;
+            --radius: 12px;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html, body { height: 100%; overflow: hidden; }
+        body {
+            font-family: 'Inter', system-ui, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* ── Header ─────────────────────────────── */
+        header {
+            background: linear-gradient(135deg, var(--accent), #a855f7);
+            padding: 0.75rem 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            flex-shrink: 0;
+        }
+        .logo {
+            width: 32px; height: 32px;
+            background: rgba(255,255,255,0.2);
+            border-radius: 8px;
+            display: flex; align-items: center; justify-content: center;
+            font-weight: 700; font-size: 0.95rem; color: white;
+        }
+        .header-text h1 { font-size: 0.9rem; font-weight: 600; color: white; }
+        .header-text p { font-size: 0.7rem; color: rgba(255,255,255,0.8); }
+        .status-dot {
+            width: 7px; height: 7px; border-radius: 50%;
+            background: #22c55e; margin-left: auto;
+            box-shadow: 0 0 6px rgba(34,197,94,0.6);
+        }
+
+        /* ── Chat area ──────────────────────────── */
+        #chat {
+            flex: 1;
+            overflow-y: auto;
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+        #chat::-webkit-scrollbar { width: 5px; }
+        #chat::-webkit-scrollbar-track { background: transparent; }
+        #chat::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+
+        .msg {
+            max-width: 85%;
+            display: flex;
+            flex-direction: column;
+            gap: 0.25rem;
+            animation: fadeIn 0.3s ease;
+        }
+        .msg.user { align-self: flex-end; align-items: flex-end; }
+        .msg.bot { align-self: flex-start; }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(6px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+
+        .bubble {
+            padding: 0.6rem 0.85rem;
+            border-radius: 10px;
+            line-height: 1.5;
+            font-size: 0.83rem;
+        }
+        .msg.user .bubble {
+            background: var(--user-bubble);
+            color: white;
+            border-bottom-right-radius: 3px;
+        }
+        .msg.bot .bubble {
+            background: var(--bot-bubble);
+            border: 1px solid var(--border);
+            border-bottom-left-radius: 3px;
+        }
+        .bubble p { margin-bottom: 0.4rem; }
+        .bubble p:last-child { margin-bottom: 0; }
+        .bubble ul, .bubble ol { padding-left: 1.1rem; margin-bottom: 0.4rem; }
+        .bubble li { margin-bottom: 0.2rem; }
+        .bubble strong { color: var(--accent-hover); }
+        .bubble code {
+            background: rgba(0,0,0,0.3);
+            padding: 0.1rem 0.3rem;
+            border-radius: 4px;
+            font-size: 0.82em;
+        }
+
+        /* ── Typing indicator ───────────────────── */
+        .typing { display: flex; gap: 4px; padding: 0.6rem 0.85rem; }
+        .typing span {
+            width: 7px; height: 7px; background: var(--text-muted);
+            border-radius: 50%; animation: bounce 1.4s infinite;
+        }
+        .typing span:nth-child(2) { animation-delay: 0.2s; }
+        .typing span:nth-child(3) { animation-delay: 0.4s; }
+        @keyframes bounce {
+            0%, 60%, 100% { transform: translateY(0); opacity: 0.4; }
+            30% { transform: translateY(-5px); opacity: 1; }
+        }
+
+        /* ── Welcome ────────────────────────────── */
+        .welcome {
+            flex: 1; display: flex; flex-direction: column;
+            align-items: center; justify-content: center;
+            text-align: center; gap: 0.75rem; padding: 1.5rem;
+        }
+        .welcome .logo-big {
+            width: 48px; height: 48px;
+            background: linear-gradient(135deg, var(--accent), #a855f7);
+            border-radius: 12px;
+            display: flex; align-items: center; justify-content: center;
+            font-weight: 700; font-size: 1.4rem; color: white;
+        }
+        .welcome h2 { font-size: 1.1rem; font-weight: 600; }
+        .welcome p { color: var(--text-muted); font-size: 0.8rem; max-width: 280px; }
+        .suggestions { display: flex; flex-wrap: wrap; gap: 0.4rem; justify-content: center; margin-top: 0.25rem; }
+        .suggestion-chip {
+            background: var(--surface); border: 1px solid var(--border);
+            color: var(--text); padding: 0.4rem 0.8rem;
+            border-radius: 16px; font-size: 0.75rem; cursor: pointer;
+            transition: all 0.2s;
+        }
+        .suggestion-chip:hover {
+            background: var(--accent-light); border-color: var(--accent);
+            color: var(--accent-hover);
+        }
+
+        /* ── Input bar ──────────────────────────── */
+        .input-bar {
+            background: var(--surface);
+            border-top: 1px solid var(--border);
+            padding: 0.6rem 0.75rem;
+            flex-shrink: 0;
+        }
+        .input-wrap { display: flex; gap: 0.5rem; }
+        #input {
+            flex: 1; background: var(--bg); border: 1px solid var(--border);
+            color: var(--text); padding: 0.6rem 0.75rem;
+            border-radius: 10px; font-size: 0.83rem; font-family: inherit;
+            outline: none; transition: border-color 0.2s;
+        }
+        #input:focus { border-color: var(--accent); }
+        #input::placeholder { color: var(--text-muted); }
+        #send {
+            background: var(--accent); color: white; border: none;
+            padding: 0.6rem 1rem; border-radius: 10px;
+            font-size: 0.83rem; font-weight: 500; cursor: pointer;
+            transition: background 0.2s; display: flex; align-items: center; gap: 0.3rem;
+        }
+        #send:hover { background: var(--accent-hover); }
+        #send:disabled { opacity: 0.5; cursor: not-allowed; }
+        #send svg { width: 16px; height: 16px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">S</div>
+    <div class="header-text">
+        <h1>SafePay Assistant</h1>
+        <p>Ask me anything about SafePay</p>
+    </div>
+    <div class="status-dot" title="Online"></div>
+</header>
+
+<div id="chat">
+    <div class="welcome" id="welcome">
+        <div class="logo-big">S</div>
+        <h2>Hi there! 👋</h2>
+        <p>I can answer questions about SafePay's products, features, and integrations.</p>
+        <div class="suggestions">
+            <div class="suggestion-chip" onclick="useSuggestion('What is SafePay?')">What is SafePay?</div>
+            <div class="suggestion-chip" onclick="useSuggestion('How do payment links work?')">Payment Links</div>
+            <div class="suggestion-chip" onclick="useSuggestion('What is Payment Orchestration?')">Orchestration</div>
+        </div>
+    </div>
+</div>
+
+<div class="input-bar">
+    <div class="input-wrap">
+        <input id="input" type="text" placeholder="Type your question..." autocomplete="off" />
+        <button id="send" onclick="send()">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+            </svg>
+        </button>
+    </div>
+</div>
+
+<script>
+    // The API base URL is passed via the iframe src query param,
+    // or defaults to the same origin if hosted on the same server.
+    const params = new URLSearchParams(window.location.search);
+    const API_BASE = params.get('api') || '';
+    const ASK_URL = API_BASE + '/ask';
+
+    const input = document.getElementById('input');
+    const sendBtn = document.getElementById('send');
+    const chat = document.getElementById('chat');
+    const welcome = document.getElementById('welcome');
+    let loading = false;
+
+    // Unique session id so the backend can keep per-conversation memory
+    const sessionId = (crypto.randomUUID && crypto.randomUUID()) ||
+        'sess-' + Date.now() + '-' + Math.random().toString(36).slice(2);
+
+    input.addEventListener('keydown', e => { if (e.key === 'Enter' && !loading) send(); });
+
+    function useSuggestion(text) { input.value = text; send(); }
+
+    function scrollToBottom() { chat.scrollTop = chat.scrollHeight; }
+
+    function addMessage(role, content) {
+        if (welcome) welcome.remove();
+        const msg = document.createElement('div');
+        msg.className = `msg ${role}`;
+        const bubble = document.createElement('div');
+        bubble.className = 'bubble';
+        bubble.innerHTML = role === 'bot' ? marked.parse(content) : '';
+        if (role !== 'bot') bubble.textContent = content;
+        msg.appendChild(bubble);
+        chat.appendChild(msg);
+        scrollToBottom();
+    }
+
+    function addTypingIndicator() {
+        const msg = document.createElement('div');
+        msg.className = 'msg bot'; msg.id = 'typing-msg';
+        const t = document.createElement('div');
+        t.className = 'typing bubble';
+        t.innerHTML = '<span></span><span></span><span></span>';
+        msg.appendChild(t); chat.appendChild(msg); scrollToBottom();
+    }
+
+    function removeTypingIndicator() {
+        const t = document.getElementById('typing-msg');
+        if (t) t.remove();
+    }
+
+    async function send() {
+        const question = input.value.trim();
+        if (!question || loading) return;
+        loading = true; sendBtn.disabled = true; input.value = '';
+        addMessage('user', question);
+        addTypingIndicator();
+        try {
+            const res = await fetch(ASK_URL, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ question, session_id: sessionId }),
+            });
+            const data = await res.json();
+            removeTypingIndicator();
+            if (!res.ok) {
+                addMessage('bot', `⚠️ **Error:** ${data.detail || 'Something went wrong.'}`);
+            } else {
+                addMessage('bot', data.answer);
+            }
+        } catch (err) {
+            removeTypingIndicator();
+            addMessage('bot', '⚠️ **Connection error.** Please try again.');
+        }
+        loading = false; sendBtn.disabled = false; input.focus();
+    }
+
+    input.focus();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,2212 @@
+# Safepay Knowledge Base — Help Scout Documentation
+# Cleaned and structured from safepay.helpscoutdocs.com
+# This is the sole source of truth for the SafePay assistant.
+
+## Dummy card information
+If you want to test payments in either your Sandbox Account, please use the following data so that you (or the holder of the card you are using) are not charged.
+Do not use this on your Production Account.
+## Dummy Card Information Set 1 (Visa)
+- Long card number (16 characters): 5200 0000 0000 1096
+- Expiry Date (5 characters): 03/28
+- CVC code (3 characters): 111
+- First Name: Abdul
+- Last Name: Qudoos
+- Country: Pakistan
+- Street Address: Building 3, Apartment 5, 10th commercial lane, Zamzama
+- City: Karachi
+- Contact Number (12 characters in total): +92 302 1111111
+- Email Address : Your own email address
+Please provide your personal mobile number and email address to see what your customer will receive through conducting a transaction using Safepay on your website.
+This is made-up information that you can use to test in your Sandbox Account or Production Account. This information does not need to be real, but for the numbers, these have to be the same number of characters, so use the examples below to make your life easier.
+### Please Note
+You can’t use the same dummy card number and email more than 7-8 times in a day.
+
+---
+
+## How to make a payment using Safepay
+Safepay Checkout provides customers a simplified and secure checkout experience directly from their merchant's website.
+We've written below some of the most common ways you as a customer will interact with Safepay Checkout. There might be some differences in how the merchant you are buying from has integrated with Safepay. If you have further questions please reach out to your merchant, who will be more than happy to help!
+### Why a payment can fail
+Your online payment can fail for certain reasons. You may have:
+- Insufficient money in your bank account
+- Entered incorrect details/information in the payment checkout
+- Your bank can block an e-commerce transaction. Certain banks require you to enable e-commerce services through your bank account. If your payment fails using your bank account, please contact your bank to enable e-commerce services on your account.
+Normally, you only need to follow these steps to complete your transaction using Safepay Checkout from your merchant's website:
+Step 1: Click on the Safepay Checkout button
+Step 2: Choose which payment channel to use
+- Cards: This will open the card detail page which customers can fill out with their card details to carry out card transactions through Safepay.
+- Accounts: This will open the various payment options available through this payment channel. PayFast and NIFT ePay are financial partners of Safepay.
+- Wallets: This will open the various payment options available through this payment channel (We have enabled Easypaisa for now, stay tuned for more wallet options)
+- Debit & Credit Cards (Master & Visa)
+Step 3: Click on the payment method you want to carry out transaction with. If you choose to pay using easypaisa read this guide .
+Step 4:  Enter your credentials and click make payment
+Safepay will attempt to authorise the transaction. You will receive a one-time-passcode (OTP) from the bank from which you have chosen to make your payment. Normally, the OTP code is received on the mobile phone or email address associated with the relevant bank account.
+### Please note
+Certain banks require you to enable e-commerce services through your bank account. If your payment fails using your bank account, please contact your bank to enable e-commerce services on your account.
+Upon completion of the transaction, you will then receive an email from Safepay confirming and summarising the transaction along with details as to how to contact the merchant.
+This video shows you how customers will pay using Safepay Checkout.
+### Important to note
+The line item in the bank statement associated with the account that was used to make the payment will show up as either:
+- NIFT E-PAY: If you have used the NIFT ePay payment option.
+- OPS Internal Settlement Master Account or PAYFAST-APPS: If you have used the PayFast option.
+Safepay works with NIFT ePay and PayFast to allow you to pay your favorite merchants using bank transfers or mobile wallets.
+For further details on the transaction, you should refer to the email receipt that we send to the email address you have used to complete your transaction. The image above shows the kind of information you will receive in case you need to contact the merchant, or us.
+
+---
+
+## Starting with Safepay: A step-by-step guide
+Ready to start accepting online payments? Read this guide to understand the steps you need to follow to get to that point.
+Important to note
+We are required by our financial partners and the State Bank of Pakistan to gather information from any merchant using Safepay before allowing access to the processing of real payments. You can still test Safepay in sandbox mode (testing environment).
+You should read this guide to understand what documents you will need to prepare and submit to Safepay. These may take you a few days to gather so you should start now!
+Who should read this document? Anyone who wants to start using Safepay. We’ve created this step-by-step guide to provide users of Safepay with a process flow to get them up and running as quickly as possible.
+We go into a lot of detail in this document. If you want to learn more about a certain area please skip to the part of the document which is relevant for you.
+Step 1: Setting up your Sandbox Account
+Step 2: Moving from a Sandbox Account to a Production Account
+Terms used in this document
+If you have further questions which are not answered here, please email us at support@getsafepay.com .
+## Step 1: Setting up your Sandbox Account
+A Sandbox Account allows a user to get familiar with Safepay so that when their application is processed and approved, they can switch to live mode (i.e. their Production Account ) with zero downtime.
+### Sign up to Sandbox
+Please visit our Sandbox website to set up your Sandbox Account. This website is different from our Production website (which you will need to use to create your Production Account later).
+Please provide the following information:
+- Email address: You can sign up with any email address and password. Normally this would be something like admin@<storename>.com or finance@<storename>.com, but there are no restrictions. Your email address must be valid and you must have access to it as we will send an automated email to that email for verification. If you have not received an email from Safepay after signing up please click here .
+- Password: A secure password to authenticate you to the dashboard.
+- Store name: Please provide your business’s name.
+Important to note
+If you want to use Safepay Checkout on different websites, you must create a separate account with Safepay for each website.
+Even if you have been approved for a Safepay Account for one website, for regulatory reasons we need to treat an application to use Safepay on any other website as a separate application. You will have to submit a KYC application in association with any other website in order to be approved for a separate Safepay Account.
+Your Safepay Dashboard will not provide you consolidated information across all websites your have integrated it.
+### What's next in Sandbox?
+A Sandbox Account looks and works exactly the same way as a Production Account except that the money shown in the account isn’t real and test card numbers can be used to simulate payments (click here for sample dummy data to conduct transactions with).
+You can use your Sandbox Account to:
+- View and manage your Sandbox Account.
+- Become familiar with our features by: Integrating Safepay Checkout on your website by choosing the relevant plug-in. You can configure any of our plug-ins with your website through your API Public key and Secret key. You can use our plug-in to test out how the checkout flow works on your website. Make sure you are able to see orders being generated in your system as well as reconcile them with the payment on the Sandbox dashboard. You can access detailed instructions for integrating our WooCommerce plug-in here . You can access detailed instructions for integrating our Shopify plug-in here . You can access detailed instructions for integrating our WHMCS plug-in source code here . For easy installation, you can install our WHMCS plug-in from Marketplace here . You can access detailed instructions for integrating our other plug-ins (Magento 1.9, Magento 2.0 and Opencart) here . You can access instructions for custom code here . Using Quick Links to generate one link invoices. If you are using Quick Links only, you do not need to install our plug-ins on your website. Read this guide to learn more about Quick Links. Observe payment details that you receive from test buyers.
+- See notifications generated by your mock transactions.
+### Important to note
+Any transaction made while you are in Sandbox mode will not be real. Even if a customer manages to make a payment to your through your website while you are integrating a plug-in, this will not be a real transaction . No real money will have left your customer and you will not have received any real money.
+If a customer has somehow paid you while you are still in Sandbox mode, their payment actually hasn’t been made as this is not possible . You should refund your customer's payment from your Sandbox dashboard in any event. Read this guide to learn how to make a refund.
+To avoid mistakenly accepting payments through your Sandbox integration, you can create a demo or testing subdomain for testing (this option is available on WooCommerce) instead of your live website. This way there is no risk that a customer visits your website and makes a payment using Safepay.
+## Step 2: Moving from your Sandbox Account to a Production Account
+After creating your Sandbox Account and becoming familiar with it, set up your Production Account by visiting our Production website .
+### Sign up to Production
+Sign up to create an account in the same way you did for your Sandbox Account. You can either use the same details that you used for signing up to your Sandbox Account or completely different details.
+### Important to note
+Your Production Account is a separate account from your Sandbox Account so you will need to provide details as if you are signing up to Safepay again. Refer to the instructions earlier in this document as to what information you need to fill out.
+### What happens next in Production?
+- When you log-in to your Production Account, you will see a red notification on top of the dashboard asking you to COMPLETE YOUR ONBOARDING PROCESS in order to start accepting live payments.
+- To complete your onboarding process you must complete our Merchant Onboarding Form from your Production Account. To understand in detail how to do this please read this guide .
+- If you have integrated any plug-in with your website through your Sandbox Account, you do not need to repeat this. You will only have to replace your Sandbox keys with your Production keys in your administration panel.
+- While we review your application through our merchant onboarding form, you can do the following: Set up your notifications and customize your store branding and logo. Read this guide to learn how to set up your email addresses and customize your store.
+### When will Safepay contact me?
+We receive many applications to our merchant onboarding form every day from merchants across Pakistan. We aim to respond to all queries within 48 hours but sometimes it can take longer than this. If the provided information is verified, we will contact you either with a request to collect more information or with an email letting you know that your account has been successfully enabled to accept live payments.
+Welcome to Safepay!
+# Terms used in this document
+- Sandbox Account : Our Sandbox Account is simply a demo account. Any transactions conducted through your Sandbox Account are not real. The reason why we provide a Sandbox Account is to provide you with an extensive, secure-test environment where you can test your technical integration with Safepay.
+- Production Account : This is a live account through which you can conduct real transactions.
+- Sandbox keys: Your Sandbox Account is configured with two API keys. Your Sandbox API key is your public key t hat can be shared and displayed. You can find this under Developers >API from your Safepay dashboard in your Sandbox Account. Your Sandbox Secret API key is your secret key and should never be shared. You can find this under Developers>API from your Safepay dashboard in your Sandbox Account.
+- Production keys: Your Production Account is configured with two API keys. Your Production API key is your public key that can be shared and displayed. You can find this under Developers>API from your Safepay dashboard in your Production Account. Your Production Secret API key is your secret key and should never be shared. You can find this under Account>Developers from your Safepay dashboard in your Production Account.
+
+---
+
+## Settlement for all payment channels
+This document explains how settlement of funds normally works through card payments, bank transfers and mobile wallets processed through Safepay. Settlement is the money reaches your bank account that you have linked with Safepay.
+### Important to note
+The dates and timelines provided in this document are provided for information purposes. Due to situations out of our control, such as public holidays, settlement may be delayed. If you have any questions on settlement please reach out to us at support@getsafepay.com.
+To see when a captured transaction will be credited to your Linked Bank Account you can hover over the info icon (i) next to a transaction to see this.
+On the day when settlement in your Linked Bank Account takes place, you will likely receive an SMS message on the mobile phone number you have provided us. This will come from either  Bank Alfalah or Habib Metropolitan Bank depending on the payment channel that is used.
+You should also know the following in advance:
+- Which bank account details you have provided to Safepay where amounts will be settled. To learn more about the type of bank accounts you can link with Safepay read this guide .
+- How to see if your customer has paid you using the Card channel, NIFT channel or the PayFast channel. You can find out by clicking on the payment details on your Safepay Dashboard and scrolling down to Transaction History as shown in this guide .
+- Card payments: When the transaction has been completed by Card payment, it will be labeled as Cards
+- Bank account: When the transaction has been completed by bank account (NIFT or Payfast), it will be labelled as Accounts
+Depending on if your customer has paid you using the Card channel (Cybersource) , Bank (Nift ePay) channel or PayFast channel , the settlement described below will take place.
+Depending on the number of transactions you process in a day through Safepay, settlement will occur in a batch in your account.
+This means that you will see all your Safepay transactions for the previous time period in aggregate, not broken down per transaction. You should use your Safepay dashboard to reconcile payments by your customers processed through Safepay and the amount settled in your linked bank account. You will also receive a settlement report from Safepay which will give a breakdown of settlement per transaction.
+Example: you have processed 5 payments through Safepay on Tuesday of Rs 100 each, the settlement amount in your bank account on Wednesday will appear as 1 entry of Rs 500. This will appear as " CC GL " on your bank statement.
+Day customer pays you
+Day money settles in your account
+(end of next working day)
+Example customer payment timeline
+Example settlement timeline
+Monday
+Tuesday
+22nd March 2022
+23rd March 2022
+Tuesday
+Wednesday
+23rd March 2022
+24th March 2022
+Wednesday
+Thursday
+24th March 2022
+25th March 2022
+Thursday
+Friday
+25th March 2022
+26th March 2022
+Friday
+Monday
+26th March 2022
+29th March 2022
+Saturday
+Monday
+27th March 2022
+29th March 2022
+Sunday
+Monday
+28th March 2022
+29th March 2022
+Day before public holiday
+Next working day
+13th August 2022
+15th August 2022
+Public holiday
+Next working day
+14th August 2022
+(Pakistan Zindabad!)
+15th August 2022
+Depending on the number of transactions you process in a day through Safepay, settlement will occur in a batch in your account.
+This means that you will see all your Safepay transactions for the previous time period in aggregate, not broken down per transaction. You should use your Safepay dashboard to reconcile payments by your customers processed through Safepay and the amount settled in your linked bank account.
+Example: you have processed 5 payments through Safepay on Tuesday of Rs 100 each, the settlement amount in your bank account on Wednesday will appear as 1 entry of Rs 500. This will appear as " AC TRANSFER CR " on your bank statement.
+You will likely also receive an SMS from Bank Alfalah stating funds have been transferred to you (the reason for this is that NIFT ePay uses Bank Alfalah as a bank to hold your money before paying out directly to you).
+Day customer pays you
+Day money settles in your account
+(end of next working day)
+Example customer payment timeline
+Example settlement timeline
+Monday
+Tuesday
+22nd March 2022
+23rd March 2022
+Tuesday
+Wednesday
+23rd March 2022
+24th March 2022
+Wednesday
+Thursday
+24th March 2022
+25th March 2022
+Thursday
+Friday
+25th March 2022
+26th March 2022
+Friday
+Monday
+26th March 2022
+29th March 2022
+Saturday
+Monday
+27th March 2022
+29th March 2022
+Sunday
+Monday
+28th March 2022
+29th March 2022
+Day before public holiday
+Next working day
+13th August 2022
+15th August 2022
+Public holiday
+Next working day
+14th August 2022
+(Pakistan Zindabad!)
+15th August 2022
+Depending on the number of transactions you process in a day through Safepay, settlement will occur in a batch in your account.
+This means that you will see all your Safepay transactions for the previous time period in aggregate, not broken down per transaction. You should use your Safepay dashboard to reconcile payments by your customers processed through Safepay and the amount settled in your linked bank account.
+Example: you have processed 5 payments through Safepay on Tuesday of Rs 100 each, the settlement amount in your bank account on Wednesday will appear as 1 entry of Rs 500. This will appear as " ATM FUNDS TRANSFER " on your bank statement.
+You will likely also receive an SMS from Habib Metropolitan Bank (or Avanza Premier Payment Service ) stating funds have been transferred to you (the reason for this is that PayFast uses Habib Metropolitan Bank as a bank to hold your money before paying out directly to you).
+Day customer pays you
+Day money settles in your account
+(2nd working day)
+Example customer payment timeline
+Example settlement timeline
+Monday
+Wednesday
+22nd March 2022
+24th March 2022
+Tuesday
+Thursday
+23rd March 2022
+25th March 2022
+Wednesday
+Friday
+24th March 2022
+26th March 2022
+Thursday
+Monday (next week)
+25th March 2022
+29th March 2022
+Friday
+Tuesday
+26th March 2022
+30th March 2022
+Saturday
+Tuesday
+27th March 2022
+30th March 2022
+Sunday
+Tuesday
+28th March 2022
+30th March 2022
+Day before public holiday
+2nd working day after
+13th August 2022
+16th August 2022
+Public holiday
+2nd working day after
+14th August 2021
+(Pakistan Zindabad!)
+16th August 2020
+## Settlement details on your Merchant Dashboard
+To see expected settlement timelines for captured transactions on your Merchant Dashboard, you can access this by hovering over the info icon (i) next to a payment of a captured transaction as shown below.
+
+---
+
+## Merchant onboarding form
+In order to activate your Safepay account and accept live payments, you will need to complete our onboarding process. We must gather this information from you to cater to requirements from the State Bank of Pakistan and the financial partners we work with. Any data that you provide us is governed in accordance with our Privacy Policy .
+You can only submit your onboarding documents to us through your Production Account. When you sign in to your Production Account , you will see the following banner on the top. Click the Onboarding button to start.
+## How to fill out the Safepay MOB form
+Important to note
+: This guide is quite long and descriptive. We suggest you read our
+guide on documents that you will need to provide Safepay
+. It normally takes businesses 1-2 weeks to gather and prepare these documents through their legal consultant. For a quick and detailed explanation on how to fill out the Safepay MOB form please refer to the video below.
+## How to fill out the Safepay MOB form (detailed)
+- Business details
+- Customer support details
+- Address information
+- Business information
+- Transaction details
+- Add an individual
+- Add a bank account
+- Document upload
+- Do you want to edit your submission?
+- What happens next
+- ### Business details Name: The name your business is known by. This can be your brand name. Industry: Choose what applies to your business, or is closest to it. Staff size: The number of people working with you. This helps us understand the size of your business. What Safepay services will you use: We have services for different kinds of businesses. To learn more visit our website . Business type: If you are a registered business you will proceed to submit your documents. If you are not registered, you will not be able to submit any documents but we will receive your application and contact you. Legal business name: If your organization is a registered business - it will have a legal business name that is available from its documentation. Registration type: Depending on which choice you make, the documents you upload will change.
+- ### Customer support details General email: We need this email as the primary person to contact in relation to the Safepay Account. You will receive confirmation of your MOB application being submitted at this email address. Support email: We need this email to provide to your customers that pay you using Safepay. Disputes email: We need this email to contact you in relation to disputes raised by customers that pay you using Safepay. Phone: We need this to be able to contact you for our KYC call. Online presence: We need this to be able to verify what you are selling and whether we are able to offer the Safepay services to you.
+- ### Address information Address details: Insert your address details. Is your active address different from your registered address: Sometimes certain offices have a different legal office address from the address where they are operating from. This is usually the case with e-commerce brands or digital franchises.
+- ### Business information How long have you been involved in your business: This helps us determine the appropriate monitoring of transactions associated with you your Safepay Account. Where are your target customers: We need this to understand who your customers are and where they are based. We would expect to see courier receipts to show proof of delivery for previous orders. How do you deliver your goods/services: We need to this to understand how you deliver to your customers to determine and how you handle returns.
+- ### Transaction details Transactions Count: This helps us determine the appropriate monitoring of transactions associated with you your Safepay Account. Once you are live, if this is higher than usual, we would expect that there is some suspicious activity on your Safepay Account. Transactions Minimum: This helps us determine the appropriate monitoring of transactions associated with you your Safepay Account. Transactions Maximum: This helps us determine the appropriate monitoring of transactions associated with you your Safepay Account. Once you are live, if this is higher than usual, we would expect that there is some suspicious activity on your Safepay Account. Average Transaction Size: This helps us determine the appropriate monitoring of transactions associated with you your Safepay Account.
+- ### Add an individual It is required to add any individual who is on the governing board, owns 10% or more or otherwise has significant management control of the company to submit their CNIC.
+- ### Add a bank account Select your business account details where you want your payments processed through Safepay to be deposited. Please read this guide to understand which bank account you can link to Safepay to receive pay-outs.
+- ### Document uploads CNIC: We require this as per our regulatory requirements in relation to owners and managers of the business. Please upload a scanned colour copy of the front and back of any CNIC that is being submitted.
+- Bank maintenance certificate: Read this guide to understand what kind of bank account can be linked to Safepay to receive pay-outs.
+- NTN and business age: We need this to be able to conduct our searches of the relevant authorities as to your business.
+- Business-specific documents: Depending on your business registration type, the documents that you will need to upload to Safepay will be different. Please read our guide on documents that you will need to provide Safepay to see which documents will be relevant for you to upload. Below is an example for a submission made for a private limited company.
+- Submit your documents: Phew! Now that you are all done all you have to click is submit like below after you receive your application summary. Once you have submitted your MOB application, you will receive an acknowledgment of receipt at the email address provided as your general email as part of the onboarding.
+### Do you want to edit your submission?
+As long as your account application is not approved, you can make amendments to your MOB form by simply accessing the form through your production account as you did in the first place
+For Example - You want to connect a different bank account
+You can simply click on the "Change bank" button
+Select the correct bank that you wish to add
+Add details of the bank account
+Click Continue to the next section
+As you have changed your bank now you need to upload the updated Bank maintenance certificate as well
+As your application was already submitted you don't need to re-submit the file, you can simply inform us to check for the changes that are made by emailing us at support@getsafepay.com.
+- ### What happens next?
+You will receive an email to the email address provided in your MOB form stating that your application has been submitted like below. You can access and update your MOB submission at any time that you like. It normally takes us 2-3 business days to review an application and reach out to you over email.
+
+---
+
+## What bank account to link to Safepay
+The bank account you link to Safepay depends on how your business is registered in Pakistan.
+At the time of on-boarding with Safepay we will require your bank account details. We need this in order to settle that account with the net transaction amount processed using the Safepay Services. Please note that your linked bank account will be credited with funds after deduction of Safepay charges.
+### Please note
+We also require a validly issued bank account maintenance certificate from your bank with certain information available within it so we can verify the account to which you will be making transfers
+Business type
+Bank account
+Sole-proprietor
+- Sole - proprietor account (under name of sole - proprietor)
+Partnership
+- Partnership account (under name of partnership)
+Companies
+- Company account (under the name of the company)
+## Bank account maintenance certificate
+You can receive a bank account maintenance certificate from the branch of the bank with which your account has been opened. You should contact your branch manager (or branch operations manager) over the phone or email to arrange this before appearing at the bank.
+In our experience, you should be able to receive such a certificate within 1-2 business days. Ask your bank to provide you both a hard (printed) and soft (electronic) copy. Once you have received the soft copy please forward this to support@getsafepay.com with a small note as to the business you are applying to Safepay with.
+Each bank in Pakistan has different formatting for a bank account maintenance certificate. However, all certificates will usually have the following information. We require this information to approve your Safepay Account, and a bank account maintenance certificate is the securest way for us to validate this.
+Notes:
+Note
+Reason
+1
+Reference number corresponding to internal bank records.
+We need this for any correspondence we might have with  your bank
+2
+The certificate should be issued within the last 4 weeks before
+you submit your KYC documentation to Safepay
+3
+We need to know the name under which the account
+has been created.
+- Proprietors: We expect to see the name of the proprietor
+- Partnership: We expect to see the name of the partnership
+- Company: We expect to see the name of the company
+4
+We need to see the account number to update our systems
+to handle transfers made out to you
+5
+We need to know the period of time since which the account
+has been opened
+6
+Name of the account - for reference purposes
+7
+IBAN (International Bank Account Number) - for reference purposes
+8
+Bank and branch name - for reference purposes
+9
+Status - Active or dormant. We only allow transfers to active accounts
+10
+Nature - Current account or savings. We expect to see a current account
+11
+Depending on the business type different information may be provided
+12
+For authentication and verification purposes
+13
+For authentication and verification purposes
+14
+For authentication and verification purposes
+
+---
+
+## What is Safepay?
+Safepay helps businesses in Pakistan get paid online.
+Safepay partners enjoy some of the best online payment success rates and customer support in Pakistan. That's why over 250 partners and counting - including All My Tech, Faisal Fabrics, Flashsale, Nerdpapers and Flame Hosting - use Safepay as their trusted payment gateway.
+In 2022 Safepay received pilot operations license from the State Bank of Pakistan. Click here to read more.
+Integrating with Safepay in sandbox mode is absolutely free, however, this only lets you conduct test transactions. To start accepting actual payments in production mode you must comply with our Know Your Customer policy . Please read this to understand the kind of information we need on you and your business to onboard you to Safepay.
+## Want to see Safepay in action?
+Safepay offers a variety of products for our partners including Connect , Quick Links and Checkout , each with their own use cases.
+- Safepay Connect provides partners with a faster, easier way to get paid through Safepay. Just share your very own personal (getsafepay.com/connect/me/your-username) with others, and they can send you money for any reason. They don’t have to know your email address or mobile phone number, or even have a Safepay account. They can just tap on your link, go to your Safepay.Me, type in the amount, and send the money. Checkout our own Safepay Me link and if you're inclined make a donation to Indus Hospital!
+- Safepay Quick Links provides partners with a unique URL that's designed to get you paid. Partners can login to their dashboard and easily create a Quick Links by choosing an amount, currency and adding a note to describe what the payment is for. Once created, just share the unique link with your clients or customers and they can complete the payment from anywhere in the world. Whether you’re a freelancer looking to bill clients, a merchant trying to accept up front payments, or a business trying to avoid hefty fees and unfair foreign exchange rates, Quick Links, gives you the flexibility to get paid on your terms.
+- Safepay Checkout is the easiest and most secure checkout solution in Pakistan. Partners can install it on their e-commerce stores in under 30 minutes through our pre-built plugins (available for Wordpress, OpenCart and WHMCS). Partners can also integrate Checkout in their own websites with our Javascript SDK . Safepay Checkout makes it easy for shoppers to pay the way they want, with an Intelligent Payment Button that intelligently present the most intuitive checkout flow engineered to get you paid while keeping your customers secure. Take our Checkout Demo for a spin and if you're feeling up to it, make a donation to Indus Hospital
+### Please Note
+Our demo is live, meaning that real money will be withdrawn from your account, so please choose an amount you can afford to give away 🙂
+## Start accepting payments with your free Safepay account
+Get started with Safepay today with a free account by creating a sandbox account for testing payments and a production account when you're ready to go live.
+You can create your two accounts here:
+- Sandbox Account
+- Production Account
+
+---
+
+## List of Documents you need to provide Safepay
+As a regulated entity, we collect certain documents from you to satisfy the requirements of State Bank of Pakistan and other financial partners and also protect customers that use Safepay to make their payments.
+Depending on your business type, you must provide the following documents:
+- Sole Proprietorships (registered or unregistered)/ Small Businesses and Freelancers
+- Private/Public Limited Companies (including single member companies)
+- Partnerships
+- Limited Liability Partnerships
+- NGOs/NPOs/Charities/Trusts
+- Government/Semi Government/Autonomous Bodies (incorporated under an act of Parliament)
+For information on how we handle your data please read our Privacy policy . If you would like to understand more about why we require these documents, please read this regulation from the State Bank of Pakistan.
+## Sole Proprietorships (registered or unregistered)/ Small Businesses and Freelancers
+S.No.
+Document
+Details
+-
+CNIC/Passport
+Scan of the original and valid applicable identity document of the sole proprietor. CNIC (front and back) for Pakistani national or Passport for foreign national.
+-
+Bank Account Maintenance Certificate
+Scan of the certificate for a bank account opened under the name of the proprietorship or proprietor (no more than three months old from the time of submission).
+-
+Taxpayer Registration Certificate
+Scan of the valid and original NTN certificate issued by FBR.
+## Private/Public Limited Companies (including single member companies)
+S.No
+Document
+Details
+-
+Certificate of Incorporation
+A scan of the SECP certified true copy of the certificate of  incorporation of the Company.
+-
+Form I/Form A
+A scan of the SECP certified true copy of the incorporation application (Form 1/II) for a company less than a year old from the date of submission and Form A for a company more than one year old.
+-
+CNICs/Passport
+Scan of the original and valid applicable identity document of all directors, shareholders (including UBOs). CNIC (front and back) for Pakistani national or Passport for foreign national.
+-
+Bank Account Maintenance Certificate
+Scan of the certificate for a bank account opened under the name of the company (no more than three months old from the time of submission).
+-
+Taxpayer Registration Certificate
+Scan of the valid and original NTN certificate issued by FBR for the company.
+## Partnerships
+S.No.
+Document
+Details
+-
+CNICs/Passports
+Scan of the original and valid applicable identity document of all partners. CNIC (front and back) for Pakistani national or Passport for foreign national.
+-
+Bank Account Maintenance Certificate
+Scan of the certificate for a bank account opened under the name of the partnership (no more than three months old from the time of submission).
+-
+Taxpayer Registration Certificate
+Scan of the valid and original NTN certificate issued by FBR for the partnership.
+-
+Partnership Deed
+Scan of the original partnership deed duly notarized by notary public.
+## Limited Liability Partnerships
+S.No.
+Document
+Details
+-
+CNICs/Passports
+Scan of the original and valid applicable identity document of all partners. CNIC (front and back) for Pakistani national or Passport for foreign national.
+-
+Bank Account Maintenance Certificate
+Scan of the certificate for a bank account opened under the name of the partnership (no more than three months old from the time of submission).
+-
+Taxpayer Registration Certificate
+Scan of the valid and original NTN certificate issued by FBR for the partnership.
+-
+LLP Form III
+Scan of the certified copy of the Form III i.e. the application for incorporation filed with SECP.
+## NGOs/NPOs/Charities/Trusts
+S.No.
+Document
+Details
+-
+CNICs/Passports
+Scan of the original and valid applicable identity document of all members of the Governing Body/Board of Directors/Trustees/Executive Committee, as applicable and the authorized signatory (if different from member). CNIC (front and back) for Pakistani national or Passport for foreign national.
+-
+Bank Account Maintenance Certificate
+Scan of the certificate for a bank account opened under the name of the NGO/Charity/Trust (no more than three months old from the time of submission).
+-
+Certificate of Incorporation/ Registration or Instrument of Trust
+A scan of the certified true copy of the Certificate of Incorporation or approval/license issued by SECP to form an NGO under Section 42 of the Companies Act 2017 or attested copy of the Instrument of Trust (Trust Deed), as applicable.
+-
+Form II or Form A
+A scan of the SECP certified true copy of the incorporation application (Form II) for an NGO who’s incorporation age is less than a year from the date of submission and Form A for an NGO more than one year old.
+-
+Annual Audited Accounts
+A scan of the latest annual audited accounts of the NGO.
+-
+Taxpayer Registration Certificate
+Scan of the valid and original NTN certificate issued by FBR for the NGO.
+## Government/Semi Government/Autonomous Bodies (incorporated under an act of Parliament)
+S.No.
+Document
+Details
+-
+CNICs/Passports
+Scan of the original and valid applicable identity document of all members of the Governing Body/Board of Directors/ Executive Committee, as applicable OR the authorized signatory. CNIC (front and back) for Pakistani national or Passport for foreign national.
+-
+Bank Account Maintenance Certificate
+Scan of the certificate for a bank account opened under the name of the body (no more than three months old from the time of submission).
+-
+Registration Documents
+A scan of the certified true copy of the Certificate of Registration and a certified list of the organization’s governing body and executive body members.
+-
+Taxpayer Registration Certificate
+Scan of the valid and original NTN certificate issued by FBR for the body.
+
+---
+
+## Website checklist
+We want to make online shopping in Pakistan more secure and trustworthy.
+This page provides all details of what your website needs in order to get approved to accept payments through Safepay. These requirements have been set by us to in order to ensure compliance of standards set by the State Bank of Pakistan and the card companies and other entities associated with the Safepay products. In addition thereto, complying with these requirements will also help you in reducing the risk of customer confusion and disputes.
+By creating a Safepay account you agree that you will display the following information on your website (please see Clause 11.4 of our Safepay Services Agreement which you agree to by creating an account with Safepay).
+1. Contact Information :
+Easy communication is key to providing good customer service and preventing misunderstandings and disputes. You need to make sure your customers have multiple ways to contact you. You website must display your contact information such as business address, email and phone number for customer service support. In case of international delivery of goods and services both local and internationally accessible telephone numbers must be provided.
+Example: https://www.sindhcrafts.com/contact_us/
+2. Website Policies:
+a) Terms and Conditions
+You website must display the terms and conditions of use of the website in a conspicuous manner for the paying customers to have easy access and visibility. Ideally, there needs to be a separate page on your website dedicated to this. Your Terms and Conditions must mention your legal business name and your registered business address and your shop/office address (if different from the registered address).
+We have also created a sample Terms and Conditions document for you, please refer to it here.
+b) Privacy Policy
+You website must have a privacy policy providing clear descriptions of how personal data is collected and processed by you. We have created a sample privacy policy for you, please refer it here.
+c) Complaints Handling Mechanism
+Your website must mention the complaints handling mechanism so your customers can reach out to you with complaints. This will prevent disputes and misunderstandings. Your complaint-handling mechanism should be publicly disclosed on your website and easily accessible to your customers. What we require, at minimum is the following:
+• How a customer can contact you [email address] and [contact number];
+• How long it will take you to resolve any dispute / provide a solution to the dispute.
+d) Shipping and Cancellation
+Your website must display the conditions of shipping (local and international both) of orders and also whether you allow your customers to cancel any order before delivery. The approximate timelines for shipping and also cancellation must be mentioned.
+e) Refund, Returns and Exchange
+Your website must display the conditions related to refunds, returns and exchange of products or services. Turnaround time for refunds is mandatory.
+We have created a document providing sample policies for complaints, shipping, cancellations, returns/refunds and exchanges, which you can refer here.
+3. Description of Goods:
+Products prices, currencies, and membership packages must be clearly described on the website.
+Example: https://karachicandlecompany.com/collections/all-products/products/motia-noir
+5.  Prohibited Content:
+One of the main reasons why we reject applications to use Safepay is because your website is deficient or misleading in some regard. This includes things like:
+• Using stock images - you should use images that reflect the goods that you are selling.
+• Displaying images of products that have copyright material (for example, if you are selling watches and are showing this by displaying an image of a well-recognized brand such as Rolex). Unless you are selling a genuine Rolex, you should not be displaying an image of a Rolex on your website.
+• Not having terms and conditions.
+• All pages and links on your website should be working.
+• Not having a return or refund policy that is customized for your website and the items that you are selling (for example, if you are selling perishable goods like fresh food or are selling video content). If you are selling services, your return and refund policy should cover the situation where your customer is not satisfied with the service that they have received from you.
+• Making reference to another country of domicile - for example, stating that you have a registered address outside of Pakistan if you do not actually have one. In any event, you must display that your business is based in Pakistan as explained above.
+• Displaying dummy testimonials from customers on your website - for example, testimonials from individuals in different countries when you only fulfil within Pakistan.
+• Not displaying your portfolio on your website - if you are a web development agency or digital marketing agency, you should be able to display this on your website or send this to us at Safepay so that we are able to authenticate your business.
+• Contact information (contact number and electronic mail) must be prominently displayed on the website.
+
+---
+
+## What is a Sandbox Account?
+A Sandbox Account allows a user to get familiar with Safepay so that when their application is processed and approved, they can switch to live mode (i.e. their Production Account ) with zero downtime.
+### Sign up to Sandbox
+Please visit our Sandbox website to set up your Sandbox Account. This website is different from our Production website (which you will need to use to create your Production Account later).
+### Error signing in?
+You may have already signed up at www.getsafepay.com . This would have created a production account (through which when approved you will accept live payments).
+You must create a new account in sandbox at our sandbox website ( sandbox.api.getsafepay.com ). This is a separate account which you need to set up separately. You cannot log-in to an account in sandbox if you have not signed up separately for this.
+So sign up for a new account on sandbox.api.getsafepay.com .
+Please provide the following information:
+- Email address: You can sign up with any email address and password. Normally this would be something like admin@<storename>.com or finance@<storename>.com, but there are no restrictions. Your email address must be valid and you must have access to it as we will send an automated email to that email for verification. If you have not received an email from Safepay after signing up please click here .
+- Password: A secure password to authenticate you to the dashboard.
+- Phone number: Please make sure your phone number is no longer than 10 digits.
+- Business name: Please provide your business’s name.
+- Business website: If you've entered a URL, please make sure it has either http or https written before it.
+### What next in Sandbox?
+You should now have access to your Sandbox Account. A Sandbox Account looks and works exactly the same way as a Production Account except that the money shown in the account isn’t real and test card numbers can be used to simulate payments (click here for sample dummy data to conduct transactions with).
+Creating a Sandbox Account allows our users to learn how our different products work. There will be a red banner on your dashboard after you log-in saying that you are in a test environment.
+You can use your Sandbox Account to:
+- View and manage your Sandbox Account.
+- Become familiar with our features by: Integrating Safepay Checkout on your website by choosing the relevant plug-in. You can configure any of our plug-ins with your website through your Sandbox API key and Secret key . You can use our plug-in to test out how the checkout flow works on your website. Make sure you are able to see orders being generated in your system as well as reconcile them with the payment on the Sandbox dashboard. Read this guide to learn about other features in our merchant dashboard. You can access detailed instructions for integrating our WooCommerce plug-in here . You can access detailed instructions for integrating our other plug-ins (Magento 1.9, Magento 2.0 and Opencart) here . You can access instructions for custom code here . Using Quick Links to generate one link invoices. If you are using Quick Links only, you do not need to install our plug-ins on your website. Read this guide to learn more about Quick Links. Using Safepay Connect to accept payments. Observe payment details that you receive from test buyers.
+- See notifications generated by your mock transactions.
+### Important to note
+Any transaction made while you are in Sandbox mode will not be real. Even if a customer manages to make a payment to your through your website while you are integrating a plug-in, this will not be a real transaction . No real money will have left your customer and you will not have received any real money.
+If a customer has somehow paid you while you are still in Sandbox mode, their payment actually hasn’t been made as this is not possible . You should refund your customer's payment from your Sandbox dashboard in any event. Read this guide to learn how to make a refund.
+To avoid mistakenly accepting payments through your Sandbox integration, you can create a demo or testing subdomain for testing (this option is available on WooCommerce) instead of your live website. This way there is no risk that a customer visits your website and makes a payment using Safepay.
+
+---
+
+## How secure is Safepay?
+Safepay is a PCI-certified, auditor-certified, service provider. We strive to get the highest certifications possible whenever required to ensure the security and stability of our systems in order to give our partners and their customers the peace of mind they need when making purchases online. All connections to our services are forced to happen over HTTPS using TLS 1.2 (SSL). We use HSTS to ensure browsers interact with Safepay only over HTTPS.
+## Card Information
+Card details are encrypted using AES-256 GCM while the decryption keys are stored on a separate machine. As such, cards are not stored anywhere on our servers or our databases. They are only used as passthrough values when forwarding them to our partner service providers. They are never decrypted on a disk or stored as plain numbers. The only action our systems can take is to request that card details be sent to a service provider.
+## Fraud Prevention
+Safepay has developed an internal decision support system that uses intelligent rules to determine the risk factor of a transaction or customer and blocks payment from being made if it does not pass the necessary checks. This decision is based on a combination of multiple factors such as geolocation, IP addresses, purchase and behavior history, and so on.
+Additionally, Safepay relies on battle-tested software provided to us by Cybersource in the form of a Decision Manager and device fingerprinting tool that adds an additional layer of security to transaction processing. We're constantly at work developing processes for identifying fraud patterns to improve our Fraud Prevention System.
+Check out these resources to learn more:
+1. . Payment Card Industry (PCI) Executive Report
+2. Payment Card Industry (PCI) Technical Report
+3. Self-Assessment Questionnaire D and Attestation of Compliance for Service Providers
+4. Attestation of Compliance for Self-Assessment Questionnaire D –  Service Providers
+- Safepay ASV Scan Q3 2026
+
+---
+
+## New Shopify integration
+This guide is for merchants that want to integrate the new Safepay payment gateway on their Shopify store. This guide explains how you can easily integrate Safepay into your Shopify store so that your customers can pay you securely and easily through your website.
+### Important note
+If you have integrated Safepay on your Shopify store previously, please make sure you uninstall the old Safepay payment gateway so that your new integration works smoothly and does not confuse your customers at checkout. You can learn how to uninstall your previous Safepay integration from your Shopify store at the end of this guide.
+### Pre-requisites
+Before installing the new plugin for Shopify please make sure you have gone through our guide on how to set up Safepay and have completed the following steps:
+- Created your Sandbox Account and know how to find your Public API Key and Sandbox Secret Key, read this guide .
+- Created your Production Account and know how to find your Public API Key and Production Secret Key, read this guide .
+- Activate your Webhook Secret Key . To learn more about how to activate your Webhook Secret Key , read this guide .
+### Keep your Webhook Secret Key safe
+Your Webhook Secret Key is used to sign all transactions to ensure that each payment is unique and valid. Never share this with anyone, not even with Safepay.
+## Installing the plugin
+- Visit the Safepay Checkout Shopify app page from this link to install the app and click Add app as shown in the image below.
+- You will be redirected to a Settings page where you can configure the plugin by setting your API keys.
+- You can find your API public and secret key by signing up to your sandbox and production Safepay merchant dashboard account & then navigating to the Developer page like below:
+- Once this is done, click Continue and you will be redirected to the Settings page for the Safepay app on your Shopify Admin Dashboard.
+- You can manage the Safepay app status from the Settings page by clicking on Deactivate Safepay to disable Safepay checkout. for your store to process payments. Please note that your keys should remain configured for the plugin to work.
+- You can also check the Enable Test Mode checkbox to use the plugin in test mode (use your test keys to process transactions. Remember, in test mode, no real money is used)
+- You can untick Enable test mode button when you want to use App in live mode, this should only be done once your account is approved.
+- To update/change your API keys, you can click on the Manage button and you will be redirected to the Settings page.
+There are a few things to consider on this page:
+- Account Information: Contact integrations@getsafepay.com if there is any issue while performing integration.
+- Accepted Payments: This does not affect Safepay Checkout. Regardless of which options are checked and which ones aren’t, Safepay currently only supports Bank account transfers through Payfast and NIFT payment channels.
+- Test Mode: If you enable test mode, transactions will be simulated using Safepay’s sandbox environment. No real money will be deducted from your or your customer's account and any orders placed while your store is on Test Mode should be treated as test orders.
+## Reconciliation
+When a customer places an order on your Shopify store and pays through Safepay, you should reconcile the payment with your Safepay dashboard. On your Shopify admin, when you go to view a specific order you will most likely see something like this:
+- The first thing to notice is whether or not the order is a Production or Test order. If you have enabled Test Mode for Safepay, then all orders will be test orders and you will see a yellow notification on top.
+- If you scroll down to the Order Timeline you will see something like this:
+- If you click this line, it will expand to provide you with all the details Shopify collected for this order.
+### Note
+Test payments for test orders will show up on your Safepay sandbox dashboard while Live payments for live orders will show up on your Safepay production dashboard.
+- The Payment unique reference can be found under the field Payment. This field is also shown as Order ID on your Safepay merchant dashboard
+## Finishing up
+- If you have enabled Test Mode while integrating Safepay remember to disable this after you are done with the integration and are happy with this. You can see how to do this in the Installing the Plug-in section above.
+- If you’ve made it this far then your store can now accept payments using Safepay.
+- Click here to navigate to our demo Shopify store and make a test transaction
+### How to uninstall the old Safepay payment gateway
+If you have the old payment gateway, you can deactivate this (and uninstall it if you wish) using the following steps:
+1. Log in to your Shopify Admin Dashboard and click on Settings on the bottom-left of your screen
+2. On the menu on the left side, click on Payments . Then under Supported Payment Methods , click on Add Payment Methods On the menu on the left side, click on Payments . Then under Supported Payment Methods , locate the old Safepay payment method
+3. Click on the Manage button
+4. On the menu on the left side, click on Payments . Then under Supported Payment Methods , click on Add Payment Methods At the bottom of the payment method information, click on the Deactivate Safepay button
+5. After this is done, an Uninstall Safepay button shows up. You can also click on this if you wish to completely uninstall the old Safepay payment method.
+Please note that deactivating the old gateway also removes it from your Shopify checkout, so your customers will not see it when they want to pay in your store.
+### Important to note
+Safepay can only process payments in PKR so please make sure your store is configured to accept payments in only this currency.
+
+---
+
+## Safepay fee breakdown
+Our founding principle is to be completely transparent about our pricing model with our merchants. Across all our payments channels and including all of our supported currencies, we charge the same transaction fee. In the interest of transparency, we are providing the community with a breakdown of Safepay's fees. We believe that in the long run this is a small price to pay for accepting major forms of payment from customers worldwide. We guarantee that there are no hidden fees, no yearly fees and no minimum balance to maintain in order to use Safepay.
+Here is the breakdown of our transaction fee:
+# Card based payments
+The fee that Safepay charges per transaction is based off of the expense Safepay has to bear for multiple business partners and stakeholders to carry out your transactions successfully. We charge 2.9% + Rs30 (Exclusive of tax) for Domestic transactions and 3.2% + Rs30 (Exclusive of tax) for International Transactions.
+The fee that Safepay charges is further broken down into the following heads:
+- Cybersource fee (USD): Cybersource fee is on a API call level. Every API call that is made to carry out a transaction has a payable charge to it which is beared by Safepay. This mean even in cases of failed transactions, Safepay will be charged.
+- Card Scheme fee (USD): Card scheme (Visa/Mastercard) charges us on two levels: Per transaction fee Quartely BIN usage fee (Bank charge for sponsoring BIN)
+- Payment processor fee (USD): Payment processor charges us with slab rates where there is a fee associated with transaction volume. Each transaction has a fee that the payment processor charges and is payable by Safepay.
+- Merchant settlement bank: The merchant settlement bank (bank that settles merchants their amount) has a certain percentage that they deduct per transaction.
+- Interchange fee: Interchange fee is charged by card schemes based on the type of card used by your customer. This fee changes per card.
+- Tax: Safepay is responsible to pay tax on all the payments it make to its business partners plus any revenue generated. Safepay tax breakdown is given below: Non-resident tax: This is the tax we pay on invoiced payments to our Non-resident (Out of Pakistan) business partners like Cybersource. Resident tax: This is the tax we pay on invoiced payments to our resident(in Pakistan) business partners like Euronet (payment processor) and UBL. FED/Sales tax: This is the tax we pay on the fee that we charge per transaction
+
+---
+
+## How to set up Safepay Checkout for Shopify
+#### Note: There is a new version of this article available. Please read the updated guidehere.
+
+---
+
+## Error codes for bank transfers and wallet payments
+We aim to provide as much information to merchants in relation to the online payments they process through us. Please read our guide on the Merchant dashboard and Payment details to learn more about what types of information we provide.
+This article provides information in relation to the various codes that appear in relation to a transaction that goes through your system depending on the payment channel that your customer chooses (see below).
+Channel: Bank channel
+Channel: PayFast channel
+S.No
+Code
+Explanation
+Code
+Explanation
+1
+2
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+000
+001
+002
+003
+004
+005
+006
+007
+008
+009
+010
+011
+012
+013
+014
+015
+016
+017
+018
+019
+021
+022
+023
+024
+025
+026
+027
+028
+029
+030
+031
+033
+050
+055
+058
+059
+060
+062
+063
+066
+067
+069
+076
+088
+095
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+115
+116
+117
+118
+119
+120
+121
+122
+124
+125
+126
+127
+128
+129
+131
+132
+134
+135
+157
+199
+200
+210
+999
+Contact us with the code references on the left and we will inform you of what it means
+00
+001
+002
+106
+3
+13
+14
+41
+42
+55
+75
+79
+97
+126
+423
+801
+802
+803
+804
+805
+806
+807
+808
+809
+810
+811
+812
+813
+850
+851
+9000
+999
+Contact us with the code references on the left and we will inform you of what it means
+
+---
+
+## Customer support (Old)
+Note: This document has been updated. To read the updated document please read
+here.
+This guide describes how you can contact Safepay for support (either while onboarding, integrating or for information on your payments).
+This guide covers the following:
+- Ways to contact Safepay
+- How Live Chat Support works
+- Support hours
+## Ways to contact Safepay
+You can contact us through :
+- Live Chat Support through your Sandbox and Production account through your merchant dashboard
+- By email at support@getsafepay.com
+## How Live Chat Support works
+When you reach out to us through our Live Chat Support, our customer support team will get in touch with you instantly. Our support team is here to answer questions you may have relating to Safepay, our services and anything related to your onboarding.
+To contact our customer support you will need to:
+- Login to your Safepay merchant dashboard .
+- Go to the Help section at the top right of your dashboard screen as shown below.
+- Click on the Live Chat button at the bottom right as shown below.
+- Click on the chat icon in the bottom right corner to get connected to our customer support directly.
+Note: We normally expect to receive questions relating to the following:
+- What documents you need to provide to onboard with Safepay: We will provide you with information like what is available in this guide . We will also provide you with a video to explain how to fill out our merchant onboarding form.
+- How to start with Safepay: We will provide you with information like what is available in this guide . We will also provide you with a video to explain how to start off with.
+- How does Safepay settle a merchant (when does money reach your bank account): We will provide you with information like what is available in this guide.
+While we try to answer all questions we are asked, we are not able to provide you information on where the best pakoras in town are.
+- Following any chat with our Live Support you are able to: Download the transcript of the chat Start another chat or go back to your previous chats
+Note: Currently Live Chat Support is available from your merchant dashboard . In case you do not have a Sandbox Account or Production Account with Safepay, contact us for assistance or sign up by reading this guide .
+Support Hours
+We are available over live chat from 9AM - 5PM from Monday to Friday. There might be occasions like a public holiday or a technical glitch where our Live Chat Support might be unavailable, but you can always leave us a message and we will get back to you.
+
+---
+
+## How to make a payment using Quick Links
+Quick Links provide you a way to pay for the business you are buying from without paying through their website. You can pay them directly from any device that allows you to open a browser (like Chrome, Safari, or Internet Explorer) - you just need your bank account details in hand.
+We've written below some of the most common ways you as a customer will interact with a Quick Link. There might be some differences in how the merchant you are buying from has sent you a Quick Link (they may send you the Quick Link through Whatsapp for example, or through a separate invoice or email).
+If you have further questions please reach out to your merchant, who will be more than happy to help!
+Normally, you only need to follow these steps to complete your transaction using any Quick Link that a merchant has sent you.
+### Step 1: Click on the Quick Link that has been sent to you
+- Let's assume your merchant has sent you a Quick Link through Whatsapp like below (remember that they can send this to you through any medium like email, Instagram, etc):
+### Step 2: Complete the secure popup window which opens
+- Sometimes an error may occur when you click on the link and no redirection as shown below will occur. In this case, please copy and paste the link into a different browser window (ideally a private window on Safari or an incognito window on Chrome).
+### Step 3: Select Payment Channel
+Choose which payment channel to use (depending on who you have a bank account open with)
+Safepay offer multiple payment channels
+Bank Transfer
+Credit / Debit Cards
+Wallet Payment
+### Step 4: Enter your details
+- Safepay will attempt to authorize the transaction. You will receive a one-time-passcode (OTP) from the bank from which you have chosen to make your payment. Normally, the OTP code is received on the mobile phone or email address associated with the relevant bank account.
+- Upon completion of the transaction, you will then receive an email from Safepay confirming and summarising the transaction along with details as to how to contact the merchant.
+### Important to note
+### The line item in the bank statement associated with the account that was used to make the payment will show up as either: Safepay works with NIFT ePay and PayFast to allow you to pay your favorite merchants using bank transfers or mobile wallets. For further details on the transaction, you should refer to the email receipt that we send to the email address you have used to complete your transaction. The image above shows the kind of information you will receive in case you need to contact the merchant, or us.
+
+---
+
+## How to verify you are on an official Safepay webpage
+### How to determine if you are really on the official Safepay website:
+Safepay will always serve its content through HTTPS over SSL. Furthermore, Safepay has two official domains that it exposes to its merchants and their customers. Those domains are getsafepay.com and getsafepay.pk . However, Safepay also has three additional subdomains that are attached to our main domain. These subdomains are:
+- api.getsafepay.com
+- sandbox.api.getsafepay.com
+- dev.api.getsafepay.com
+To ensure that your browser is always pointing to an official Safepay domain we recommend the following steps:
+#### Check the URL and SSL certificate on your browser
+To verify that you are actually on Safepay's website, you can check that the website is being served over HTTPS by looking out for a green lock next to the URL of the website. Safepay's pages all have an SSL certificate, which you can inspect by clicking on the lock. It is typically displayed with a prominent green banner or a grey lock symbol before the actual URL. Here is what it looks like on common browsers:
+#### Chrome:
+#### Safari:Firefox:Always type the URL in your browser
+Always type the URL (website address, for example, www.getsafepay.com ) rather than opening a link from another website or through an email. Please study the link before opening it. If there is anything fishy or suspicious, don’t proceed as clicking it might redirect you to a phishing site. Be suspicious if you receive an email supposedly from Safepay that asks you to verify your account or for personal information. Safepay doesn't do that and will never ask you for your bank balance, PIN code, password, or any other secure information. Don't use the link to the Safepay website which may be in the email. To check your account, always type in the URL in the address bar.
+Double-check the URL before clicking any link by hovering your cursor over it and looking at the bottom left corner of your screen where the URL is displayed. Determine if the Safepay address in your browser is the actual Safepay address. Sometimes phishing addresses look extremely authentic, but if you inspect closely it will reveal that instead of it may be using .net or .org instead of .com (the official Top Level Domain)
+### How to report scams or fishy websites
+We take attempts by third parties to use our brand name to create confusion and conduct illegal activities seriously. Safepay is built on the trust placed in us by our community. We have a zero-tolerance policy and have established procedures to escalate this to the relevant authorities immediately. We also require your help. If you notice anything suspicious relating to Safepay on any websites, emails, or marketing materials, please email us at admin@getsafepay.com .
+
+---
+
+## What are the daily transaction limits on Safepay?
+Merchants can perform the following transactions using Safepay:
+- Singular transaction limit of up to PKR 200,000 (or the equivalent in USD). Note that the higher the transaction value, the more likelihood the issuing bank of the cardholder will question the transaction.
+- Daily withdrawal limit of PKR 1,000,000 from your Safepay Account to your bank account(s).
+
+---
+
+## Testing the latest Safepay Checkout integration
+When integrating Safepay into your checkout flow, you can take advantage of our sandbox environment to simulate payments made by your customers through Safepay. This allows you and your team to get familiar with the customer journey as well as how payments are reconciled with your system and Safepay.
+- What is a sandbox environment
+- 3D Secure testing
+- Key terms
+## What is a sandbox environment
+Using the sandbox environment gives you greater flexibility and allows you to make sure payments are being correctly captured, displayed and responded to before you enable your website to accept live payments. We also enable you to simulate refunds (both partial and full), check email receipts and debug payments while you’re integrating Safepay.
+## 3D Secure testing
+Card based transactions also require Safepay to authenticate the customer before we can authorize and capture the payment. This is commonly referred to as 3D Secure Authentication, Payer Authentication or Customer Authentication. All these three terms basically refer to the same flow whereby your customer is redirected to a secure website hosted by his bank and prompted with an OTP (One Time Passcode) to authenticate and confirm the payment. With Safepay’s sandbox environment, you can now test and simulate the 3D Secure flow which will enable you to test a variety of scenarios including successful authentication, unsuccessful authentication and partial authentication.
+To explain briefly, when testing Safepay in a sandbox environment you can use any one of the Dummy Cards we have provided here , or search Google for one. We recommend that you do not use your real card numbers while testing, even though this environment is completely simulated. Once you enter in all the required information and hit the “Make Payment” button, Safepay will begin the payment simulation process. If the details are accurate and valid, Safepay will redirect you to our 3D Secure emulator which you can use to simulate various payer authentication flows as well as payment failure scenarios. Refer to the screenshot below to see what the emulator looks like.
+Once you’re done testing various payment flows during your integration, you can also see the payment data Safepay has captured on your sandbox dashboard. You can access your sandbox dashboard by using the link below.
+https://sandbox.api.getsafepay.com/dashboard/login
+Find the payment you were testing and click into it to view more details. Once on the payment details page, you can scroll around and check authentication details for the payment. Knowing how to do this will help you judge live payments made by real customers and check whether your customer was correctly authenticated before making the payment.
+## Key terms
+Key terms to understand about 3D Secure:
+ECI (Electronic Commerce Indicator) Values:
+01: Authentication attempted (Mastercard)
+02: Successful authentication (Mastercard)
+05: Successful authentication (Visa)
+06: Authentication attempted (Visa)
+07: The card cannot be enrolled. No liability shift.
+PARes status code (the threeDResult returned by the API)
+A: Proof of authentication attempt was generated.
+B: Bypassed authentication.
+N: Customer failed or canceled authentication. Transaction denied.
+R: Authentication rejected (used for 3D Secure 2.x transactions only)
+U: Authentication not completed regardless of the reason.
+Y: Customer was successfully authenticated.
+VeRes Enrolled (Cardholder enrollment or activation in the Verified by Visa program)
+Y: Card enrolled; you must authenticate. Liability shift.
+N: Card not enrolled; proceed with authorization. Liability shift.
+U: Unable to authenticate regardless of the reason. No liability shift.
+
+---
+
+## Where is Safepay located?
+Safepay is a product of Safepay (Private) Limited, a company registered under the laws of Pakistan.
+Our legal registration information is as follows:
+- Registration number: 0162364
+- NTN: 4669740
+- Registered address: 42-C, South Park Avenue, Phase II Extension, DHA, Karachi, Pakistan
+We work with financial institutions, regulators, payment networks, banks, and consumer wallets so businesses who run on Safepay don’t have to. Our vision is to connect Pakistani businesses with the world through commerce.
+
+---
+
+## What is Safepay's merchant on-boarding criteria?
+We take our merchant on-boarding very seriously. We want our relationships with our merchants to be long and mutually beneficial. We only succeed if our merchants succeed.
+When a merchant reaches out to us, they need to fill out our know-your-customer form (also called a KYC form). Click here to learn more about our KYC form.
+We are required to gather this information by our regulator and financial partners. Additionally, it helps make sure that Safepay is kept open for all merchants. One bad actor can compromise the simple payment solution we have created for all merchants.
+We understand that some of the information you provide is personal in nature. You can read our Privacy Policy to understand how we handle your information.
+Some of the other steps we take during our merchant on-boarding process include:
+- Prescreening
+- Identity verification/KYC
+- Merchant history check (including historic orders and fulfilment)
+- Business and operational model analysis
+- Web content analysis
+
+---
+
+## How to refund payments using Safepay
+This guide will provide an insight into how merchants can process refunds from their dashboard and how paying customers can expect to receive related information.
+- How can a merchant refund their paying customer?
+- How does a paying customer receive refund information?
+- Important Note
+## General reminder: You can refund Card payments and Account based payments through Safepay. This document refers to refunding card based payments from your customers (through Visa or Mastercard). Refunds for account based payments (bank transfers processed through PayFast or Nift ePay) will follow the same flow but will not actually reimburse your customer - money will not reach your paying customer's bank account. Refunds for bank payments are purely for maintaining your accounting on the Safepay Dashboard, you will still be responsible for crediting your paying customer's bank account by bank transfer (or other means like a discount).
+Easily refund your customers by following these steps from your merchant dashboard:
+- Go to your payments list which shows all the transactions that you have processed using Safepay. You can access this by clicking on Payments > All Payments as shown below.
+- Choose the transaction that you want to refund. Let’s say it is the Rs 123 transaction that has been completed below. You can only refund captured transactions.
+- Click on
+- Choose
+- Or go to the payments detail page by clicking on the transaction and click on Refund
+- The following confirmation screen will appear - just choose the amount that you wish to refund (it needs to be equal to lower than the actual transaction amount) click on Refund Transaction, and you will have successfully refunded your customer that amount. If you want to refund your customer the entire amount of the transaction, simply put in the entire amount. In this example, we are refunding Rs 100 from a Rs 123 transaction.
+- You can go to the refund section in your payments page and see the status of refunds. If you have refunded a partial amount, after this the payment status will change to Partial refund as shown below.
+- If you want to proceed to refund the entire amount, when you click Refund again, the pop-up window will display the balance outstanding from the transaction that you can refund. In our example, we have already provided a Rs 100 partial refund, therefore the maximum refund we can provide as shown below is Rs 23 (Rs 123 less Rs 100).
+- If the entire amount is refunded, the transactions status changes from Partial Refund to Refunded as shown below.
+- You will receive the following confirmation of a refund having taken place through email.
+Merchants can refund a transaction from their dashboard within 60 days of transaction being captured. After 60 days has passed from the date transaction was captured, merchants will have the following options:
+- They can contact Safepay to process the refund. In order to do that merchants would have to provide us with the following information: International refunds Bank name Bank account number Routing number Local refunds IBAN Swift code
+- They can refund their customers themselves either through: IBFT (Local payments) Western Union (International payments) Method of their choosing.
+## How does a paying customer receive refund information?
+Depending on whether you provide a partial refund or a full refund, your customer will receive an email notification like below to confirm the refund
+-
+### Important Note
+- Safepay does not currently charge any fees for merchants processing refunds. On the completion of a refund your customer will receive the entire amount they paid. The Safepay fees charged to the merchant on the original transaction will not be returned .
+- Safepay is not responsible for refunds or confirming that funds reach your paying customer's bank account. Please ask your customer to reach out to their card issuing bank/EMI in case of any query or delay.
+- After a merchant has been settled for a transaction and they need to process a refund, they can use the above mentioned steps to refund through their dashboard. As a consequence Safepay is going to withhold the refunded amount in the merchant's next settlement cycle. In order to avoid any issues please ensure your transaction flow remains consistent after a refund has been marked. In case a merchant fails to comply with this, it would still be liable to pay Safepay as per this section of our Terms of Service.
+- For Example: Imagine a scenario where on day 1 a merchant gets settled Rs5000 in their linked bank account from the settlement bank. On day 2 another transaction of Rs5000 takes place on the merchant's website but the amount has not been settled yet from the settlement bank to the merchant's linked bank account, in case a refund needs to be processed on day 2, settlement bank will disburse Rs5000 to the paying customer. In the above mentioned case if the transaction of day 1 has been settled in the merchant's linked bank account while there is no day 2 transaction, and paying customer asks for the Rs5000 refund, merchants are liable to pay Safepay as per our Terms of Service.
+
+---
+
+## How to make a payment on Safepay Checkout 2.0
+Safepay Checkout 2.0 is the upgraded version of our previous checkout, crafted with a singular focus: to make the payment process effortless for customers. Our goal is to reduce clicks and ensure transactions are completed smoothly and in no time.
+Key features of Checkout 2.0:
+- Customers can now securely access their saved card details and complete payments with a simple email OTP, speeding up future transactions for a seamless experience.
+- Merchants can effortlessly pass along customer information, such as billing addresses, so customers don’t need to re-enter these details during checkout.
+### Why a payment can fail
+Your online payment can fail for certain reasons. You may have:
+- Insufficient money in your bank account
+- Entered incorrect details/information in the payment checkout
+- Your bank can block an e-commerce transaction. Certain banks require you to enable e-commerce services through your bank account. If your payment fails using your bank account, please contact your bank to enable e-commerce services on your account.
+Normally, you only need to follow these steps to complete your transaction using Safepay Checkout from your merchant's website:
+Step 1: Click on the Safepay Checkout button
+Step 2: Enter your email
+If your email isn’t already populated in the email field, please enter the primary email address you want to use for the transaction. This will also be the email you use to save your card, so choose one you frequently use.
+Step 3: Enter your phone number
+If your phone number isn’t already populated in the phone number field, please select the country where your number was issued and enter it without the country code.
+Step 4(a): Your Safepay user account is not found
+If you are a first-time user or have never saved a card with the email you entered in Step 2 , you will see the following screen.
+- Enter your card number, expiry date, and CVC correctly as per your issuing bank.
+- If your billing address isn’t populated, please add the correct billing details to ensure your payment goes through
+If you’d like to save your card and billing details for future use, so you don’t have to re-enter them
+- Check the Securely save my card information box after entering all your details
+- Then, create a secure password that you can use later to retrieve your card details anywhere on the Safepay network.
+Step 4(b): Your Safepay user account is found
+If you have previously used an email to registered and save your card with Safepay or are saving it as mentioned in Step 4(a) , once you enter that email in Step 2 , you will be redirected to the user flow. This means you will have the option to log in and use your saved card to make the transaction, instead of having to re-enter your card details.
+The image below shows the pop-up you will see if your account is found with the email you entered.
+If you wish to use your saved card to make this transaction instead of re-entering your card details,
+- Enter the login password you set in Step 4(a) to access your saved card.
+- Alternatively, click on Send OTP to email to receive an OTP in case you have forgotten your password or prefer not to use it. You will have 60 seconds before you can request a new OTP.
+Once you have logged into your account, you can choose to pay with any of your saved cards. Select one of the cards listed and click the Pay button at the bottom. You can save a maximum of five cards. If you want to add a new card, you can choose to Add payment method .
+You will then be directed to a 3D Secure screen, where you can enter the OTP to complete your transaction successfully.
+If you ever wish to delete your saved card, simply click on the vertical ellipses to remove it.
+You can log out of your account at any time. If you choose not to, you will remain logged in for 24 hours, making it convenient to transact with Safepay again.
+Here’s a video guide for additional reference
+
+---
+
+## How to subscribe to a plan
+Here's a breakdown of what your customers will experience when subscribing to your plans through Safepay Checkout.
+- Login Screen: Customers will be directed to the Safepay Checkout login screen. If they have an account, they can easily log in. If not, they'll spot the "Signup" button at the bottom left.
+- Signup Page: For new customers, clicking "Signup" will lead them to the signup page. Here, they need to provide their email address, first name, last name, phone number, and password. This step ensures their account creation.
+- Wallet Screen: Upon successful signup or login, customers will arrive at the wallet screen. This screen displays the cards associated with their profile. To add a card, they should tap the "Add Card" button.
+- Adding a Card - Step 1: The first part of adding a card involves entering the card number, expiry date, and CVV.
+- Adding a Card - Step 2: In the second step, customers can add or edit their first name and last name as it appears on the card.
+- Adding a Card - Step 3: Finally, customers will enter their billing address for the card. With this, their card will be securely linked to their profile.
+- Returning to Wallet: After successfully adding a card, customers will return to the wallet screen where all their cards are listed.
+- Card Selection: They can then choose the card they want to use for the subscription. This card will be the payment method for their plan.
+- Terms Page: Next, customers will proceed to the terms page. Here, they'll find and agree to your plan's terms and conditions.
+- Subscription Confirmation: Once they accept the terms, customers can confirm their subscription. Their chosen card will be charged based on your plan's terms.
+- Trial Period: If your plan offers a trial period, customers will enjoy the plan's benefits during this time. They will be charged after the trial period ends, depending on the number of days you've set.
+- Instant Subscription: For plans without a trial period, the customer's card will be charged instantly, and they'll start enjoying the benefits right away.
+
+---
+
+## How to resolve customer disputes through Safepay
+As a business grows and expands its reach, the chances of a dispute from one of its customer also increases. Dispute resolution is an extremely tedious process which requires a lot of time and effort from the merchant’s end. Safepay has made it extremely easy for merchants to resolve a dispute.
+To learn more about what a dispute is read this guide .
+- Where can Merchants find disputes on dashboard?
+- Responding to dispute
+- What kind of evidence should I provide to decline a dispute?
+- Next step after a dispute/chargeback
+If a transaction has been marked as disputed, there are two ways for you to find out:
+- Safepay will reach to you via email. Please find a sample email sent to our merchant below.
+2. You can check for a disputed transaction on your merchant dashboard
+## Where can Merchants find disputes on dashboard?
+Disputes can be found on your merchant dashboard.
+Click on payments → Click on dispute → Following dashboard would open.
+Each payment can be expanded to see the status and reason for dispute. Once dispute is claimed, merchant can either accept or reject the claim by submitting evidence against it.
+A disputed transaction can fall under either of these status:
+- Dispute Open Merchant has not responded to the claim yet or Merchant has submitted evidence and the claim is still under review
+- Dispute Won Merchant has won the dispute. The amount that was disputed will now land in merchant’s account during settlement
+- Dispute Lost Merchant has lost the dispute and will not be settled for the disputed amount.
+## Responding to dispute
+A merchant can expand any transaction marked as disputed and see its details. Once expanded, merchant can choose to either Accept Dispute or Provide Evidence against it.
+If you choose to Accept Dispute from the amount will be deducted from your next settlement round. For example, if merchant were to be settled a bulk amount Rs 1000 on 1st October 2022 and Rs 500 on 2nd October 2022 and Rs 100 transaction from the Rs 1000 settlement has been marked as disputed, the merchant would still be settled Rs 1000 on 1st October 2022 but on 2nd October 2022 where merchant is to be settled with Rs 500, they will be settled with Rs 400, minus the Rs 100 which was marked as disputed.
+Once the merchant clicks on Accept Dispute following pop up will show
+Once the merchant clicks on Submit Evidence the following detail forms open up.
+## What kind of evidence should I provide to decline a dispute?
+This varies depending on the type of business you're into, as different businesses give value in various ways.  However, whatever document you upload as evidence should have the following:
+- the disputed transaction amount
+- the date the disputed sum was successfully paid and received by you
+- the name of the beneficiary of the transaction
+- a brief description of the service or service delivered to the customer
+You must gather compelling evidence related to the disputed transaction. Your evidence is spread across various data sources. This includes payment processors, shopping cart platforms and buyer service portals. Here are some examples of data points that are included in a response:
+- Delivery receipt
+- Invoice slip
+- A brief description of the service or service delivered to the buyer
+- Any confirmation SMS or email
+- Shipping Verification
+- Past Transaction History
+- Subsequent Transactions from buyer
+- Email Communication & Interactions
+- Phone Call Transcripts
+- Live Chat Transcripts
+## Next step after a dispute/chargeback
+If you do not provide adequate evidence, your customer can still ask their Issuing Bank to challenge the transaction. This stage is called pre-arbitration. If pre-arbitration is not accepted by the merchant then the dispute goes to arbitration. Arbitration is where all relevant evidences are reviewed by the Payment Scheme to determine an outcome. The losing party of the arbitration is required to pay a fixed fee of USD 500 to the arbitration scheme. The best way to avoid an arbitration is by having good record keeping of orders that you have processed online, including evidences of delivery. Read more about it here .
+Important to Note:
+When providing evidence to decline chargebacks, it is important that it captures the details of the transaction and the customer to be sufficient.  Kindly note that text messages and emails citing conversations with the customer will not be sufficient to decline chargebacks.
+Other essential practices when providing evidence:
+- Please make sure documents are clear and legible. illegible documents may not be admissible and could lead to a financial loss if funds are reversed to the customer.
+- Where applicable, make sure documents uploaded only contain details about the specific transaction that is being disputed. Please crop out any data that pertains to other transactions and other customers.
+- Make sure to upload all relevant documents pertaining to a chargeback the very first time as there may not always be room for the chargeback to be re-opened.
+Once the merchant submits the evidence, it can take anywhere around 30 - 75 days to settle the dispute claim.
+
+---
+
+## What kinds of companies use Safepay?
+Over 250 businesses use Safepay to collect millions of Pakistani Rupees in online payments each month. These companies include all sizes of business, from some of Pakistan's largest and most loved brands to modest sole founder businesses, and everything in-between. At every level of scale, Safepay has everything you need to meet up your payments objectives. Here are just a few of the companies using Safepay.
+## Ecommerce
+- All My Tech
+- Flashsale
+- Medworks
+- Shop By John
+- The Imaginarium
+## Marketplaces
+- Easy Insurance
+- Ghumo.pk
+- Easy Rentals
+- Crew Hire
+## Hosting
+- Flame Hosting
+- Easy Host
+- Omnilinks
+## Content & Marketing
+- Nerdpapers
+- Pro IT City
+- Social Buddy
+- PMI Institute (Islamabad)
+## Charities and Organizations
+- Help Save a Life
+- Go Read
+- Go Visum
+We're looking forward to what you'll build with Safepay. If you have any ideas or questions, please reach out! We're always looking to help companies and startups in Pakistan grow their operations by removing the complications of payments.
+
+---
+
+## How to create and share quicklinks
+Don’t have an e-commerce website? Need a customer to make an extra payment without having to place an order on your website? Send a Quick Link instead.
+- What is a Quick Link?
+- How to generate and send a manual Quick Link
+- How to generate and send multiple quicklinks
+## What is a Quick Link?
+A Quick Link is the fastest and most convenient way to get paid by your customers. Its the same Safepay experience for your customer but without having integrated Safepay Checkout on your website.
+A Quick Link is a request for payment in the form of a unique link you generate and send to a customer anywhere and at any time. Share the generated link through email, Whatsapp or even Instagram.
+When the link is clicked, your customer is taken to Safepay’s secure hosted page that details how much money you are requesting and for what purpose. The customer can make a payment with Safepay using their bank account or mobile wallet.
+Following a successful payment, you and your customer will receive email notifications that the transaction has been authorized. As with the normal Safepay Checkout, following a successful transaction the funds will reach your linked bank account you according to this settlement timeline .
+Still confused? You can read more here on our blog .
+## How to generate and send a manual Quick Link
+- From your Merchant Dashboard click Invoices, and then click Quick Links (see below).
+- Click on the blue button on the Quick Links page.
+- A pop up window for the creation of a Quick Link will open (this has now been updated to allow for delivery to up to 10 customers. You can create quicklinks in PKR and USD. Please make sure quick link amount is above PKR 1.
+- You can also choose to add an expiration date on the quick link. This will render the quicklink as invalid if the expiration date has passed and you will have to create a new quicklink.
+### Please note
+Safepay does not currently reconcile with your internal invoicing system. We recommend that you record as much information in the additional notes section of each Quick Link. This is so that you are able to reconcile payments made to you through Quick Links and your internal invoice generation procedures.
+Information such as customer name, date, order reference number and details of products or services provided will not only help you keep track of different payments, it will give your customers confidence that they are actually paying you 🙂.
+- Now you’re all set to proceed to send the Quick Link for payment to your customer. You can copy the quicklink and send it to your customer by clicking on the copy icon or you can click on the open icon to pay internally.
+- As long as your customer has not paid you, you are easily able to update the Quick Link. Clicking the three dots next to the Quick Link will allow you to update the amount you are requesting to be paid by your customer. You are only able to  update the Quick Link as long as its status is created. Once payment has been processed you won’t be able to make any changes. The link also remains the same so no need to resend another link to your customer. The link they have received will be automatically updated.
+- Send the link through email, Whatsapp or even Instagram. As long as your customer can click on the Quick Link in a web environment, they can access the Quick Link to pay you. See below to see how your customer will view the link when they receive it on Whatsapp.
+### Important to note
+Always send a Quick Link to your customer through a secure medium. All Quick Links are encrypted and all information contained therein is secure. You should only send the Quick Link to the relevant customer who needs to pay you. The customer will receive the Quick Link through the medium you have chosen.
+- Clicking the link will take your customer to the Safepay Checkout page
+- Your customer can now easily pay you using Safepay Checkout. They will see a pop-up through which they are able to choose their preferred method of payment
+- Once the payment is processed you, and your customer, will receive an email notification from Safepay. You can check the updated status of the Quick Link on your Quick Link dashboard. Click on payment to view details of the transaction. The payment details page will show complete details of the transaction as shown below.
+## How to generate and send multiple Quick Links
+- You can now send separate Quick Links to your customers directly through email. This means that if you are charging a number of customers the same amount, you can just generate a Quick Link once and send these to up to 10 of your customers. This saves you time instead of having to individually generate separate Quick Links and send these one by one through email.
+- You can choose to send unique links (charging the same amount) to up to 10 different email addresses. Once you have created and sent these links, you will be re-directed to your Quick Links dashboard.
+- The remaining process for Quick Links is the same as described above in how to generate a manual Quick Link .
+
+---
+
+## How do I manage my team on Safepay
+Building a business isn't a solo affair, and so today we’re launching support for inviting your whole team to Safepay. Now, everyone can have their own login credentials to a shared Safepay account.
+Since our launch, having multiple logins for your Safepay account has been one of our most requested features, and we're excited to finally make this available.
+In your account settings you'll find a new organization settings tab. From here you can invite new users to your Safepay account, remove existing users, and even change your team members' permissions. That's right, your new users also come with their very own set of permissions. This means you can invite your support team without giving them access to your banking details, or your accountant without letting them refund your payments.
+### Changes to existing accounts
+All new accounts will automatically come equipped with support for organizations so if you register today, you can immediately start inviting your team. If you have an existing account on Safepay you can opt-in to take advantage of this new feature if you want to since it’s not enabled by default.
+One of the first changes you’ll notice is when you try to log in to your account. When you log in to your Safepay dashboard, you will see a section to "Select Accounts" on the top. On default, you will be logged in to your very first account that you became a part of but if you want to switch to another account you can select from the section above. Watch this short video clip that helps describe the new login flow
+### Team settings
+Once you sign in to the company of your choice, if you’re the account owner or an administrator you may want to invite additional team members to join your organization. In order to achieve this the owner or an administrator for a Safepay account can invite new team members to access a Safepay account from the dashboard under the Account Settings.
+To add a new team member:
+- Log into the Safepay dashboard and navigate to the settings icon
+- Select Organization
+- Add the email address of the team member to invite to the Safepay account. Note: Only one user member can be invited at a time, and when adding an email address please make sure to press enter after you’re satisfied with the email address.
+- Choose the role most appropriate for this particular user.
+- Click Send Invite to send the invitational email.
+Watch this short video clip that describes how to invite a user to your team.
+### Selecting a user role
+There are four user roles that you can choose from when adding a team member to your account, each with increasing restrictions on the actions they can take:
+Role
+Description
+Administrator
+The user has the same level of access as the account owner and can view API keys, change account settings, invite new users, etc. Administrators cannot delete or make changes to the account owner.
+Developer
+The user cannot manage team members on your Safepay account or update bank account information. They can refund transactions, create and delete quick links and update your connect page
+Support
+The user cannot update any account settings or view API keys. They also cannot view summarized financial reports, aggregate payment information, inspect payouts from Safepay to your bank account. They can refund payments but they cannot delete Quick Links.
+View Only
+The user has read-only access to all payment information in your account.
+Call Center Agent
+The user cannot access any content on the dashboard except for Quick Links. They can create and edit quick links, and view the status against each quick link. They cannot delete Quick Links.
+If an invited user doesn’t have a Safepay account, they receive an invitation to join your account via email. A user with an existing account is prompted to log in, and can then switch between accounts.
+### Responding to an Invitation
+If you’ve been invited to join an existing Safepay account you will receive an invitation in your inbox. If you have an existing Safepay account, you will only have to respond to the invitation and either accept (if you’d like to join) or ignore the invitation (if you don’t want to join). If you don’t have an existing Safepay account, you will be prompted to choose a password at the time you’re accepting the invitation. Once you’ve chosen a secure password and accepted the invitation, you will be able to login to Safepay and choose the organization you want to sign into. Watch this short video clip that demonstrates how to respond to an invitation.
+### Roles & Permissions
+When accessing the dashboard of a specific Safepay account, you will have a specific role assigned to you by the administrator or account owner. These roles are described above but to elaborate, each role can and cannot do certain tasks. For example, the Developer role can update API Keys but the Support role cant view them. Only Administrators can add bank accounts or request transfers, while Developers & Support cannot view that information. Support members cannot even view payout or bank account information.
+### Editing a team member
+If you’re an account administrator or an account owner, you can edit the role of any team member in your organization. Watch this short clip that shows how to achieve this.
+### Removing a team member
+If you’re an account administrator or an account owner, you can easily remove any team member from your organization. There are a few caveats:
+- Account owners cannot be removed
+- Account administrators cannot remove themselves
+Any team member that is removed will receive an email telling them that they are removed. Once they are removed, they will no longer be able to access your dashboard on Safepay. Watch this short video clip to understand how to remove team members.
+### Conclusion
+We think this makes using Safepay even more flexible than before, and we hope you agree. As always, we'd love to hear your thoughts on this feature and the rest of your Safepay experience, so please get in touch!
+
+---
+
+## Payment details for card
+### Increased information on payment details available
+Payment details are now also updated with information from any discount card schemes you create. Read this guide to learn more.
+We have split this guide into a layered format. Click through to which section is relevant to you.
+- Transaction History
+- User Details
+- Billing Details
+- Payment Details
+- Payment Method
+## Viewing Payment Details
+You can view details for each payment by clicking the three dots at the end of every transaction line and clicking on View Payment Details as shown below.
+This will open the following page with detailed information for the chosen transaction.
+## Transaction History
+- Type: This displays the journey of your customer's card from when they enter their card details through Safepay to the point you receive that payment from them. You will see the following information in relation to most payments: Payer Authentication Enrollment: This means that the cardholder is enrolled in payer authentication and must authenticate themselves before continuing with the transaction. This usually means that the customer will receive a verification message from their card issuer such as a one-time-passcode (OTP). Not all cards have auth enrollment so for some payments this will not appear. Card Authorization: An authorization confirms the cardholder’s ability to pay. The card issuer verifies the customer's ability to pay by checking their available funds. If there are sufficient funds, it reduces the cardholder's available credit balance by the amount of the authorization and responds to the authorization request with an approval. ### Please Note In some instances a card issuer may prevent the customer from completing a transaction for some reason. In other words, there is no settlement. If a customer's card only appears as authorized, they will likely have got a notification from their card issuer that money was devoted to the transaction. No money will have actually left your customer's account so tell them not to worry. Click the Reverse button to release the authorization for your customer. No money will have actually left your customer's account so tell them not to worry. Settlement: The transaction has been successful. Your Safepay account will be updated instantly to reflect the increase in volume you have processed using Safepay.
+- Request ID: This is the unique identifier that ties each event to a tracker. Use this along with the tracker when contacting support with problems with payments.
+- Reason: A reason code is a response from our servers for production transactions submitted. The most common are the following: 100 - Successful 101 - Declined - The request is missing one or more fields 102 - Declined - One or more fields in the request contains invalid data. 475 - The cardholder is enrolled in Payer Authentication. Please authenticate the cardholder before continuing with the transaction. 203 - General decline of the card. This usually happens when the issuing bank declines the transaction. Your customer should contact his bank to approve the transaction before trying again. 208 - Inactive card or card not authorized for card-not-present transactions. Request a different card or other form of payment. 476 - Encountered a Payer Authentication problem. Payer could not be authenticated.
+- Description: This explains what the reason code means.
+## User Details
+- ID: This is the unique identifier of the user that made the purchase. Use this with the tracker when contacting support with user related issues like fraud, or payment issues.
+- First name: Customer first name they have provided to Safepay.
+- Last name: Customer last name they have provided to Safepay.
+- Email: Customer email address they have provided to Safepay.
+- Phone number: Customer phone number they have provided to Safepay.
+## Billing Details
+- Address: Address linked to card used on Safepay for this particular transaction.
+- City: City linked to card used on Safepay for this particular transaction.
+- Country: Country linked to card used on Safepay for this particular transaction.
+## Payment Details
+- Amount: Gross amount of the payment in the relevant currency the customer has been charged in. Currently this is USD or PKR.
+- Forex Rate: Foreign exchange rate that was applied.
+- Converted Amount: Amount in PKR following application of forex rate.
+- Grand Total: Total fee paid.
+## Payment method
+- Authorization Code: This is a code sent from the card issuer to authorize each transaction. Use this code when contacting support with issues related to disputes.
+- Decision: This is the overall decision of the transaction. Can be one of ERROR or REJECT or ACCEPT. ERROR means a system error. REJECT means the payment was declined. ACCEPT means a successful transaction occurred.
+- Reason: Read here to learn about reasons.
+- Authorization Request Id: The Request ID that identifies the authorization event.
+- Settlement Request Id: The Request ID that identifies the settlement event.
+- Authorization Token: The Request ID that identifies the authorization model.
+- Capture Token: The Request ID that identifies the settlement model.
+
+---
+
+## Merchant Legal Agreement
+To start accepting payments with Safepay, all merchants are required to review and sign the S afepay Services Agreement. This is a standard agreement that applies to all merchants and is required as part of our regulatory obligations with the State Bank of Pakistan.
+## Why do I need to sign this agreement?
+As a regulated payment service provider, Safepay must ensure that all merchants operate under a standardized legal framework. This agreement:
+- Defines the terms of using Safepay services
+- Ensures compliance with banking partners and payment networks
+- Helps protect both Safepay and merchants from operational and financial risks
+Once your application is approved, you will receive the agreement via an online signing platform.
+## Who should sign the agreement?
+The agreement must be signed by an authorized representative of your business. This depends on your business type:
+Business Type
+Authorized Signatory
+Sole Proprietorship
+Sole Proprietor
+Private Limited Company
+CEO or authorized representative (as per board resolution)
+Public Limited Company
+CEO or authorized representative (as per board resolution)
+Partnership
+Managing Partner or authorized signatory (as per authority letter)
+Freelancer
+Individual (self)
+NGO / NPO / Trust / Society
+Authorized representative (as per governing body resolution)
+Safepay will typically execute the agreement through an authorized company representative.
+## Important Notes
+- Your account cannot go live without a signed agreement
+- Please ensure the correct authorized person signs the document to avoid delays
+- If you have pending requirements (technical or compliance), go-live may be held until completion
+## Need Help?
+If you’re unsure who should sign or haven’t received your agreement, reach out to our support team at support@getsafepay.com and we’ll assist you.
+
+---
+
+## Customer support
+This guide describes how you can contact Safepay for support (either while onboarding, integrating or for information on your payments).
+This guide covers the following:
+- Ways to contact Safepay
+- How Live Chat Support works
+- Support hours
+## Ways to contact Safepay
+You can contact us through :
+- Live Chat Support through your Sandbox and Production account through your merchant dashboard
+- By email at support@getsafepay.com
+## How Live Chat Support works
+When you reach out to us through our Live Chat Support, our customer support team will get in touch with you instantly. Our support team is here to answer questions you may have relating to Safepay, our services and anything related to your onboarding.
+To contact our customer support you will need to:
+- Login to your Safepay merchant dashboard .
+- Click on the Live Chat button at the bottom right as shown below.
+- Click on the chat icon in the bottom right corner to get connected to our customer support directly.
+Note: We normally expect to receive questions relating to the following:
+- What documents you need to provide to onboard with Safepay: We will provide you with information like what is available in this guide . We will also provide you with a video to explain how to fill out our merchant onboarding form.
+- How to start with Safepay: We will provide you with information like what is available in this guide . We will also provide you with a video to explain how to start off with.
+- How does Safepay settle a merchant (when does money reach your bank account): We will provide you with information like what is available in this guide.
+While we try to answer all questions we are asked, we are not able to provide you information on where the best pakoras in town are.
+- Following any chat with our Live Support you are able to: Download the transcript of the chat Start another chat or go back to your previous chats
+Note: Currently Live Chat Support is available from your merchant dashboard . In case you do not have a Sandbox Account or Production Account with Safepay, contact us for assistance or sign up by reading this guide .
+Support Hours
+We are available over live chat from 9AM - 5PM from Monday to Friday. There might be occasions like a public holiday or a technical glitch where our Live Chat Support might be unavailable, but you can always leave us a message and we will get back to you.
+
+---
+
+## How to set up Safepay Checkout for Opencart
+Firstly, we highly recommend you create a backup of your site before installing any new plugins or extensions.
+### Step 1: Download the plug-in
+- Navigate to the Safepay GitHub page and click safepay-opencart-plugin (as shown in the video below) .
+- Access the plugins that are available from the opencart-extensions folder.
+- Download the plugin that corresponds to the version of OpenCart that you use. You can see what version of OpenCart you use from your admin panel.
+- Find and zip the upload folder and rename this as safepay.ocmod.zip .
+- Once downloaded, open the folder and make sure all the necessary files and folders are present. If the files have been downloaded in zip format, make sure to unzip these before proceeding.
+### Step 2:  Installation
+- Go to Extensions > Extension Installer from your OpenCart admin panel (as shown in the image below) .
+- Click Upload next to the Upload File command and locate the file safepay.ocmod.zip .
+- After installing the extension, go to Extension > Modifications and refresh the OpenCart cache.
+- Go to System > Users > User groups > Select and select a user group and assign access and modification permissions to extensions/payments/safepay (as shown below).
+### Important to note
+If you receive the following message INTERNAL SERVER ERROR while uploading and extracting the plugin please make sure Zip Archive module is installed & enabled in your web hosting under PHP Pear Packages.
+### Step 3: Changing permissions
+- If you are using an OpenCart version less than or equal to 2.2.0.0 go to System > Users > User groups > Select a group of users from your admin panel and assign access or modification permissions to "payments/safepay".
+- If you are using an OpenCart version greater than or equal to 2.3.0.2 go to System > Users > User groups > Select a user group and assign access or modification permissions to "extensions/payments/safepay".
+### Step 4: Configuring the extension
+- Go to Extensions > Payments from your admin panel.
+- Scroll down and click on the install button next to Safepay. Go to Extensions > Payments . Click on the edit button, next to Safepay.
+- Setup your credentials and settings and start using Safepay as shown in the video below.
+- If there is  any confusion please follow detailed video tutorial below:
+### Important notes
+- For a custom theme (or non-default theme), if your checkout still uses the standard stepped checkout like the one in default theme, our plugin should work for you.
+- Our plugin has been tested and is compatible with default theme, Journal2 and Journal3 themes using stepped checkout. Our standard plugin is not compatible with quick checkout.
+- If your checkout uses any extension which has turned it into a quick checkout or one page checkout - not stepped like the default one -, it may be necessary to make changes to the extension so that it is compatible with your OpenCart store. In case you need a custom theme integration please contact us at support@getsafepay.com.
+
+---
+
+## How to save cards with Safepay
+Paying customers can now save their card details with Safepay in order to bypass redundant data entry and ensure a hassle free payment process. As a PCI DSS compliant entity, Safepay maintains highest security standards and is authorized to provide its customers the ability to save their card details.
+How can you save card details as a paying customer?
+1. When you land on any Safepay checkout, you will see something like this..
+As a paying customer you have the option to enter your card details and make a payment as a guest. Making payment as a guest will not create an account for you and will let you carry out the transaction without creating a log in for you.
+2. In case you want to create your account with Safepay so that you can save your card details, simply click on the "Yes" button you see at the bottom and choose an appropriate password for your login once you have entered all your card details in the section above.
+Once you enter your card details and click on "Yes" , your payment will successfully go through and an account will be created for you with Safepay. This account will have your card details saved in it.
+3. You can use the email you registered with while making payment and the password you chose to log into your Safepay portal. Next time when you land on a Safepay checkout, simply click on the "Login" button at the top right corner of the checkout and enter your email and password that you chose
+In case you want to go back and pay as a guest without loging in, just click on "Checkout as guest?" and you will be redirected to the guest checkout screen.
+4. Once you enter your log in credentials you will be redirected to your Safepay portal which will look something like this
+This is the card you have used to make your payment which is now saved in your portal. You can choose to delete the added card by clicking on the "bin icon" on the right. Once a card is added, next time you land on a Safepay checkout and simply select the card you want to pay using, out of all the cards you have added and with 1 click make the payment, without having to re-enter all the card details again.
+5. If you want to add a new card click on "Pay a different way" and enter the new card you want to make transaction with. Once you click on "Pay a different way" you will land on the checkout screen.
+At the bottom you will see text saying "Add this card to your wallet" . If you enter your card details and before paying, select the "Yes" button right next to it, this card will get saved in your Safepay account.
+Note: You can only add up to 5 cards after which you will not be able to save a card unless you delete an existing saved card. Same card with exact same details will also not be saved.
+6. In case no card has been added in to your account, your portal will appear something like this
+Simply click on "Pay a different way" and save your card as mentioned above in point 5.
+7. Once you are on the login screen and you seem to have forgotten your password, simply click on " Forgot your password " and the following screen will open up for you
+Once the screen appears for you, enter the email you would like to receive your OTP in and click on "Next" . You will then be redirected to the following screen
+Once you have been redirected to the screen mentioned above, go to the inbox of your email that you mentioned earlier, over there you should see an OTP email like this
+Copy the OTP that you have received and paste it in the forgot password screen along with your new password. Once you have entered the correct OTP and selected a new password, you will be redirected to the log in screen from where you can access your profile once again.
+In case you have issues please feel free to reach out to support@getsafepay.com and we will be happy to respond.
+
+---
+
+## Not getting emails from Safepay?
+When you sign up to Safepay you must provide a valid email address that you regularly use or have access to.
+We use this email address to communicate with you and also verify your identity by sending you a verification code. Without entering this code, you will not be able to use Safepay.
+You will receive a verification email from noreply@getsafepay.com as shown in the image below.
+Once you receive the code, you will have to enter this code into the code verification page shown below.
+Once you enter the correct verification code and click submit, you will be redirected to the sign in screen where you can input your email and password to access the dashboard.
+## Not received an email from Safepay?
+In rare situations, you might not receive an email from Safepay after having signed up. There can be various reasons why this can happen. Most of the time it is because our email has ended up in your junk or spam folder.
+This is what you should do if you don’t receive an email from Safepay:
+- Check your spam / junk folder.
+- Check that any firewall or anti-spam software you have installed is not blocking emails from Safepay.
+If the above methods don’t help, contact your email support so they can look into the issue from their backend and solve it permanently.
+### Important to Note:
+All chargeback notifications are sent to the email you registered with. It is very important that this email is one that is regularly reviewed by someone in your organization that can respond to chargebacks. This is so you do not lose money to wrongful chargeback claims and we do not have to suspend you from our system.
+
+---
+
+## How to disable Safepay Checkout
+This guide explains how you can disable Safepay checkout from your e-commerce website.  In certain circumstances, you will be required to disable the Safepay Checkout from your website.
+It is important that you read and understand this document.
+If you do not disable Safepay Checkout when we ask you to, your customers may attempt to pay you through Safepay Checkout. Because the Safepay Services will be inactive from the back-end, your customer may think they can pay you through Safepay. This will cause your customer inconvenience and also could result in you dispatching goods or services without having been paid.
+Depending on which plug-in you are using with Safepay you can click below to find how to disable this.
+- How to disable Safepay for Shopify stores
+- How to disable Safepay for WooCommerce stores
+- How to disable Safepay for OpenCart stores
+- How to disable Safepay for Magento stores
+## Shopify
+1. Login to your Shopify Admin Panel
+2. Navigate to Payment Setting from  your Shopify Admin Panel (Setting > Payment Providers)
+3. Click on Edit in front of "Safepay is active" (under Alternative payment methods)
+Now click on Deactivate at the bottom of the page to disable Safepay Checkout
+## WooCommerce
+1. Login to your Shopify Admin Panel
+2. Navigate to WooComerce Settings from Admin Panel
+3. Click on the Payments tab
+4. Switch off the Enabled toggle beside Safepay
+5. Safepay will be disabled from from your website
+## OpenCart
+1. Login to your OpenCart Admin Panel
+2. Navigate to the Extensions page and from drop down select Payments
+2. From the Payments module list select Safepay (click on the edit button)
+3. From the status dropdown choose Disabled
+4. Click on the save button and Safepay will be disabled from from your website
+## Magento
+1. Login to your Magento Admin Panel
+2. Navigate to Stores>Configuration>Sales>Payment Methods from your admin panel
+2. Under Other Payment Methods click on Safepay to view configurations
+3. From top field Enabled select No (from dropdown) for disabling Safepay Checkout and click on Save Config on the top right button
+
+---
+
+## How to re-enable Safepay Checkout
+This guide explains how you can re-enable Safepay checkout from your e-commerce website. This is relevant for merchants who disabled Safepay Checkout in the past but our plugin is still installed on their store.
+By re-enabling Safepay Checkout back on to your site Safepay Checkout will display as a mode of payment for customers to select during the checkout process. If you're testing Safepay Checkout in sandbox mode then It's recommended to do it during low traffic hours because your customer may think they can pay you through Safepay and this will inconvenience your customer and could also result in you dispatching goods or services without having been paid.
+Depending on which plug-in you are using with Safepay you can click below to find how to enable this.
+- How to enable Safepay for Shopify stores
+- How to enable Safepay for WooCommerce stores
+- How to enable Safepay for OpenCart stores
+- How to enable Safepay for Magento stores
+## Shopify
+1. Login to your Shopify Admin Panel
+2. Navigate to Payment Setting from  your Shopify Admin Panel (Setting > Payment Providers)
+3. Click on Edit in front of "Safepay is active" (under Alternative payment methods)
+Now click on Reactivate Safepay at the bottom of the page to reactivate Safepay Checkout
+## WooCommerce
+1. Login to your Shopify Admin Panel
+2. Navigate to WooComerce Settings from Admin Panel
+3. Click on the Payments tab
+4. Switch on the disabled toggle beside Safepay
+5. Safepay will be enabled on your website
+## OpenCart
+1. Login to your OpenCart Admin Panel
+2. Navigate to the Extensions page and from the drop-down menu select Payments
+2. From the Payments module list select Safepay (click on the edit button)
+3. From the status dropdown choose Enabled
+4. Click on the save button and Safepay will be enabled on your website
+## Magento
+1. Login to your Magento Admin Panel
+2. Navigate to Stores > Configuration > Sales > Payment Methods from your admin panel
+2. Under Other Payment Methods click on Safepay to view configurations
+3. From the top field Enabled select Yes (from dropdown) for reactivating Safepay Checkout and click on Save Config on the top right button
+### Important note
+While reactivating Safepay Checkout on your site, please make sure to check the relevant mode in which you wish to use Safepay checkout. Sandbox / Test Mode is for testing transactions and Production / Live mode is for accepting payments in live mode. If you're testing integration and your account is not yet approved you can only use Safepay Checkout on sandbox mode.
+
+---
+
+## What are subscriptions
+A subscription refers to a customer's commitment to a specific plan, authorizing automatic and recurring payments. In essence, a plan outlines the details of what a customer is subscribing to, including its price, billing frequency, and features. When a customer subscribes to a plan, a subscription is created, signifying their ongoing commitment to that plan and enabling automated payment processing. Thus, a plan is the offering presented to customers, while a subscription is the ongoing agreement established by a customer to avail of that plan's benefits through regular, automated payments.
+How does it work?
+- When a customer selects a plan on your merchant website, they’ll be redirected to Safepay where they can sign up by saving a card.
+- They must save their card to be eligible for Subscriptions as any recurring payment will automatically be charged to that particular saved card.
+- The customer will receive an email confirmation every time their card is charged.
+
+---
+
+## What is a dispute (chargeback)
+This document will give you an overview on what a chargeback is and how you can potentially respond to it as a Safepay merchant.
+- What is a dispute
+- Why would a customer file a chargeback
+- How are chargebacks filed
+- As a Safepay partner, how do I find my chargebacks?
+- How do I respond to chargebacks?
+- What happens when you lose a dispute/chargeback
+## What is a dispute?
+A chargeback is a reversal of a payment made to a merchant, back to the customer's bank account. The reversal is done by the customer’s bank, at the request of the customer and it is used as a form of consumer protection to secure the customer's interest in wrongful transactions. This means a customer has a right to file a chargeback for a transaction if there is a valid reason to do so.
+Chargebacks are different from refunds. In the case of a refund, the customer reaches out to the business to ask for a refund, which may or may not be honored depending on the business' policy. However, for a chargeback, the customer contacts their bank directly to forcibly reverse the transaction.
+### Why would a customer file a chargeback?
+Customers file chargebacks when they do not receive a product or service they paid for. Also, it could be a case of receiving the product in poor condition, or getting something entirely different, this means they will be unable to use it for what it was intended. Another reason why a customer might file a chargeback is when they did not authorize the transaction in question, that is, being a victim of fraud. There is also the possibility that a chargeback is filed in error, perhaps the customer does not recall that they made a purchase.
+### How are chargebacks filed?
+To file a chargeback, the customer simply has to reach out to their bank and highlight the transaction(s) in question and their bank will begin the process. When the customer’s bank receives the chargeback claim, they escalate this to the merchant or the merchant's bank, who then informs the merchant. The merchant has the opportunity to respond to the chargeback either by accepting it, or declining it with sufficient evidence that proves value was given to the customer for that transaction.
+### As a Safepay Partner, how do I find my chargebacks?
+The customer’s bank sends a chargeback claim to Safepay through our bank, we then immediately dispatch this information to your business email. The email notification informing you that a chargeback has been logged will be sent to the same email you created your Safepay account with; the email will capture the transaction reference, date and time of the transaction, as well a link that takes you directly to the chargeback on your dashboard.  The email you receive will look like this:
+The email will contain all the details relevant to the chargeback including customer details, transaction details and a link to the specific transaction on your Safepay dashboard. Clicking the link will take you to a page that looks like this:
+### Important to Note:
+All chargeback notifications are sent to the email you registered with. It is very important that this email is one that is regularly reviewed by someone in your organization that can respond to chargebacks.  This is so you do not lose money to wrongful chargeback claims.
+### How do I respond to chargebacks?
+Merchant can respond to a chargeback claim in two ways:
+- Accepting a chargeback: This means you successfully received the customer’s payment but did not provide the service or product the customer paid for. This could be for several different reasons due to technical issues or human error.  When you accept a chargeback, you allow for the funds to be deducted from your payouts and reversed to the customer’s bank account.
+- Providing Evidence/Declining a chargeback: This means you successfully received the customer’s payment and have provided a service or delivered the product to the customer.  To justify this, you will need to upload a form of evidence to support your claim, such as a receipt or invoice, anything that proves value was provided.  If the evidence is not sufficient, we will automatically accept the chargeback.
+Safepay merchant dashboard allows you to deal with your chargeback claims in an efficient manner. Please click here to read on how Safepay helps you fight chargeback claims.
+### What happens when you lose a dispute/chargeback
+Merchant can lose a dispute due to one of the following reasons:
+- Evidence provided by merchant was not compelling enough for the dispute claimant/moderator institution
+- Merchant failed to provide appropriate evidence in due time
+In either of these cases, the merchant ends up losing the dispute. This means that the amount which was disputed will be fully deducted from merchant's next settlement cycle. If the dispute has gone into the arbitration phase and the merchant loses it, a fee of $500 has to be paid by merchant to the arbitration scheme. Read more about it here .
+
+---
+
+## Chargeback stages and timeline
+Whenever a dispute is claimed by a paying customer, the chargeback process that follows is very complex. This process varies between card schemes in terms of terminologies, but the overall process and stages remain the same.
+Responding to a chargeback claim can follow these three stages:
+- Second presentment
+- Pre-arbitration
+- Arbitration
+#### Second presentment
+When a dispute is filed against a transaction, merchants have the option to either accept the dispute or provide evidence against it. This is called the second presentment stage. If the issuing bank chooses to accept the document proof provided by merchant, the merchant wins the case, otherwise the case moves into the pre-arbitration stage. Safepay helps you to fight second presentment through its dashboard, read more about it here .
+Merchant will have 10 days to respond to chargeback claim (second presentment stage)
+#### Pre-arbitration
+After the second presentment, if the issuing bank is not satisfied with the documents and evidence provided by the merchants, the case moves into the pre-arbitration stage. In pre-arbitration, the issuing bank reverts back to the merchant through official channels and asks for further proof. This is the last stage where merchants and issuing bank can settle the dispute amongst each other before it goes into the arbitration stage. In the pre-arbitration stage, merchants can either choose to accept the the chargeback just like first presentment or can go ahead and decline the chargeback. Declining the chargeback will the case into arbitration stage. Once a case moves into the pre-arbitration stage, Safepay will reach out to its merchants via email to collect more evidence.
+Merchant will have 10 days to respond to chargeback in pre-arbitration stage.
+#### Arbitration
+Arbitration is the final stage of the process. Once the merchant rejects the chargeback claim during pre-arbitration stage, the case moves into the arbitration stage. In the arbitration stage, card scheme gets involved. At this point it gets well established that the merchant and issuing bank are unable to resolve this case on their own and need a third set of eyes to close the case, which is the card scheme. No further evidence is requested from the merchant. The card scheme makes a decision based on the existing evidence where the losing party is charged a hefty fee by the scheme.
+Once case is in arbitration stage, card scheme can take up to 60 days to make a final decision.
+If you want to know more about what a chargeback is, please read here .
+When a chargeback is claimed, it is always better for the merchant to prevent the case from escalating to the arbitration stage. Not only does it ruin merchant's relationship with its paying customer, it also is a very time consuming process taking up to 90 days. It is also generally noticed that once the case reaches the arbitration stage, there are very high chances of merchant losing and paying the fee.
+
+---
+
+## Subscription page
+There are 2 ways to view the subscriptions on the plan you have created.
+- On the plan detail page at the bottom of the screen you will be able to view a data table displaying the subscriptions associated with the respective plan.
+- Click the subscriptions sub-tab to view all the subscriptions associated with your merchant account. The Subscriptions subtab will display each individual subscription. As shown in the screenshot below.
+By clicking on the row of the subscription you wish to view. It will open the subscription detail page.
+Details of the subscription detail page:
+The subscription detail page offers comprehensive insights into the details, progress, and history of a particular subscription. Divided into distinct sections, each housing specific data points, this page provides merchants with the information they need to effectively manage subscriptions.
+- Subscription Details: This section displays data related to the subscription itself. Subscription ID: A unique identifier assigned to the subscription, enabling easy tracking and referencing. Price Amount: The monetary value associated with the subscription. Balance: The remaining balance in the subscription, reflecting payments made and any outstanding amounts. Start Date: The date when the subscription commenced. Status: The current status of the subscription, indicating whether it's active, paused, or canceled. Billing Cycle: The cycle at which billing occurs, such as monthly or annually. Created At: The timestamp indicating when the subscription was initially created. Updated At: The timestamp of the last update made to the subscription.
+- Plan Details: This section highlights details about the subscribed plan.
+- Plan ID: A unique identifier for the subscribed plan.
+- Name: The name of the subscribed plan, providing clarity about the offering.
+- Type: Whether the plan is a one-time payment or recurring subscription.
+- Price Amount: The cost of the plan.
+- Interval: The frequency at which payments occur, such as weekly, monthly, etc.
+- Description: A brief explanation of the plan's features and benefits.
+- Active: Indicates whether the plan is currently active or not.
+- Apply Amount Change on Existing Subscriptions: Whether changes in the plan's price will affect existing subscriptions.
+- User Details: This section presents information about the user associated with the subscription.
+- User ID: A unique identifier for the user, facilitating user-specific actions.
+- First Name: The first name of the user.
+- Last Name: The last name of the user.
+- Email: The email address associated with the user's account.
+- Phone Number: The contact number provided by the user.
+- Transactions: The transactions section serves as a log of all financial activities related to the subscription.
+- Data Table: A tabulated display presenting transaction-specific information.
+
+---
+
+## Integrate Safepay with Shopify Onsite
+## Accept payments instantly with Safepay's plugin for Shopify Onsite.
+# How to set up Safepay checkout for Shopify Onsite
+Shopify has emerged as the preferred e-commerce platform for many merchants around the world, and as such, we have been working hard to provide extensive support for Pakistani merchants looking for a reliable payments processing solution for their Shopify stores.
+In this document, we'll show you all you need to know to get started with Safepay on your Shopify store.
+Here are some basic steps you can take to integrate Safepay as a payment method.
+## Pre-requisites
+Before installing the plugin for Shopify please make sure you have gone through our guide on how to set up Safepay and have completed the following steps:
+- Ensure you do not have any other Onsite payment plugin installed. Shopify only allows for a single onsite installation. If you already have any of (Shopify onsite payments, Stripe onsite payments, checkout onsite payments) then it will not work.
+- First uninstall any existing Onsite Payment app. Please note you may keep as many third party payment payment methods you want, including Safepay. Both plugins can work simultaneously.
+- Created your Sandbox Account and know how to find your Api Key and Secret Key.
+- Created your Production Account and know how to find your Api Key and Secret Key
+## Installing the plugin
+- Visit this link to install the plugin and click Install payment provider when prompted.
+- Click Install and choose your store
+- You will be redirected to your site admin and prompted to press Install
+- Once you click install you will be prompted to approve the subscription charge. Please note Safepay Checkout Onsite has a 7-day free trial after which you will be charged $11.99 per month by Shopify.
+- As mentioned previously, please input your Sandbox Public and Secret key as well as your Production Public and Secret key in the relevant fields.
+- Click on the Activate button to make the plugin ready to accept payments.
+- Please note you can keep “Test mode” on when you want to make test payments, and remember to turn it off when you are ready to go live.
+Test Mode: If you enable test mode, transactions will be simulated using Safepay's sandbox environment. No real money will be deducted from your or your customer's account and any orders placed while your store is on Test Mode should be treated as test orders.
+- It is recommended on admin checkout settings, you have the following selected: Customer Contact Method - Email Require first and last name Shipping address phone number - Required
+- This would ensure your orders have all the complete details.
+- On the checkout page, you will see the Onsite plugin show up as “Credit Card” and it will capture payment details directly on the checkout page only. There will be no redirects.
+## Reconciliation
+When a customer places an order on your Shopify store and pays through Safepay, you should reconcile the payment with your Safepay dashboard. On your Shopify admin, when you go to view a specific order you will most likely see something like this:
+- The first thing to notice is whether or not the order is a Production or Test order. If you have enabled Test Mode for Safepay, then all orders will be simulated and you will see a yellow notification on top.
+- If you scroll down to the Order Timeline you will see something like this:
+- If you click this line, it will expand to provide you with all the details Shopify collected for this order as well as the Order ID that you can use to reconcile this payment with your Safepay dashboard on Payments 2.0
+Note: Test payments for test orders will show up on your sandbox dashboard while Live payments for live orders will show up on your production dashboard.
+The Payment ID can be found under the field Payment ID.
+## Refunds
+Now you can make refunds directly from the orders page in Shopify.
+- Click the refunds button available when you click on any order to see its details page
+- Once you click refunds you will see a similar screen. You can choose to write a reason for refund and input the amount to refund. Please note the refund can be the full or a partial refund. You cannot refund more than the original amount as shown by the amount available for refund.
+- The order will continue with the same Order ID. The Safepay dashboard will also reflect if it is a full or partial refund. The original payment will be updated with its new status automatically.
+## Finishing up
+- If you have enabled Test Mode while integrating Safepay remember to disable this after you are done with the integration and are happy with this. You can see how to do this in the Installing the Plug-in section above.
+- If you've made it this far then your store can now accept payments using Safepay.
+Click here for navigating to our demo Shopify store and making a test transaction
+
+---
+
+## Actions on Subscriptions page
+How to filter/search a subscription on your merchant dashboard:
+- From the plan details page you will be able to view the subscriptions associated with the plan you have created on your merchant dashboard.
+- On the search bar enter the specific subscription ID you need to locate,
+- Press enter
+How do you Pause Resume and Cancel Subscriptions?
+- On the Subscriptions subtab you should click on the individual subscription that you wish to edit.
+- Now on the top right corner you’ll find a Pause, Resume and Cancel button.
+- To Pause an individual subscription you can click on the Pause button which will open up a tab with 3 options.
+- Keep as Ready: Choose to retain payment readiness during subscription pause, and automatically adjust the billing cycle for uninterrupted service when the pause ends.
+- Mark Uncollectible: Opt for marking the payment transaction as 'Uncollectible' during the pause, indicating no collection attempts during this period. Ideal for maintaining clear billing records.
+- Mark Void: Select this option to 'Void' the payment transaction during the pause, rendering it null and preventing any accidental payment processing. A safeguard for accurate financial records.
+How to resume a subscription:
+- To Resume an individual subscription you can click on the Resume button - which would appear in place of the pause button.
+- To Cancel a subscription you can click on the Cancel button.
+Understanding Subscription States:
+Subscription states represent distinct phases in the lifecycle of a subscription, each reflecting a different status or condition of the subscription agreement. These states serve as valuable indicators for merchants to monitor the health and progression of their subscription-based services. Here's a breakdown of the various subscription states:
+- ACTIVE: An active subscription state indicates that the subscription is currently active and functioning as intended.
+- PAST DUE: A past-due state suggests that the subscription is overdue for payment. Customers may need to update their payment information to resolve this state.
+- UNPAID: An unpaid state denotes that the payment for the subscription has not been successfully processed. This could be due to issues with the payment method or insufficient funds.
+- CANCELED: A canceled subscription state implies that the customer has intentionally terminated their subscription agreement.
+- INCOMPLETE: An incomplete state suggests that the subscription setup process has not been completed. This could occur if the payment information was not fully entered.
+- INCOMPLETE EXPIRED: This state is similar to the incomplete state but indicates that the setup process was not completed within a specified timeframe.
+- TRAILING: A trailing state signifies a phase after a subscription's end date, where payment processing may still be occurring to account for potential delays in payment transfer.
+- ALL: The all state typically indicates that all possible subscription states are being considered or displayed.
+- ENDED: An ended state marks the natural conclusion of a subscription's duration, indicating that no further payments will be processed.
+- PAUSED: A paused state denotes a temporary halt in subscription payments and services. Subscriptions can typically be resumed from this state.
+
+---
+
+## Plan page
+How to create a plan
+- On the top right corner of the Plans subtab you’ll find a Create Plan button.
+- When you click on the Create Plan button a Price Information tab will pop up.
+- Here you can enter the plan details such as:
+- Plan Name: Enter a distinctive name for the plan, ensuring clarity among your offerings. Your plan name can include special characters such as: "-" & "_", However cannot solely be special characters”.
+- Price: Specify the cost associated with the subscription plan, accurately reflecting its value.
+- Currency: Indicate the currency in which the subscription plan's price will be billed.
+- Product ID: Input a unique identification code for the subscription plan, simplifying management.
+- Interval: Select the billing frequency, such as:
+- Daily,
+- Weekly,
+- Monthly,
+- Annually,
+to define the subscription plan's cycle.
+- Interval Count: Set the number of times the interval occurs within the billing cycle, aligning with the subscription duration.
+- Number of Billing Cycles: Specify the total occurrences of the subscription's billing cycle, offering flexibility in subscription duration. If you want the subscription to last for an indefinite period of time set the interval count to “0”
+- Type: Choose between 'One Time' or 'Recurring' to define whether the payment is a single occurrence or regularly repeated.
+- Trial Period: Provide a trial duration before regular payments begin, allowing users to explore the subscription's benefits before committing.
+Description.
+- Once you’ve entered the plan details you can go ahead and click on the Create Plan button at the end of the tab.
+How to filter a plan on your merchant dashboard:
+- From the subscriptions main page you will be able to view the plans you have created on your merchant dashboard.
+- Using the plan_ID of the plan you are looking for, enter that information on the search bar,
+- Press enter
+
+---
+
+## Transactions page for subscriptions
+How to access transaction details page:
+To view the transactions associated with each subscription enter the subscriptions detail page as described above in the access subscriptions detail page section.
+Scroll to the bottom of the page, you will be able to view the transactions associated with the respective subscription in a data table.
+By clicking on the row of the transaction you wish to view. It will open the transaction detail page.
+Details of transaction detail page:
+The transaction detail page provides a comprehensive overview of a specific transaction, shedding light on the financial activities associated with it. Divided into meaningful sections, this page enables merchants to dive deep into the intricacies of a transaction. Let's explore each section's significance and the data points they house:
+- Transaction Details: This section focuses on the transaction's attributes.
+- Transaction ID: A unique identifier assigned to the transaction, enabling easy referencing.
+- Type: The type of the transaction, categorizing it as a payment, refund, or other relevant type.
+- Price Amount: The monetary value of the transaction, providing a clear understanding of the financial impact.
+- Created At: The timestamp indicating when the transaction was initiated.
+- Charged At: The timestamp marking the actual date of the transaction being charged.
+- Updated At: The timestamp of the most recent update made to the transaction.
+- Will be charged at: The timestamp indicates the next calendar date where the customer will be charged for the subscription.
+- Instrument ID: A unique identifier for the instrument used for the transaction, offering insights into the payment source.
+- Plan Details: This section showcases vital details about the subscribed plan associated with the transaction.
+- Plan ID: A unique identifier for the subscribed plan.
+- Name: The name of the subscribed plan, clarifying the offering.
+- Type: Specifies whether the plan is a one-time payment or recurring subscription.
+- Price Amount: The cost of the plan.
+- Interval: The frequency at which payments occur, such as weekly, monthly, etc.
+- Description: A brief explanation of the plan's features and benefits.
+- Active: Indicates whether the plan is currently active.
+- Apply Amount Change on Existing Subscriptions: Determines if changes in the plan's price impact existing subscriptions.
+- Subscription Details: This section mirrors the subscription details highlighted earlier, providing insights into the subscribed plan.
+- Subscription ID: A unique identifier for the subscription.
+- Price Amount: The monetary value associated with the subscription.
+- Balance: The remaining balance in the subscription.
+- Start Date: The date when the subscription commenced.
+- Status: The current status of the subscription.
+- Billing Cycle: The cycle at which billing occurs.
+- Created At: The timestamp indicating when the subscription was initially created.
+- Updated At: The timestamp of the last update made to the subscription.
+- User Details: This section mirrors the user details shared earlier, providing insights into the user associated with the subscription and transaction.
+- User ID: A unique identifier for the user.
+- First Name: The first name of the user.
+- Last Name: The last name of the user.
+- Email: The email address associated with the user's account.
+- Phone Number: The contact number provided by the user.
+How to filter/search a transaction associated to a subscription on your merchant dashboard:
+- On the subscriptions detail page you will be able to view each transaction associated with that particular subscription.
+- To locate a specific transaction associated with the subscription, enter the transaction ID in the search bar,
+- Press enter.
+Understanding Transaction States:
+Transaction states define the stages that a financial transaction goes through during its life cycle within a subscription-based system. Each state represents a specific point in the payment process, providing merchants with a view of transaction progress. Here are the transaction states and their descriptions:
+- READY: A transaction in the ready state indicates that it is prepared for processing but has not yet been initiated. It's ready to proceed to the next stage when the designated processing time arrives.
+- QUEUED: The queued state implies that the transaction is in line for processing. It's in a waiting position until it reaches the processing point in the queue.
+- COMPLETE: A transaction marked as complete has successfully finished the payment process. The funds have been successfully transferred, and the transaction is considered successfully executed.
+- RETRY: In the event of an error during processing, a transaction may be placed in the retry state. This signifies that the system will attempt to process the transaction again.
+- FAILED: A transaction in the failed state indicates that the payment process encountered an issue preventing successful completion. It requires attention and possible intervention to resolve the problem.
+- VOID: A void transaction state implies that the transaction has been nullified before processing, usually upon the customer's or merchant's request.
+
+---
+
+## Customer drop outs
+Sometimes, a customer proceeds to check out (after having added items to their basket) and initiates a payment using Safepay, but never completes this (i.e. they do not click "Make Payment" on Safepay).
+This will appear in your merchant dashboard only as an initiated transaction, and no other payment information on the customer will be available to you. Sometimes customers do this because they are just curious or because they do not want to proceed with their transaction.
+No further information on the customer will be available at this stage from Safepay. We can only provide payment details to merchants on a customer that has clicked "Make Payment" through Safepay as shown below.
+
+---
+
+## How to reset your Safepay password
+aa
+- Navigate to your sign in page and click Forgot password ?
+- You will be redirected to a page where you need to enter the email address with which you created your Safepay Account. Depending on which password you need to reset, make sure you enter in the email address of either your Sandbox Account or Production Account.
+3. You will receive a reset password link at the email address you enter. Check your email and click on Click To Reset Password to change your password.
+- On the Reset Your Password screen which appears type in a new password and confirm this. Then click Change Password.
+### What if I cannot find my password reset email?
+If you cannot find the password reset email in your inbox, please:
+- Check your email spam or junk folder as there are rare occasions where it can be sent there.
+- If your email client groups mails by tabs, you should check each of these tabs. You can also search your email for "Reset your password for Safepay".
+- If you are using a custom email address like info@mybusiness.com, reach out to your email service provider or hosting company to ensure their servers aren't blocking emails from Safepay.
+- In the event that you've done all the above and you still do not receive a password reset email, please reach out to us at support@getsafepay.com.
+
+---
+
+## Refunding a transaction on subscriptions
+How to refund a subscription transaction
+- When on the subscription detail page you will be able to view the transactions associated with the subscription in a data table present at the bottom of the screen.
+- Once you choose the transaction you choose to refund the amount for, you will be taken to the transactions detail page on the top right hand corner of the screen you will find the tracker ID of the transaction there you can locate the refund button.
+- By clicking on the refund button you will initiate the refund process for your customer
+- This will initiate a new transaction on the subscription following the transaction states listed above.
+Note: You can refund transactions associated with subscriptions that have ended as well.
+
+---
+
+## Reconcile Shopify orders on your Safepay Dashboard
+Reconciling payments made on your Shopify store with the data available on your Safepay merchant dashboard is a simple process
+## Reconcile a Payment
+Follow the steps below to reconcile a payment:
+- Log in to the Shopify Dashboard and open the Orders tab. Click on a paid order and scroll down to view the Safepay Secure payment details. Click where it says ‘payment was processed on Safepay’
+2. Make a note of the payment ID
+3. Log into the Safepay merchant dashboard and navigate to Payments. The payment appears on the list of payments. The payment ID appears under the Order Id column.
+You can also search by selecting Order ID in the search bar and copy-pasting the payment ID from your Shopify store
+4. You can match the payment id (on the Shopify Dashboard) with the Order id (on the Safepay Dashboard) to map the payments.
+## How to reconcile multiple payments
+Follow the steps below to reconcile multiple payments:
+- Log in to the Shopify Dashboard and open the Orders tab.
+- Select the required orders or time period.
+- Click Export to export the data.
+- The Payment References column in the file contains the payment IDs.
+The Payment References column in the file contains the payment IDs.
+- Log in to the Safepay dashboard and navigate to Payments
+- Select Export and select the time period you want to see transaction data for
+- Click Export
+The Order ID column in the file contains the payment IDs
+The Order ID column in the file contains the payment IDs
+Match the Payment References column in the Shopify export with the Order ID column in the Shopify Payments Report to map the payments.
+
+---
+
+## Using Safepay for pre-orders and deposits
+Businesses sometimes need to be paid in advance before they start work on a product. This usually applies to bespoke clothe manufacturers but can also apply to other types of businesses such as catering or furniture manufacturers.
+Safepay is not a bank and we cannot accept deposits. If you accept payment for products or services (including bookings for events) not immediately deliverable to your customer, we may, in our sole discretion, initiate a reversal. It is very important that as part of your onboarding with Safepay that you mention if your business is involved in taking pre-order advances from your customers. You can mention this as part of the KYC call that our onboarding agent will have with you as part of our KYC policy.
+In the case that you do use Safepay for receiving a pre-order we would expect to see any invoice that you generate for your paying customer to include the following information; "“Any deposit payment is non-refundable. This order is subject to our general terms and conditions (available on our website)". The reason for requiring this is to avoid a dispute from your paying customer for whatever reason. By having this statement clearly written on an invoice, this can form part of evidence that can be submitted to the payment scheme to show that a customer has agreed to the deposit amount being non-refundable. This is particularly important if your customer has paid a deposit amount using Safepay, but for some reason is not satisfied with what will be delivered to them and decides to file a chargeback through their issuing bank to claim back the amount paid as a deposit.
+For more information regarding disputes, and how you as a merchant can protect yourself from chargebacks, read this guide .
+
+---
+
+## How do I update my Safepay user account and business information
+When creating a Safepay account, you or someone else on your team would have provided some information about your business. If you ever have the need to update your profile or business information, this can easily be done from your dashboard settings.
+### How do I update my Safepay Business Profile?
+Your Safepay Business Profile holds key information about you, the owner of the business. Here you have your store name, store description and display image shown to your customers when they checkout using Safepay. On this page, you are able to change or add these details to make your profile more complete. Here is an image illustrating what the profile settings page looks like:
+Let's break down each of the fields:
+- Name : This is the name of the store customers see on the checkout page.
+- Description : This is the description of your store customer see on checkout page.
+- Website : This is your store website that customer can visit to learn more about your business.
+- Phone : This is the support number on which customers can call for inquiries.
+
+---
+
+## Discounts V2
+Discounts by Safepay is a game changer for merchants where they can ensure customer retention and business expansion by providing exciting discounts to their customers through Safepay. This document will guide you through the process of setting up discounts for your customers.
+A. Sign in to your Safepay merchant dashboard and click on discounts on the top banner.
+B. Click on "Discounts 2.0 "
+Once you click on Create Discount , you’ll need to fill in the following fields:
+- Name Provide a title for your discount campaign. This could be something descriptive, like “Holiday Sale” or “New Year Offer,” to help you easily identify the discount.
+- Description (Optional) Add a brief description of the discount. Use this to provide additional details or context for the discount.
+- Type of Discount Choose whether the discount will be a flat amount or a percentage-based reduction. The chosen discount type will be applied to the total amount.
+- Currency Select the currency for the discount from the list of currencies supported by Safepay.
+- Value Specify the percentage or fixed value of the discount. For example, a "10%" value in the percentage-based option applies a 10% discount to the total amount.
+- Maximum Discount (Optional) Set a cap on the discount amount. This is useful to limit how much discount a customer can receive in a single transaction.
+- Minimum Subtotal (Optional) Define the minimum order subtotal required to apply the discount. For example, you can set the discount to only apply on orders above $50.
+- Start and End Dates (Optional) Schedule when the discount should be active. The start date cannot be the same as the current date. Use this to plan discounts in advance or set an expiry date.
+### For Example:
+In the screenshot below, a 10% percentage-based discount is configured, with a cap of 1000Rs and a minimum order subtotal of 500Rs and its valid from 29th Dec till 31st Dec. 2024.
+C. Once a discount is created, it will appear on the discounts page. Over there you can choose to enable, disable, or archive any discount that you want from there. You can click on the Three dots to edit or delete any discount.
+D. How to Apply a Flat Discount with Safepay?
+Safepay now makes it easy to offer a flat discount, which means the discount applies to all transactions without any restrictions based on BIN numbers. Here's how to set it up:
+Click on any Disocunt rule that you have created and then simply: Enable the Flat Discount Toggle
+Example: You want to encourage online card payments by offering a 5% discount on all paid orders to reduce the cash-on-delivery (COD) rate.
+Important Disclaimer: Once the flat discount is enabled, it’s active and ready for use. All transactions will now reflect this discount without requiring additional configurations.
+E. How to Create BIN-Based Discounts
+What is a BIN-Based Discount?
+A BIN-based discount is a type of card-specific discount that applies only to transactions made using certain debit or credit cards. The BIN refers to the first six digits of a card number, which identify the issuing bank.
+#### Step 1: Create a Discount Scheme
+- In Discount section click on Card Schemes section in your Safepay dashboard.
+- Click on Create Scheme and define a range of BIN numbers that you want to apply the discount to.
+- Save your scheme after entering the BIN ranges.
+Here’s how to create and use BIN-based discounts:
+Example: Add BIN numbers such as 990022 , 990023 , 990024 , and 990025 for HBL cards.
+Now lets link this to exsiting Discount Rule by going to Discount V2 Tab and then on detail page lets link this Card scheme
+Select the Card Scheme that we create and save the discount
+F. Once a discount is enabled, any transaction that a paying customer makes with any of the card schemes that have been allowed, will see the discount applied on checkout.
+- Once your customer makes a discounted transaction on your website, it will appear like this (shown below) on your dashboard along with all the details in the payments detail section
+Note:
+- If more than one discount is enabled, discount with the highest value will be applied.
+- Discounts can be applied to any of the currencies supported by the Safepay dashboard.
+
+---
+
+## How to navigate subscriptions
+How to navigate subscription?
+- You’ll find the Subscriptions tab on the merchant dashboard.
+- The Plans subtab will display all the plans offered by the merchant.
+- On the Plans subtab you can click on a plan to view plan details as well as payment details of customers subscribed to that specific plan.
+- On the Subscriptions subtab you can click on an individual subscription to view its details and details of the associated plan.
+
+---
+
+## How to sign our merchant agreement
+This guide explains how you will receive our Terms of Service to sign after successful submission of our merchant onboarding form and KYC call. To accept live (real) payments through Safepay you need to electronically sign our Terms of Service.
+To learn more about our Terms of Service, please read this guide . We use Docusign to enter into our Terms of Service with a merchant. DocuSign is a digital transaction platform that lets users send, sign and manage legally binding documents securely. Electronically signed documents mean you do not need to print and scan (or courier) the Terms of Service.
+### Important note
+You will receive general communications from Safepay at the email address you have used to create your Production Account.
+However, our Terms of Service will be sent to the email address of the authorized signatory of the business that has onboarded with us. This will potentially be different from the person that is integrating Safepay in your organization (for example, the signatory could be the owner or CEO of your organization). If you are confused as to who from your organization should sign the Terms of Service and Use, please contact us .
+We will require the following information of the authorized signatory to send out the Terms of Service for signing:
+- Email address
+- CNIC no. of signatory
+- Registered mobile phone number
+### Steps to sign
+- Step 1: You will receive an email from help@getsafepay.com telling you that we will be sending our Terms of Service. This will be sent to the email address that you used to create your Production Account.
+This is how it will appear in your primary email inbox. If you are unable to see it in your inbox, please check your spam folder.
+- Step 2: Our legal team sends out the Terms of Service through DocuSign to the merchant authorized representative at the email address they have provided. The merchant authorized representative will receive an email as shown below. The merchant authorized representative will need click to on REVIEW DOCUMENT.
+- Step 3: After clicking on REVIEW DOCUMENT , the entire Terms of Service will be open.
+- Step 4: The merchant authorized representative can choose from a custom or system generated signatures and initials in order to sign the Terms of Service. The representative will have to put their initials at the bottom of 2 pages covering Safepay Charges and Settlement Schedule. This will be marked on each page with the Initial icon.
+- Step 5: The merchant authorized representative will have to sign at the designated signature location on the last page of the Terms of Service. The details of the authorized representative will already have been filled in by the Safepay legal team. After signing the document, the representative will have to click on the FINISH button at the bottom.
+- The merchant authorized representative will receive a confirmation email from DocuSign that the Terms of Service have been signed successfully. The representative can view the signed document in their DocuSign account. Safepay will automatically receive a fully signed copy of the Terms of Service so there is no need to email us following this.
+
+---
+
+## Overview
+This guide provides insights into managing subscriptions effectively. It covers how subscriptions work and how to navigate them on your dashboard. Learn how to create new plans with detailed information like plan name, pricing, currency, interval, and more. Discover how to design plans, whether they're recurring or one-time, with examples. You'll also understand how to view, pause, resume, or cancel subscriptions.
+The guide also explains various subscription and transaction states, helping you understand the progress and status of each. It teaches you to access and interpret detailed subscription and transaction pages, highlighting crucial information such as subscription details, plan details, user details, and transaction information. Additionally, you'll learn how to filter and search for specific subscriptions and transactions based on their IDs.
+This guide provides you with the knowledge to effectively manage subscriptions, understand their states, and navigate associated transactions, all within your merchant dashboard.
+
+---
+
+## Managing notifications from Safepay
+Your customers receive automated emails from Safepay each time they conduct a transaction on your store. These emails contain important information about the payment as well as information on how to contact you, the store owner, in case something goes wrong.
+We will inject your business email address that you provided when you signed up to Safepay into the email that is sent to the customer.
+If you created your Safepay account using your personal email address, you can use these settings to configure an email address that is more suited towards customer support or help requests from your customers.
+## Managing your account notifications
+Log in to your Safepay dashboard and navigate to the notification page under Settings > Notifications.
+Display Email Address: This is the email address that will show up on your customers' receipts. Choose something they will recognize in order to prevent disputes. Setting a display email is also optional. For all merchants that choose not to set one, all email notifications will still be sent to your primary email address and your customers will see your primary email address in their receipts.
+Transactions: Selecting this toggle will tell Safepay to forward all transaction emails to your display email address as opposed to the email address you used to create the account. This can be useful if you have a team that receives these emails.
+Refunds: Selecting this toggle will tell Safepay to forward all refund related emails to your display email address as opposed to the email address you used to create the account.
+We are coming out with more useful ways for you to be able to control the way in which you and your team receives notifications from Safepay, so come back to this guide later.
+Not getting email on your new display email address? Read this guide here to understand why this might be the case.
+
+---
+
+## How to pay using Abhi wallet
+This document will give you a guide on how to make payments using Abhi wallet through Safepay.
+- Once you land on Safepay checkout screen either through website or through quick link, you will see the following screen
+- Once you are on the checkout screen, select Wallets on checkout
+- Once you are on the Wallets page, you will see multiple wallets listed there, you will only see the ones your merchant has approved of. Once you click on Abhi you will see the following screen pop up
+- Once you see the pop up, add CNIC, Phone number & Email address that you have registered with when getting onboarded with Abhi. Once you have entered the information, click on Authorize.
+- Once your credentials are validated and authorization is completed, you will be taken to the OTP screen. Once you have entered the correct OTP that you have received on your phone, you will have 300 seconds to make the payment
+In case you have any issues, please feel free to reach out to us at support@getsafepay.com
+
+---
+
+## Safepay Checkout Extension for Magento
+Magento is an e-commerce platform built using open source technology. Magento provides online merchants a flexible shopping cart system, as well as control over the look, content, and functionality of their online store.
+Integrating your Magento store with Safepay Checkout allows you to accept payments on your Magento store via the Safepay Payment Gateway. You can accept payments via bank transfer and account wallet
+The extension offers seamless integration, allowing the customer to pay on your website without any extra step. This allows the extension to work across all browsers and ensures compatibility with the latest versions of Magento.
+Currently, we support the following versions of Magento:
+- Magento 1.x extension
+- Magento 2.x extension
+Our extensions are supported on all operating systems, such as Windows, Mac OS and Linux.
+
+---
+
+## How to set up New Safepay for Woocommerce
+### Getting Started
+To get started, you can download and install the plugin. Click here to download the latest plugin and follow the instructions on the page to install the plugin. Please be sure to activate the plugin when you have installed it.
+### Install WooCommerce before Safepay
+Please ensure you have installed the WooCommerce Plugin on your WordPress site before installing the Safepay WooCommerce plugin. The Safepay WooCommerce plugin cannot work without WooCommerce.
+Important Note - You might find the Safepay plugin on the WordPress store as well but that is depreciated, it might work but it's not recommendable as it lacks support for webhooks.
+First, download the plugin zip file from the Gdrive go to Plugins, and then add the new plugin by uploading:
+Click on Install Now to install the plugin then Activate the plugin
+After you have installed the plugin, you need to go to the WooCommerce Plugin Settings on the menu tab of your WordPress site and click the Payment tab . This will show a tab containing all the Payment options on your site. If you have installed the plugin correctly, you should see Safepay on that list. This is where you can configure the Safepay Plugin.
+### Safepay WooCommerce Plugin Settings
+Here we will discuss all the settings you'll find in your Safepay WooCommerce Plugin and how they should be set in order for your plugin to function properly.
+Enable Safepay : Ensure that the Enable Safepay checkbox is checked so that  Safepay can show up on the list of Payment options during checkout
+- Environment : Safepay provides multiple environment options to test parameters that allow you to simulate a transaction without using real money. Development is used by people having development access to Safepay usually merchants use a sandbox environment to check the complete flow. Safepay will be using your sandbox API keys to parse the payments, meaning that the orders processed then will be done with test cards, no real money is exchanged therefore no real value should be delivered. When you're ready you can keep the environment as production to go live. In your environment, please make sure that you have updated your API keys, if not, make sure the correct API keys are properly entered. If you don't do these, Safepay will not show on your list of plugins at checkout.
+- Title at checkout: Name of payment option on Checkout Screen
+- Description: What description should be reflected under the title on checkout to users
+- Merchant API key : Kindly follow this link to your Safepay Dashboard Settings to find your API key. Copy the keys and enter them in the right fields in the plugin settings.
+- Merchant Secure key : Kindly follow this link to your Safepay Dashboard Settings to find your API key. Copy the keys and enter them in the right fields in the plugin settings.
+- Gateway URL: This will remain the default one
+- Production Webhook Secret : This is the secret webhook URL of the WordPress store that you must add to the production Safepay merchant dashboard, this will enable the WordPress store to receive tracker and updates from our end.
+- Sandbox Webhook Secret : This is the secret webhook URL of your WordPress store that you must add to the sandbox Safepay merchant dashboard, this will enable the WordPress store to receive tracker and updates from our end.
+On your Safepay merchant dashboard for point 7 & 8 Navigate to the Developers section
+then now add a new entry to register webhook links to receive updates from Safepay to your wordpress site
+Additional Fields:
+Title: This is the method name that will show on orders so that you can easily distinguish Safepay transactions on the order level like below:
+Description: This field is the label that will appear on the Safepay Checkout method on the woo-commerce order checkout screen, its recommended to keep Pay securely via credit  or debit cards
+### How to get your Test and Live API keys
+There are 2 dashboards: Production and Sandbox .
+The sandbox dashboard can be accessed from here :
+The production dashboard can be accessed from here :
+You'll see a light blue bar at the top of your dashboard signifying if you are in a sandbox environment.
+Please note which keys you copy into your WooCommerce payments settings.
+### Safepay on Checkout
+If all the settings above are done correctly, you should find Safepay on your checkout page's listed under enabled payment options.
+If you do not find Safepay on the Payment method options, please go through the settings again and make sure that:
+- You have enabled Safepay
+- The entered API Keys are correct
+### woocommerce orders paid with Safepay
+Orders created in your woocommerce admin that are paid for through Safepay will be created with the Safepay transaction reference code. Additionally, the tracker for each transaction will be saved as metadata on the order. When you click into an order, you will see details as follows:
+The red underline shows the Safepay reference code for each transaction that can be found in your dashboard. Note that if the transaction was conducted with your sandbox API key, then the appropriate transaction will be found in your sandbox dashboard , whereas if the transaction was conducted with your production API key, the transaction will be found on your production dashboard .
+Similarly, order notes will now be marked as "payment successful" with the Safepay transaction reference code attached as well
+If there is  any confusion please follow the detailed video tutorial below:
+
+## Safepay live merchant guide
+This document identifies the key Safepay guides you should read to get started once your account is approved for live payments.
+If you have any questions, please reach out to use at support@getsafepay.com.
+N
+o.
+Guide name
+Link
+Summary
+1
+How to make a payment using Safepay Checkout
+Guide
+Describes how your customer will pay you on your website
+2
+How payments on Safepay work video
+Video
+Video to show how your customer will pay you
+3
+Merchant dashboard
+Guide
+Describes how to view your transactions through Safepay
+4
+Payments dashboard
+Guide
+Describes how to view your payments dashboard
+5
+Payment details
+Guide
+Describes how to access information on each payment
+6
+Settlement for bank transfers and wallet payments
+Guide
+Describes how money will hit your bank account and at what frequency
+7
+How to refund your customer
+Guide
+Describes how you will need to refund your customer that has paid you using Safepay
+8
+Transaction limits
+Guide
+Describes how much your customer can pay you using their bank account or wallet
+9
+How to re-enable Safepay
+Guide
+If you previously had Safepay installed this guide describes how to re-enable the plug-in
+
+---
+
+## ASP.Net Integration Guide
+This document provides a step-by-step guide to integrate Safepay payment gateway with your ASP.NET application using the Safepay v2 API flow.
+This integration supports:
+- Secure payment processing
+- Hosted checkout experience
+- Webhook-based payment confirmation
+- Sandbox and production environments
+# Prerequisites
+Before integration, ensure you have:
+- ### Safepay Accounts -clickherefor detailed guide
+- Sandbox Account (Testing) https://sandbox.api.getsafepay.com/
+- Production Account (Live Payments) https://getsafepay.com/
+- ### API Credentials
+You will receive:
+- API Key (Sandbox / Production)
+- Webhook Secret Key
+# Integration Flow
+The Safepay integration follows this flow:
+- Create Order Session (Tracker)
+- Generate Checkout URL
+- Redirect Customer to Safepay
+- Handle Redirect (UI only)
+- Handle Webhook (Final Payment Confirmation)
+# Step 1: Create Order Session (Tracker)
+Create a payment session using Safepay API. This returns a tracker token used for checkout.
+public class SafepayClient
+{
+private readonly string _apiKey;
+private readonly string _baseUrl;
+
+public SafepayClient(string apiKey, string environment = "sandbox")
+{
+_apiKey = apiKey;
+_baseUrl = environment == "production"
+? "https://api.getsafepay.com"
+: "https://sandbox.api.getsafepay.com";
+}
+
+public async Task<string> CreateOrderAsync(decimal amount, string currency)
+{
+var client = new HttpClient();
+client.DefaultRequestHeaders.Add("Authorization", $"Bearer {_apiKey}");
+
+var payload = new
+{
+amount = (int)(amount * 100), // IMPORTANT: base units(PKR 100 = 10000)
+currency = currency
+};
+
+var response = await client.PostAsJsonAsync(
+$"{_baseUrl}/order/payments/v3/",
+payload
+);
+
+var result = await response.Content.ReadAsStringAsync();
+dynamic json = Newtonsoft.Json.JsonConvert.DeserializeObject(result);
+
+return json?.tracker?.token;
+}
+}
+# Step 2: Generate Checkout URL
+Use the tracker token to generate a Safepay hosted checkout URL.
+public static class SafepayCheckout
+{
+public static string GenerateUrl(
+string tracker,
+string environment,
+string redirectUrl,
+string cancelUrl)
+{
+string baseUrl = environment == "production"
+? "https://getsafepay.com/checkout/pay"
+: "https://sandbox.api.getsafepay.com/checkout/pay";
+
+return $"{baseUrl}?tracker={tracker}" +
+$"&source=hosted" +
+$"&redirect_url={Uri.EscapeDataString(redirectUrl)}" +
+$"&cancel_url={Uri.EscapeDataString(cancelUrl)}";
+}
+}
+Source can either be hosted , mobile , xcomponent , popup , woocommerce or shopify . In web case, it will be hosted
+# Step 3: Redirect Customer
+Redirect the user to the Safepay checkout page.
+public async Task<IActionResult> Pay()
+{
+var safePay = new SafePayClient("YOUR_API_KEY", "sandbox");
+
+var tracker = await safePay.CreateOrderAsync(1000, "PKR");
+
+var checkoutUrl = SafePayCheckout.GenerateUrl(
+tracker,
+"sandbox",
+"https://yourdomain.com/payment/success",
+"https://yourdomain.com/payment/cancel"
+);
+
+return Redirect(checkoutUrl);
+}
+# Step 4: Handle Redirect
+### Success URL
+User is redirected after payment completion.
+Important:
+- Do NOT mark payment as successful here
+- Only display confirmation UI
+### Cancel URL
+Handle cancellation flow and allow retry.
+# Step 5: Webhook Handling (MANDATORY)
+Safepay sends a webhook after payment completion.
+This is the only trusted confirmation source.
+[HttpPost]
+public async Task<IActionResult> SafepayWebhook()
+{
+var body = await new StreamReader(Request.Body).ReadToEndAsync();
+var signature = Request.Headers["X-SFPY-SIGNATURE"];
+
+var secret = "YOUR_WEBHOOK_SECRET";
+
+using (var hmac = new System.Security.Cryptography.HMACSHA512(
+System.Text.Encoding.UTF8.GetBytes(secret)))
+{
+var computed = Convert.ToHexString(
+hmac.ComputeHash(System.Text.Encoding.UTF8.GetBytes(body))
+).ToLower();
+
+if (computed != signature)
+{
+return BadRequest("Invalid signature");
+}
+}
+
+dynamic data = Newtonsoft.Json.JsonConvert.DeserializeObject(body);
+
+string orderId = data.order_id;
+string tracker = data.tracker;
+
+// Mark order as paid
+// Store tracker and reference details
+
+return Ok();
+}
+# Important Notes
+### Webhook is Source of Truth
+- Always confirm payment via webhook
+- Don't rely on redirect URL
+- Always validate webhook signatures with HMAC
+### Idempotency
+- Webhooks may be triggered multiple times
+- Ensure duplicate handling
+### Logging
+Log:
+- Order creation request
+- Tracker token
+- Checkout URL
+- Webhook payload
+### Retry Handling
+Handle:
+- Network failures
+- Delayed webhooks
+- User abandoning checkout
+# Environment URLs
+Environment
+Base URL
+Sandbox
+https://sandbox.api.getsafepay.com
+Production
+https://api.getsafepay.com
+Checkout (Prod)
+https://getsafepay.com/checkout/pay
+# Support
+For integration support, please contact at integrations@getsafepay.com
+
+---
+
+## What happens to Safepay Charges and Taxes when I issue a refund?
+Safepay aims to keep its pricing simple and transparent. Our standard charges support the costs involved in processing Transactions and providing services such as payment acceptance, fraud monitoring, reporting, settlement and payment-management tools. These costs are incurred when the original Transaction is processed.
+To continue providing these services as part of our standard pricing, Safepay Charges and applicable Taxes on the original Transaction will still apply even if the Transaction is later refunded. The Customer receives the full refund amount. Safepay recovers this full amount (including the Safepay Charges and applicable Taxes) from the Merchant’s future settlements.
+No separate refund fee is being charged. Safepay’s charges and applicable taxes relate to processing the original Transaction.
+For assistance, please contact support@getsafepay.com .
+ℹ️ This treatment is effective from 1 August 2026 and applies to all refunds processed on or after this date in accordance with the applicable provisions of the Safepay Services Agreement you have signed with us.
+
+---
+
+## Connect for payers
+Are you paying a merchant or organization through their Safepay Page? This document will explain how you can proceed to payment easily and securely.
+- When you click on the link the following pop-up will appear with no amount. The images below are for demonstration purposes only, it is likely that your merchant or organization has customized their Safepay Page with their logo and branding.
+- You can choose the amount to pay the merchant or organization, and can also specify a note to go along with the payment. We think this makes it easier to keep track of what has been paid and for what purpose Connect is being used.
+- If you want to change the currency that you want to pay in, you can simply click or tap on the currency symbol and it will toggle between PKR and USD. Below is an image of the same amount in the images above, but in PKR rather than USD.
+-
+- Choose which payment channel to use (depending on who you have a bank account open with) PayFast: This will open the various payment options available through this payment channel. PayFast is a financial partner of Safepay. NIFT e-pay: This will open the various payment options available through this payment channel. NIFT e-pay is a financial partner of Safepay. Same bank option on both channels? Choose whichever channel through which you would like to pay. This just means that both channels have a relationship with the same bank. Step 3: Click on the bank with which you have an account open Step 4:  Enter your credentials and click make payment Safepay will attempt to authorise the transaction. You will receive a one-time-passcode (OTP) from the bank from which you have chosen to make your payment. Normally, the OTP code is received on the mobile phone or email address associated with the relevant bank account. Upon completion of the transaction, you will then receive an email from Safepay confirming and summarising the transaction along with details as to how to contact the merchant.
+### Important to note
+### The line item in the bank statement associated with the account that was used to make the payment will show up as either:NIFT E-PAY:If you have used the NIFT ePay payment option.OPS Internal Settlement Master Account orPAYFAST-APPS: If you have used the PayFast option.Safepay works with NIFT ePay and PayFast to allow you to pay your favorite merchants using bank transfers or mobile wallets.For further details on the transaction, you should refer to the email receipt that we send to the email address you have used to complete your transaction. The image above shows the kind of information you will receive in case you need to contact the merchant, or us.

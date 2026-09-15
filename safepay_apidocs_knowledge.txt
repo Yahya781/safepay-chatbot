@@ -1,0 +1,942 @@
+# Safepay Knowledge Base — API Documentation
+# Cleaned and structured from safepay-docs.netlify.app
+# This is the sole source of truth for the SafePay assistant.
+
+## Safepay Documentation
+
+# Documentation to help you integrate payments into your apps
+
+Follow our guides and tutorials to build amazing payment experiences for your customers.
+Build with Safepay
+Support multiple payment options in one system while giving your customers the best user experience at every step.
+
+## Quick Start
+
+Copy
+Then continue setting up your environment .
+
+## Quick Start
+
+Copy
+Then continue setting up your environment .
+
+## Accept payments across mobileand web apps
+
+
+### Learn more
+
+Explore our guides and tutorials to integrate Safepay.
+
+### Start learning important concepts
+
+Check out the glossary so you can understand how our platform works.
+
+### Start learning important concepts
+
+Check out the glossary so you can understand how our platform works.
+
+### Use Safepay without writing code
+
+Start accepting payments with Safepay by, creating a payment link.
+
+### Use Safepay without writing code
+
+Start accepting payments with Safepay by, creating a payment link.
+
+### Create a prebuilt payment form
+
+Explore the different ways you can accept payments with Safepay
+
+### Create a prebuilt payment form
+
+Explore the different ways you can accept payments with Safepay
+
+### Understand how to use webhooks
+
+Receive important updates related to payments and your account
+
+### Understand how to use webhooks
+
+Receive important updates related to payments and your account
+
+## Discover our developer resources
+
+Use Safepay's API reference on Postman
+Find a library in your preferred language
+Have a look at our online payments examples
+Use test card numbers, Webhook logs, and more
+
+## Discover our developer resources
+
+Use Safepay's API reference on Postman
+Find a library in your preferred language
+Have a look at our online payments examples
+Use test card numbers, Webhook logs, and more
+
+### Connect with us
+
+See the source code, connect with others, and get connected.
+View our SDK, submit a PR, or report an issue.
+Follow Safepay on Instagram for product updates.
+Get the latest on Safepay.
+All our APIs available as Postman collections.
+Was this doc helpful?
+- Share your feedback
+
+---
+
+## Online payments
+
+# Online payments
+
+Accept payments with cards, wallets, and local payment methods on your website and mobile app.
+You can integrate with our online payments APIs in several ways. These range from using a pre-built integration, to building your own UI for full control over your checkout experience.
+
+## Choose a server-side flow
+
+Choose one of our server-side implementations depending on the use cases that you want to support with your online payment integration.
+
+#### Build your integration
+
+Learn more about the flows we offer
+
+#### Build your integration
+
+Learn more about the flows we offer
+
+## Start integrating
+
+Build your online payments integration.
+
+#### Web
+
+Accept payments on your website.
+
+#### Web
+
+Accept payments on your website.
+
+#### React Native
+
+Accept payments on your cross-platform mobile apps.
+
+#### React Native
+
+Accept payments on your cross-platform mobile apps.
+
+#### Plugins
+
+Accept payments with a plugin
+
+#### Plugins
+
+Accept payments with a plugin
+
+## Complete your integration
+
+Once your integration can make a payment, complete your integration by adding more features and functionality.
+
+#### Set up webhooks
+
+Keep your system up-to-date on payment events, status changes, disputes, and more.
+
+#### Set up webhooks
+
+Keep your system up-to-date on payment events, status changes, disputes, and more.
+
+#### 3D Secure
+
+Add authentication and security to protect your business from chargebacks
+
+#### 3D Secure
+
+Add authentication and security to protect your business from chargebacks
+
+#### Issue refunds
+
+Refund a payment back to your shopper
+
+#### Issue refunds
+
+Refund a payment back to your shopper
+
+#### Use tokens
+
+Save a shopper's payment method for faster checkouts and recurring payments
+
+#### Use tokens
+
+Save a shopper's payment method for faster checkouts and recurring payments
+
+## Test and go live
+
+Test your integration, and get ready to accept live payments.
+
+#### Make test payments
+
+Use our test card numbers and credentials to test how your integration handles payments
+
+#### Make test payments
+
+Use our test card numbers and credentials to test how your integration handles payments
+
+#### Test error scenarios
+
+Test how your integration handles refused payments, cancelled transactions, and other scenarios.
+
+#### Test error scenarios
+
+Test how your integration handles refused payments, cancelled transactions, and other scenarios.
+
+#### Go live
+
+Learn about the steps required to take your integration live
+
+#### Go live
+
+Learn about the steps required to take your integration live
+Next (Get started)
+Integration checklist
+Was this doc helpful?
+- Share your feedback
+- Edit this page
+
+---
+
+## No code guide
+
+# No code guide
+
+Accept payments using Safepay without coding.
+1
+
+## Quick Links
+
+Payment Links Generate one-time payment URLs without writing any code. Share them with customers over WhatsApp, email, or social media to collect payments quickly.
+Use cases include:
+- One-off invoices
+- Custom Orders
+- Facebook or Instagram businesses
+You can generate payment links directly from the Safepay Dashboard , or programmatically via the API.
+2
+
+## Shopify Onsite
+
+If you want your customers to pay without leaving your Shopify store, install the Safepay Checkout (Onsite) app from the Shopify App Store .
+Key features:
+- Fully embedded checkout experience (no redirects)
+- Automatically synced with your Shopify order flow
+- Can initiate refunds from Shopify store
+- Requires no code or development setup
+Ideal for businesses looking for a seamless payment experience and higher conversion rates.
+3
+
+## Shopify Hosted
+
+Prefer to keep payment flows simple? Use the Safepay Checkout (Hosted) app from the Shopify App Store .
+Key features:
+- Redirects users to a secure Safepay-hosted page for payment
+- Quickest way to start accepting payments on Shopify
+- Customers can save cards
+This option is perfect for merchants who want a fast setup with minimal configuration.
+4
+
+## WooCommerce
+
+Using WordPress and WooCommerce? Install the official Safepay WooCommerce Plugin .
+Key features:
+- Accept secure card payments via Safepay
+- Compatible with most WooCommerce themes and plugins
+- Customers can save cards
+This option gives store owners an easy to install checkout experience.
+
+## Installation
+
+Installation steps:
+- Download the plugin from GitHub or Shopify and install.
+- Activate the plugin and configure your Safepay credentials .
+- Start accepting payments.
+Was this doc helpful?
+- Share your feedback
+- Edit this page
+
+---
+
+## Development resources
+
+# Development resources
+
+Learn what you need to build a successful integration with Safepay.
+This page provides resources to help you successfully build your integration with Safepay. Start with Setup and integration to access your authentication credentials, Safepay's libraries, integration examples, and more.
+
+## Setup and integration
+
+These are some parts of what you need to build your integration. Before you use this section, choose the type of integration you want to build and follow the corresponding integration guide. While you follow the integration guide, you can reference this information.
+
+#### API credentials
+
+Authenticate your API requests with Safepay
+
+#### API credentials
+
+Authenticate your API requests with Safepay
+
+#### Libraries
+
+Install and use our server-side API libraries
+
+#### Libraries
+
+Install and use our server-side API libraries
+
+#### Webhooks
+
+Receive important updates related to your account.
+
+#### Webhooks
+
+Receive important updates related to your account.
+
+## Examples and tutorials
+
+
+#### Postman collections
+
+Try out the Safepay APIs
+
+#### Postman collections
+
+Try out the Safepay APIs
+
+#### Open source
+
+Official implementation examples of Safepay products and services
+
+#### Open source
+
+Official implementation examples of Safepay products and services
+
+#### Video tutorials
+
+A guided walkthrough on how to successfully integrate with Safepay products
+
+#### Video tutorials
+
+A guided walkthrough on how to successfully integrate with Safepay products
+Next (Setup Safepay)
+Libraries & SDKs
+Was this doc helpful?
+- Share your feedback
+- Edit this page
+
+---
+
+## Introduction
+
+# Introduction
+
+Tips to help engineering teams produce high-quality documentation—with or without the support of designated technical writers.
+
+## How to Write Effective Developer Documentation
+
+
+### Introduction
+
+Developer documentation is crucial for enabling users to understand and effectively use software products. Good documentation not only eases the learning curve for new users but also enhances user satisfaction and reduces the load on your support team. Here's a comprehensive guide to creating clear, concise, and useful developer documentation.
+1
+Identify Your Audience
+Before you begin writing, it's vital to know who will read your documentation. Understanding your audience helps tailor the content to meet their specific needs, enhancing comprehension and utility. Consider the following to better understand your audience:
+- Internal vs. External : Determine if your documentation is for internal stakeholders or external customers.
+- Expertise Level : Assess the technical level of your audience—beginners, intermediates, or experts.
+- Role Specifics : Identify whether they are developers, project managers, data scientists, or non-technical users.
+- Needs and Goals : Understand what your audience hopes to achieve with your documentation—this could include installation, configuration, troubleshooting, or learning best practices.
+2
+Define the Purpose of Your Documentation
+Clear documentation should aim to resolve specific problems that users face or are likely to encounter. Here’s how you can define the purpose of your documentation:
+- Problem-Solving : Focus on common issues or tasks that your documentation can help users solve or accomplish.
+- Task-Oriented Guides : Create guides that are structured around performing specific tasks.
+- Reference Manuals : Offer detailed descriptions of APIs, frameworks, or libraries.
+- Tutorials and Quickstarts : Provide step-by-step instructions to help users get started quickly.
+3
+Write Clear and Concise Content
+Good documentation is not just about what you write, but how you write it. Here are some tips to enhance clarity and readability:
+- Use Simple Language : Avoid jargon and complex language unless absolutely necessary.
+- Be Concise : Keep your sentences short and to the point.
+- Use Active Voice : Active voice tends to be clearer and more direct than passive voice.
+- Include Examples : Show real-world applications through code snippets and scenarios.
+- Stay Consistent : Use consistent terminology, formatting, and style throughout your documentation.
+4
+Structure Your Documentation
+Well-structured documentation makes it easier for users to find what they need. Structure your documents effectively by:
+- Logical Organization : Arrange topics in a logical order from basic to advanced.
+- Navigable Format : Use headings, subheadings, tables of contents, and indexes to improve navigation.
+- Modular Design : Break content into smaller, manageable pieces that can be easily updated or rearranged.
+5
+Collaborate and Gather Feedback
+Collaboration and feedback are essential for creating effective documentation:
+- Internal Reviews : Have your documentation reviewed by peers for technical accuracy and clarity.
+- User Feedback : Encourage feedback from actual users through surveys, user testing, and direct communications.
+- Iterate : Regularly update your documentation based on user feedback and changes in your software.
+6
+Maintain and Update Regularly
+Documentation is not a one-time effort. Regular updates are necessary to keep it relevant:
+- Schedule Regular Reviews : Set a timeline for regular reviews and updates to documentation.
+- Change Logs : Maintain logs of changes in your documentation to inform users about updates.
+- Deprecated Features : Clearly mark deprecated features and suggest alternatives.
+
+### Conclusion
+
+Effective developer documentation is key to the success of any software product. By following these guidelines, you can create documentation that not only serves to educate and inform but also enhances the user experience. Remember, the best documentation evolves with its product and is continually refined based on user interaction and feedback.
+Next (Get started)
+Project structure
+Was this doc helpful?
+- Share your feedback
+- Edit this page
+
+---
+
+## Get Started
+
+# Get Started
+
+Create an account and learn how to start using Safepay.
+
+# Start using Safepay
+
+Set up a Safepay account, setup your environment, and learn how to immediately protect yourself from fraud.
+If you’re ready to start developing, see our Checkout quickstart.
+
+## Accept Payments
+
+
+#### Use Safepay without writing code
+
+Start accepting payments with Safepay by creating QuickLinks or installing a plugin.
+
+#### Use Safepay without writing code
+
+Start accepting payments with Safepay by creating QuickLinks or installing a plugin.
+
+#### Create a prebuilt payment form
+
+Create a prebuilt payment form using Safepay Checkout, optimized for faster payments.
+
+#### Create a prebuilt payment form
+
+Create a prebuilt payment form using Safepay Checkout, optimized for faster payments.
+
+#### Create and manage subscriptions
+
+Build a full, working subscriptions integration using Safepay Billing, Checkout and our SDKs.
+
+#### Create and manage subscriptions
+
+Build a full, working subscriptions integration using Safepay Billing, Checkout and our SDKs.
+
+## Plan your integration
+
+
+#### Project timeline
+
+Follow our project timeline to successfully integrate Safepay in your website or app.
+
+#### Project timeline
+
+Follow our project timeline to successfully integrate Safepay in your website or app.
+
+#### Planning considerations
+
+Understand what countries you will accept payments from and how you will handle chargebacks.
+
+#### Planning considerations
+
+Understand what countries you will accept payments from and how you will handle chargebacks.
+
+#### Website checklist
+
+Make sure your website is compliant with card network standards and e-commerce best practices.
+
+#### Website checklist
+
+Make sure your website is compliant with card network standards and e-commerce best practices.
+Next
+Project timeline
+Was this doc helpful?
+- Share your feedback
+- Edit this page
+
+---
+
+## Project timeline
+
+# Project timeline
+
+Follow our project timeline to successfully integrate Safepay.
+
+## Introduction
+
+Follow our project timeline to successfully integrate Safepay payments into your system. Safepay's platform allows you to accept payments, receive payouts, and reconcile your accounts with ease. Whether you're using Safepay Atoms to create a customized checkout flow or Checkout to build a payment form, Safepay’s APIs provide secure processing across various global payment methods and currencies.
+
+## Getting Started
+
+Before you begin, ensure that you are registered and logged into your Safepay account. Integrating payments can take as little as one week, but for businesses with complex internal systems, the timeline can extend up to three months. The primary dependencies influencing this timeline include engineering resources, internal system integrations, and change management across impacted teams.
+
+## Project Timeline
+
+PHASE | DURATION | TASK
+Design | 1 week | Finalize decisions outlined in Planning considerations with impacted teams.
+Setup | 1-2 days | Create and activate your Safepay account by signing up and completing your business profile.
+Build | 1-2 weeks | Build your frontend integration.
+ | 2-4 weeks | Build your server-side integration.
+ | 2 weeks | Build your reporting and reconciliation pipeline.
+Train | 1 week each | Conduct team-specific trainings and playbooks for Safepay environment, for example: Fraud and disputes, Customer service, Finance and accounting.
+Test and Go Live | 1 week | Test end-to-end in test and live environments. Refer to 'Test mode' and use cases for tools to test your integration.
+Migrate | 2-4 weeks | When 100% of new customers are on Safepay, migrate existing customers. See 'Migrating data to Safepay' for more details.
+Note: Tasks in the same phase can be completed in parallel.
+
+## Key Decisions Before Integration
+
+Before you start integrating Safepay, consider the following structural decisions for your Safepay account:
+- Accept Payments : Ensure your setup is configured to handle transactions smoothly.
+- Capture Customer Payment Details : Securely capture and store customer payment information.
+- Reconcile Payments and Payouts : Implement tools and practices for accurate financial tracking.
+- Protect Your Business : Set up defenses against fraud and disputes.
+
+## Conclusion
+
+This timeline serves as a comprehensive guide to integrating Safepay effectively within your business infrastructure. By carefully planning and following these steps, you can enhance your payment processing capabilities and ensure a smoother transition for your team and customers.
+Previous
+Overview
+Next
+Website checklist
+Was this doc helpful?
+- Share your feedback
+- Edit this page
+
+---
+
+## Website checklist
+
+# Website checklist
+
+Make sure your website aligns with card network standards and e-commerce best practices.
+This page outlines the essential elements each business using Safepay should address on its website. By adhering to these recommendations, you can reduce the risk of customer confusion and disputes while meeting Safepay’s standards and those set by credit card networks.
+Our Safepay Shop Terms of Use are available under the Creative Commons Attribution 4.0 International License. Feel free to use these terms as a starting point to ensure compliance with card network rules as you build your site.
+
+## Compliance Checklist
+
+Besides listing the name of the product or service, provide detailed text descriptions, multiple pictures, and information about material, colors, and other details for physical goods. Clear descriptions set the right expectations and protect against disputes by ensuring customers understand what they are purchasing.
+Clearly display the currency associated with the prices on your site. Being explicit about currency helps support international purchasers and prevents confusion.
+Ensure that your customers can find multiple methods to contact you directly on your site, such as email addresses, phone numbers, and live chat. Low-friction communication is essential for a good customer experience and can help prevent misunderstandings and disputes.
+Your customers should easily find information on how you fulfill orders. Clearly describe your refund, delivery, return, and cancellation policies. Transparent and fair policies build customer trust and provide protection against disputes.
+Disclose any legal or export restrictions applicable to your products or services. Transparency about these restrictions helps build trust and ensures compliance.
+With the increasing priority of consumer data privacy in legislation worldwide, clearly explain how your website protects, uses, or discloses customer data.
+Listing a physical business address on your website adds credibility.
+Clearly disclose the conditions of any promotions, discounts, or trials you offer. Ensure these terms are visible and understandable to customers when they agree to participate.
+Inform your customers about your compliance with PCI standards and ensure that your website, especially the payment form, uses HTTPS and follows security best practices. It’s crucial to reassure customers that their payment information is handled securely.
+Displaying the logos of accepted credit cards can reduce friction in the checkout process and clarify to customers that you accept their preferred payment method.
+
+## Card Network Policies
+
+These guidelines align with the rules published by the card networks. As an online merchant, it is your responsibility to ensure that you comply with these rules, including the Visa Rules and Regulations , the Mastercard Rules and the American Express Merchant Operating Guide .
+Previous
+Project timeline
+Next (Set up Safepay)
+Overview
+Was this doc helpful?
+- Share your feedback
+- Edit this page
+
+---
+
+## Create an account
+
+# Create an account
+
+Learn how to activate and manage your Safepay account.
+Our sandbox lets you get familiar with Safepay before your application is processed and approved. This facilitates switching over to to accepting live payments with zero downtime.
+
+## Setting up your sandbox account
+
+To sign up, please visit our website . Note that your sandbox and live accounts are separate and also need to be created individually.
+Error signing in?
+You may have already signed up at https://getsafepay.com/dashboard/signup for a live account. You must create a new sandbox account here . Note that this is separate from your live account and requires its own sign-up and login.
+You will need to provide the following items:
+Item | Description
+Email address | You may provide any email address. Ideally this email should be from your business domain but we make no restrictions. Your email address must be valid and accessible to you for verification. If you have not received an email from Safepay after signing up please click here .
+Password | A strong password is preferred.
+Phone number | Please make sure your phone number is no longer than 10 digits.
+Business name | Ideally your registered business name.
+Business website | You may provide a URL. If you do please make sure it is a complete URL e.g. https://example.com .
+Multiple online stores
+If you want to use Safepay Checkout on multiple e-commerce stores (with unique websites), you must create a separate account with Safepay for each of them.
+Even if you have been approved for a for one store we treat other stores as unique applications for regulatory reasons. You will have to submit new KYC applications in association with any other stores in order to be approved for multiple Safepay accounts.
+Each store will present a unique view for the individual Safepay account only.
+
+## What's next in sandbox?
+
+A Sandbox Account looks and works exactly the same way as a production account except that the money shown in the account is not real and test cards may be used to simulate payments.
+You may use your Sandbox Account to:
+- View and manage your Sandbox account.
+- Use Quick Links to generate one-time payment links.
+- View payment details for test payments.
+- View notifications generated by your mock transactions.
+Previous
+Website checklist
+Next (Business Operations)
+Settlement File
+Was this doc helpful?
+- Share your feedback
+- Edit this page
+
+---
+
+## Settlement File
+
+# Settlement File
+
+Understand how to reconcile transactions with our settlement file
+To help you reconcile daily transactions processed through Safepay, we provide a daily settlement file . This file includes all the essential transaction data, allowing you to match the records in your system with Safepay’s records.
+
+## File Format
+
+The settlement file will be an Excel file containing a structured table with specific details about each transaction. Below is a breakdown of each column in the file and what it represents.
+Column | Description
+Merchant Payment / Settlement Date | The date when the transaction was settled.
+Processing Date (YY/MM/DD) | The date when the transaction was processed.
+Batch Number | A unique identifier generated daily by the processing system for a batch of transactions.
+Merchant Number | A unique identifier assigned to the merchant involved in the transaction.
+Merchant Name | The name of the merchant involved in the transaction.
+RRN # | The retrieval reference number provided by the acquirer for each transaction.
+Currency Code | ISO 4217 code representing the transaction currency. This will always be 586 PKR (Pakistani Rupees).
+Card Number | The card number (partially masked) used in the transaction for security.
+Transaction Date (YY/MM/DD) | The date when the transaction took place.
+Transaction Time | The exact time at which the transaction occurred.
+Transaction Type | Indicates the transaction type, either POS Purchase or POS Reversal .
+Debit/Credit | Specifies if the transaction was a debit (D) or credit (C) .
+Transaction Amount | The total amount of the transaction in PKR, before deductions.
+Discount Fixed Amount | The fixed fee charged by Safepay per transaction.
+Discount % Rate | The percentage rate applied by Safepay per transaction.
+MDR | Merchant Discount Rate, which is the combined amount of the discount fixed fee and the discount percentage.
+Sales Tax | Sales tax, calculated based on the province where the merchant's business is registered.
+SalesTax WHT@2% of Trans_Amount | Sales tax, withholding of 2% if you are merchant dealing with goods. This is not applicable to Services merchants.
+IncomeTax WHT@1% of Trans_Amount | Income tax of 1% which is applicable to both Goods and Services merchants
+Net Merchant_Payment | The total transaction amount after all deductions, including taxes and discounts.
+Approval Number | A unique reference number generated by the issuing bank for each transaction. This can be used to locate the transaction with the issuing bank or scheme.
+Card Brand | The brand of the card used, such as Visa or MasterCard.
+CyberSource Request ID | A unique identifier generated by CyberSource to track the transaction.
+Province | The province where the merchant's business is registered, impacting applicable taxes.
+Transaction (I/L) | Specifies if the transaction is Local (LOCAL) or International (INTERNATIONAL) .
+Bin Country | The country of the issuing bank, determined based on the Bank Identification Number (BIN).
+Order ID (Merchant) | An internal identifier the merchant associates with the payment, such as an invoice number or basket ID.
+Tracker ID | A unique identifier generated by Safepay for internal transaction tracking.
+Non-PKR Amount | The transaction amount in the original international currency if different from 586 PKR.
+Currency Code | The international currency code (e.g., USD, EUR, GBP, AED, SAR, SGD, CAD) if applicable.
+Rate Applied | The currency conversion rate applied for settlement in the local currency.
+Categories | The Category assigned to the merchant between Goods or Services.
+
+## How to Use the Settlement File
+
+- Reconciliation Process : Match transactions in your system with the transactions in the settlement file using key fields such as Order ID (Merchant) , Transaction Amount , and Processing Date . Validate amounts, dates, and other transaction details to ensure alignment between your records and Safepay’s data.
+- Review Deductions : Use the Discount Fixed Amount , Discount % Rate , and MDR columns to review the fees applied to each transaction. Confirm the Net Amount for each transaction, which is the actual amount settled to your account after all deductions.
+- Verify Currency Conversions : For international transactions, check Int'l Currency Amount and Rate Applied to verify the conversion applied.
+- Tax Compliance : Refer to the FED Amount and Province columns for the tax applied based on your registered location.
+- Support & Discrepancies : If you find any discrepancies, contact our support team with relevant details, including Tracker ID , Approval Number , and CyberSource Request ID for efficient tracking.
+By following these steps and referencing the columns in the settlement file, you can ensure accurate reconciliation with Safepay’s records.
+Previous (Set up Safepay)
+Overview
+Next (More)
+FAQ
+Was this doc helpful?
+- Share your feedback
+- Edit this page
+
+---
+
+## FAQ
+
+# FAQ
+
+A list of common questions and limitations about Safepay and related services.
+This page lists some of the common questions and answers about Safepay and related services. If you have a question that is not answered here, see our Support Hub for more common questions.
+Previous (Business Operations)
+Settlement File
+Was this doc helpful?
+- Share your feedback
+- Edit this page
+
+---
+
+## Start with a sandbox environment
+
+# Start with a sandbox environment
+
+Setup your sandbox account to start integrating Safepay.
+Our sandbox lets you get familiar with Safepay before your application is processed and approved. This facilitates switching over to to accepting live payments with zero downtime.
+
+## Setting up your sandbox account
+
+To sign up, please visit our website . Note that your sandbox and live accounts are separate and also need to be created individually.
+Error signing in?
+You may have already signed up at https://getsafepay.com/dashboard/signup for a live account. You must create a new sandbox account here . Note that this is separate from your live account and requires its own sign-up and login.
+You will need to provide the following items:
+Item | Description
+Email address | You may provide any email address. Ideally this email should be from your business domain but we make no restrictions. Your email address must be valid and accessible to you for verification. If you have not received an email from Safepay after signing up please click here .
+Password | A strong password is preferred.
+Phone number | Please make sure your phone number is no longer than 10 digits.
+Business name | Ideally your registered business name.
+Business website | You may provide a URL. If you do please make sure it is a complete URL e.g. https://example.com .
+Multiple online stores
+If you want to use Safepay Checkout on multiple e-commerce stores (with unique websites), you must create a separate account with Safepay for each of them.
+Even if you have been approved for a for one store we treat other stores as unique applications for regulatory reasons. You will have to submit new KYC applications in association with any other stores in order to be approved for multiple Safepay accounts.
+Each store will present a unique view for the individual Safepay account only.
+
+## What's next in sandbox?
+
+A Sandbox Account looks and works exactly the same way as a production account except that the money shown in the account is not real and test cards may be used to simulate payments.
+You may use your Sandbox Account to:
+- View and manage your Sandbox account.
+- Use Quick Links to generate one-time payment links.
+- View payment details for test payments.
+- View notifications generated by your mock transactions.
+Previous (Setup Safepay)
+Libraries & SDKs
+Next (Setup Safepay)
+API keys
+Was this doc helpful?
+- Share your feedback
+- Edit this page
+
+---
+
+## Introduction
+
+# Introduction
+
+Start building your server-side integration
+You can integrate Safepay's client-side libraries with different server-side flows. Express Checkout is the default integration that we recommend and that meets the requirements for most online payments integrations.
+
+## Choose your server-side implementation
+
+Before you integrate with a client-side library, choose the server-side flow depending on the technical details and depending on the use cases that you want your integration to support.
+
+### Express checkout
+
+This flow supports faster checkouts through tokenization based on shoppers that have a Safepay account. Your server makes two API requests to our server after which you generate a Checkout URL. Once generated, redirect your customer to this URL to complete the payment. After your shopper completes their payment, Safepay will redirect them back to your website.
+
+### Advanced checkout
+
+This flow supports creating and using your own customers - shoppers that don't have a Safepay account. While this flow also supports tokenization, there are, in total, potentially 5 API calls your server has to make.
+
+### Supported use cases
+
+Description | Express Checkout | Safepay Atoms | Safepay React Native | Cardinal
+Make a payment with any available payment method | Yes | Yes | Yes | Yes
+Tokenization | Yes | Yes | Yes | Yes
+Zero amount verification | Yes | Yes | Yes | Yes
+Separate Capture | No | Yes | Yes | Yes
+
+### Integration comparison
+
+Integration features | Express Checkout | Safepay Atoms | Safepay React Native | Cardinal
+Integration effort | Low | Medium | Medium | High
+Number of endpoint requests from your server | 2 | 3-4 | 3-4 | 7-8
+Handling additional actions like 3DS | Managed by Safepay | Self Managed | Self Managed | Managed by Merchant
+
+## Get started
+
+Choose the server-side implementation that meets your needs to learn how to integrate with Safepay. We offer solutions for web and mobile devices.
+Previous (Get started)
+Integration checklist
+Next (Get started)
+Express Checkout
+Was this doc helpful?
+- Share your feedback
+- Edit this page
+
+---
+
+## Tracker
+
+# Tracker
+
+
+## Overview
+
+A tracker captures all events that pertain to to a single order. These include attempts to pay using a particular payment method, authorization responses from issuing banks, any error messages from failed actions, and more.
+To process an order:
+1
+Create a tracker using the setupPayment request.
+2
+Progress the tracker state by executing all required actions determined by
+the initial configuration and the payment methods being used. These may be
+executed using the Order API.
+
+## Fields
+
+
+### Configuration
+
+There are several fields that constitute the primary configuration for a tracker .
+Field | Description
+intent | The payment integration used to perform actions on the tracker
+mode | The purpose of the tracker
+entry_mode | The way payment method information is collected
+Click on these to learn more about them.
+
+### Tracker state
+
+The tracker is ultimately a state machine that must progress its state to perform payments and post-payment actions such as voids or refunds. At any given time, it has an active or terminal state along with any next actions that may be performed on it.
+- state
+- next_actions
+Field | Description
+state | The current state of the tracker
+next_actions | The next action in the chain to progress the state of the tracker
+To learn more, refer to payment actions .
+
+### People
+
+The tracker represents a payment order relationship between the merchant and a shopper.
+Field | Description
+client | The merchant details
+customer | The customer details
+
+### Order details
+
+The tracker keeps track of the order total amount and the currency to be charged in.
+Field | Description
+purchase_totals | The order total amount and currency
+metadata | Custom key value pairs to add additional information to the tracker
+
+### Chronology
+
+The tracker maintains a history of all actions that were attempted and any notable events such as successful authorizations or payment errors.
+Field | Description
+events | Notable events in sorted chronological order
+attempts | Fine grained details for all individual attempts including actions that were executed and any errors that occurred
+charge | The payment charge details for example remaining balance for partial refunds and transaction processing fees
+
+### Telemetry
+
+The tracker maintains information about the origins of the request.
+Field | Description
+device | Information about the user's device that was used to make payment requests
+location | Information about the location where the user was making the requests from
+These are collected implicitly by the Order API. These details may also be explicitly set by sending appropriate values in the following HTTP headers:
+Header key | Value
+X-SFPY-IP-ADDRESS | The IP address
+X-SFPY-USER-AGENT | The user agent string
+
+## Tracker reference
+
+Here's an example of a paid tracker .
+Copy
+```
+{"token":"track_e772f8b3-edc7-4a6f-9e85-94d262c03087","environment":"production","state":"TRACKER_ENDED","intent":"CYBERSOURCE","mode":"payment","entry_mode":"raw","metadata":{"order_id":{"token":"meta_d1f6b00f-c322-4718-bde6-6a831a27e736","tracker":"track_e772f8b3-edc7-4a6f-9e85-94d262c03087","key":"order_id","value":"rZgn6JiNZvQ9qGwQYljj96MSN","created_at":{"seconds":1723194368},"updated_at":{"seconds":1723194368}},"source":{"token":"meta_d21e30ad-d870-4fd3-bc12-b175859d8a7c","tracker":"track_e772f8b3-edc7-4a6f-9e85-94d262c03087","key":"source","value":"shopify","created_at":{"seconds":1723194368},"updated_at":{"seconds":1723194368}}},"client":{"token":"client_a590bbc6-15ec-4e37-a266-82d88b0dccfb","api_key":"sec_df38896a-de5c-4231-98c7-1020e82e6bba","name":"Safepay Merchant","email":"safepaymerchant@gmail.com","avatar":"https://storage.googleapis.com/safepay-assets/2fe90bde-c711-4d7b-a3c6-a7672f032387-safepay_logo.jpg"},"customer":{"token":"guest_381090ca-a49e-4c84-9867-8138664b32d7","first_name":"Suleman","last_name":"Shishmahal","email":"suleman.shishmahal@gmail.com","phone":"+92 332 8211595"},"next_actions":{"CYBERSOURCE":{"kind":"NOOP","request_id":"req_a3380f44-8d2d-43e9-a421-86bb6350b440"},"MPGS":{"kind":"NOOP"}},"purchase_totals":{"quote_amount":{"currency":"PKR","amount":9000},"base_amount":{"currency":"PKR","amount":9000},"conversion_rate":{"base_currency":"PKR","quote_currency":"PKR","rate":1}},"charge":{"token":"ch_09c74f8e-6e70-457c-a79c-ebef5a7a2971","tracker":"track_e772f8b3-edc7-4a6f-9e85-94d262c03087","client":"sec_df38896a-de5c-4231-98c7-1020e82e6bba","user":"guest_381090ca-a49e-4c84-9867-8138664b32d7","amount":{"currency":"PKR","amount":9000},"fees":{"currency":"PKR","amount":295},"tax":{"currency":"PKR","amount":34},"net":{"currency":"PKR","amount":8705},"signature":"9403f38db9b7445ebf7235b08496ddd9e8eb77d416dd822bcd2427168f19c3bf","capture":{"token":"cap_5ade87aa-6e70-422a-8dc7-a25d77956aa6","tracker":"track_e772f8b3-edc7-4a6f-9e85-94d262c03087","attempt":"attemp_e661b62b-0ba0-4367-8414-9bf5aa0eafb4","intent":"CYBERSOURCE","cybersource_rid":"7231944106196418504979","is_voidable":true,"kind":"CAPTURE","totals":{"currency":"PKR","amount":9000},"created_at":{"seconds":1723194411},"updated_at":{"seconds":1723194411}},"balance":{"currency":"PKR","amount":9000},"created_at":{"seconds":1723194411},"updated_at":{"seconds":1723194411}},"events":[{"intent":"CYBERSOURCE","type":"ENROLLMENT","intent_request_id":"7231943777226364904990","reason":"Successful enrollment","created_at":{"seconds":1723194379}},{"intent":"CYBERSOURCE","type":"AUTHORIZATION","intent_request_id":"7231944062856729104984","reason":"Successful authorization","purchase_totals":{"currency":"PKR","amount":9000},"created_at":{"seconds":1723194409}},{"intent":"CYBERSOURCE","type":"CAPTURE","intent_request_id":"7231944106196418504979","reason":"Successful transaction","purchase_totals":{"currency":"PKR","amount":9000},"created_at":{"seconds":1723194411}}],"attempts":[{"token":"attemp_e661b62b-0ba0-4367-8414-9bf5aa0eafb4","tracker":"track_e772f8b3-edc7-4a6f-9e85-94d262c03087","intent":"CYBERSOURCE","idempotency_key":"req_a3380f44-8d2d-43e9-a421-86bb6350b440","kind":1,"actions_performed":[{"token":"act_9bb23d6e-b4fb-42f0-a95a-6bc8fb36842b","tracker":"track_e772f8b3-edc7-4a6f-9e85-94d262c03087","attempt":"attemp_e661b62b-0ba0-4367-8414-9bf5aa0eafb4","kind":"PAYER_AUTH_SETUP","created_at":{"seconds":1723194368},"updated_at":{"seconds":1723194368}},{"token":"act_96f7fa64-71a4-4b88-b90d-41a920e9236e","tracker":"track_e772f8b3-edc7-4a6f-9e85-94d262c03087","attempt":"attemp_e661b62b-0ba0-4367-8414-9bf5aa0eafb4","kind":"PAYER_AUTH_ENROLLMENT","created_at":{"seconds":1723194378},"updated_at":{"seconds":1723194378}},{"token":"act_583d506a-2eb5-4e08-b520-c6e554b459af","tracker":"track_e772f8b3-edc7-4a6f-9e85-94d262c03087","attempt":"attemp_e661b62b-0ba0-4367-8414-9bf5aa0eafb4","kind":"PAYER_AUTH_VALIDATION","created_at":{"seconds":1723194406},"updated_at":{"seconds":1723194406}},{"token":"act_e45d2733-1fab-46aa-bf19-49d809634013","tracker":"track_e772f8b3-edc7-4a6f-9e85-94d262c03087","attempt":"attemp_e661b62b-0ba0-4367-8414-9bf5aa0eafb4","kind":"CAPTURE","created_at":{"seconds":1723194411},"updated_at":{"seconds":1723194411}}],"payment_method":{"token":"method_04400e46-608b-44ab-b342-08680902f0c2","tracker":"track_e772f8b3-edc7-4a6f-9e85-94d262c03087","attempt":"attemp_e661b62b-0ba0-4367-8414-9bf5aa0eafb4","last_four":"2654","kind":"CARD","scheme":"Visa","bin":"461758","expiration_month":"11","expiration_year":"2025","created_at":{"seconds":1723194368},"updated_at":{"seconds":1723194368}},"billing":{"token":"bill_d4e6ee45-bdcf-4ba2-a924-84306fa85ebc","attempt":"attemp_e661b62b-0ba0-4367-8414-9bf5aa0eafb4","street_1":"Somewhere over there ABC","city":"Karachi","postal_code":"75500","country":"PK","created_at":{"seconds":1723194379},"updated_at":{"seconds":1723194379}},"enrollment":{"token":"enroll_4a28c50d-ed96-4010-ac10-b96a77db2a74","attempt":"attemp_e661b62b-0ba0-4367-8414-9bf5aa0eafb4","cybersource_rid":"7231943777226364904990","specification_version":"2.2.0","veres_enrolled":"Y","eci":"05","created_at":{"seconds":1723194379},"updated_at":{"seconds":1723194379}},"risk":{"token":"risk_4414a21f-f8c0-4d3d-8592-7244beb1fc20","attempt":"attemp_e661b62b-0ba0-4367-8414-9bf5aa0eafb4","score":"12","factor_codes":["H"],"info_codes":["UNV-ADDR","VEL-CC","VEL-NAME","ID-X-POS","MORPH-C","MORPH-E","MORPH-P","FREE-EM","MUL-EM","RISK-SD","GVEL-R55","GVEL-R58","GVEL-R7","GVEL-R75"],"created_at":{"seconds":1723194409},"updated_at":{"seconds":1723194409}},"authorization":{"token":"auth_d63a9547-69f2-4dfc-ac71-068ab2e77c81","tracker":"track_e772f8b3-edc7-4a6f-9e85-94d262c03087","attempt":"attemp_e661b62b-0ba0-4367-8414-9bf5aa0eafb4","intent":"CYBERSOURCE","cybersource_rid":"7231944062856729104984","totals":{"currency":"PKR","amount":9000},"created_at":{"seconds":1723194409},"updated_at":{"seconds":1723194409}},"capture":{"token":"cap_5ade87aa-6e70-422a-8dc7-a25d77956aa6","tracker":"track_e772f8b3-edc7-4a6f-9e85-94d262c03087","attempt":"attemp_e661b62b-0ba0-4367-8414-9bf5aa0eafb4","intent":"CYBERSOURCE","cybersource_rid":"7231944106196418504979","is_voidable":true,"kind":"CAPTURE","totals":{"currency":"PKR","amount":9000},"created_at":{"seconds":1723194411},"updated_at":{"seconds":1723194411}},"is_success":true,"created_at":{"seconds":1723194368},"updated_at":{"seconds":1723194368},"mode":"payment","entry_mode":"raw","customer":{"token":"guest_381090ca-a49e-4c84-9867-8138664b32d7","first_name":"Suleman","last_name":"Shishmahal","email":"suleman.shishmahal@gmail.com","phone":"+92 332 8211595"}}],"location":{"tracker":"track_e772f8b3-edc7-4a6f-9e85-94d262c03087","token":"loc_4839390b-2f1e-4a24-a079-eb512ceb21db","ip_address":"203.130.3.66","city":"Karachi","country":"PK","latitude":24.883,"longitude":67.058,"region":"Sindh","created_at":{"seconds":1723194410},"updated_at":{"seconds":1723194410}},"device":{"tracker":"track_e772f8b3-edc7-4a6f-9e85-94d262c03087","token":"dev_e0d71a0d-8ed3-46b8-8f4f-f14951230953","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36","entity":"browser","browser":"Chrome","browser_version":"127.0.0.0","device_type":"desktop","platform":"Windows 10","platform_icon":"https://assets.userstack.com/icon/os/windows10.png","created_at":{"seconds":1723194411},"updated_at":{"seconds":1723194411}},"created_at":{"seconds":1723194367},"updated_at":{"seconds":1723194367}}
+```
+Previous (Modify payments)
+Void
+Next (Core concepts)
+Tracker states
+Was this doc helpful?
+- Share your feedback
+- Edit this page
+
+---
+
+## Webhooks
+
+# Webhooks
+
+Receive important updates related to your account.
+Webhooks are crucial for a successful integration with Safepay, and the only way you'll receive automatic updates about:
+Events that are not triggered by a request from your side, for example when a shopper completes a payment, or when a store admin refunds a payment.
+You can use webhooks to automate business processes, for example order management or downloading reports for accounting.
+To manage webhooks, you must have the following user role:
+- Developer
+To process webhooks, you need to:
+- Expose an endpoint on your server.
+- Set up webhooks in your Customer Area.
+- Accept webhook events.
+1
+
+### Expose an endpoint on your server
+
+Webhooks are HTTP callbacks sent to an endpoint on your server. Safepay requires you to use HTTPS endpoints with TLSv1.2 or TLSv1.3.
+To receive webhook events, you need a server that has the following:
+- An endpoint that can receive a JSON, or an HTTP POST.
+- For test environments: an open TCP port for HTTP traffic (must be 80, 8080, or 8888) or HTTPS traffic (must be 443, 8443, or 8843) with TLSv1.2 or TLSv1.3.
+- For live environments: an open TCP port for HTTPS traffic (must be 443, 8443, or 8843) with TLSv1.2 or TLSv1.3.
+2
+
+### Accept webhooks
+
+We require you to acknowledge every webhook event with a successful HTTP response status code, for example 200 . If we don't receive this response within 10 seconds, for example because your server is down, all webhook events to your endpoint go to the retry queue.
+When we deliver a webhook event to your server:
+- Verify the HMAC signature included in the webhook event payload. This is to confirm that the webhook event was sent by Safepay, and was not modified during transmission. For more information, refer to Verify HMAC signatures . If the HMAC signature is not valid, we do not recommend acknowledging the webhook event.
+- Store the webhook event in your database.
+- Acknowledge the webhook event with a successful HTTP response status code, for example 200 .
+If an error occurs, we recommend that your server response with an error HTTP response status code.
+- Apply your business logic.
+Make sure that you acknowledge the webhook event before you apply any business logic, because an error in your business logic can prevent webhooks with important updates from reaching your system.
+For information about the structure abnd content of webhooks, refer to Webhook structure and types .
+3
+
+### Set up webhooks in your dashboard.
+
+In your Live Dashboard , enable and configure webhooks for your company account.
+- In your Dashboard , go to Deverlopers > Endpoints .
+- Select + Add an endpoint
+- Enter your webhook server's URL. It must be a public URL and click Create .
+- After you see your newly created endpoint in the list, click on the action button (three dots) and select Details from the dropdown.
+- From the list of available events, select all the events that you are interested in. We recommend selecting the 2.0.0 events.
+Selecting multiple events means that data for each event will be sent to your endpoint. This means you must build in business logic on your side to handle all events that you select. If you are not willing to do that, you can subscribe to a single event per endpoint.
+- After selecting events that you're interested in, scroll down and click on Subscribe
+4
+
+### Test and go live
+
+To test webhooks, we recommend replicating the same configurations you make on your Live Dashboard to your Sandbox Dashboard .
+Once done, create a test payment and test the webhooks associated with it. Match the test payment to a webhook with the tracker.token in the payload of the webhook .
+
+#### Go live
+
+- Follow the instructions in Step 3
+- Test webhooks in your Sandbox Dashboard . You may also create test webhook notifications using the Test Webhook API .
+- If you're verifying HMAC signatures, make sure that you use the HMAC key from your Live Dashboard , which is different from the HMAC key from your Sandbox Dashboard .
+Previous (Tokenization)
+Safepay shoppers
+Next (Webhooks)
+Webhook structure and types
+Was this doc helpful?
+- Share your feedback
+- Edit this page
+
+---
+
+## Test Card Numbers
+
+# Test Card Numbers
+
+Simulate payments to test your integration.
+This document contains a list of test card numbers along with their expected outcomes for various types of authentication scenarios. Each test type includes details on the expected ECI, indicator, action, result, and consumer reference codes that can be used to verify correct processing.
+Test Type | Card Numbers | Expected ECI | Action
+Successful Frictionless Authentication | 4456 5300 0000 1005 5200 0000 0000 1005 | 05 | Proceed
+Unsuccessful Frictionless Authentication | 4456 5300 0000 1013 5200 0000 0000 1013 | 07 | Don’t proceed
+Attempts Processing Frictionless Auth. | 4456 5300 0000 1021 5200 0000 0000 1021 | 06 | Proceed
+Unavailable Frictionless Authentication | 4456 5300 0000 1039 5200 0000 0000 1039 | 07 | Proceed No liability shift
+Rejected Frictionless Authentication | 4456 5300 0000 1047 5200 0000 0000 1047 | 07 | Don’t proceed
+Auth. not Available on Lookup | 4456 5300 0000 1054 5200 0000 0000 1054 | - | Proceed No liability shift
+Enrollment Check Error | 4456 5300 0000 1062 5200 0000 0000 1062 | - | Proceed No liability shift
+Time-Out | 4456 5300 0000 1070 5200 0000 0000 1070 | 07 | Proceed No liability shift
+Bypassed Authentication | 4456 5300 0000 1088 5200 0000 0000 1088 | - | Proceed No liability shift
+Successful Step-Up Authentication (3DS) | 4000 0000 0000 2503 4456 5300 0000 1096 5200 0000 0000 1096 | 05 | Proceed
+Unsuccessful Step-Up Authentication | 4456 5300 0000 1104 5200 0000 0000 1104 | 07 | Don’t proceed
+Unavailable Step-Up Authentication | 4456 5300 0000 1112 5200 0000 0000 1112 | 07 | Retry or process without liability shift
+Previous (Setup Safepay)
+API keys
+Next (Setup Safepay)
+Error Scenarios
+Was this doc helpful?
+- Share your feedback
+- Edit this page

@@ -1,0 +1,28 @@
+# SafePay Assistant — Python dependencies
+# Install: pip install -r requirements.txt
+
+# Web framework
+fastapi
+uvicorn[standard]
+
+# LangChain ecosystem
+langchain
+langchain-core
+langchain-classic
+langchain-community
+langchain-text-splitters
+langchain-groq
+langchain-chroma
+langchain-huggingface
+
+# Embeddings & vector store
+sentence-transformers
+chromadb
+
+# LLM provider
+groq
+
+# Utilities
+python-dotenv
+beautifulsoup4
+requests

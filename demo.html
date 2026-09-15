@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafePay Widget — Demo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Inter', system-ui, sans-serif;
+            background: #f8fafc;
+            color: #1e293b;
+            line-height: 1.6;
+        }
+        .hero {
+            background: linear-gradient(135deg, #6366f1, #a855f7);
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+        .hero h1 { font-size: 2.2rem; font-weight: 700; margin-bottom: 0.5rem; }
+        .hero p { font-size: 1.1rem; opacity: 0.9; max-width: 600px; margin: 0 auto; }
+        .container { max-width: 800px; margin: 0 auto; padding: 3rem 2rem; }
+        .section { margin-bottom: 3rem; }
+        .section h2 { font-size: 1.5rem; font-weight: 600; margin-bottom: 1rem; color: #1e293b; }
+        .section p { color: #475569; margin-bottom: 1rem; }
+        .code-block {
+            background: #0f172a;
+            color: #e2e8f0;
+            padding: 1.5rem;
+            border-radius: 12px;
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-size: 0.85rem;
+            overflow-x: auto;
+            position: relative;
+        }
+        .code-block .copy-btn {
+            position: absolute;
+            top: 0.75rem; right: 0.75rem;
+            background: #334155;
+            color: #e2e8f0;
+            border: none;
+            padding: 0.4rem 0.8rem;
+            border-radius: 6px;
+            font-size: 0.75rem;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .code-block .copy-btn:hover { background: #475569; }
+        .code-block .comment { color: #64748b; }
+        .code-block .tag { color: #818cf8; }
+        .code-block .attr { color: #34d399; }
+        .code-block .str { color: #fbbf24; }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        .feature {
+            background: white;
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            padding: 1.5rem;
+            text-align: center;
+        }
+        .feature .icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .feature h3 { font-size: 0.95rem; font-weight: 600; margin-bottom: 0.25rem; }
+        .feature p { font-size: 0.82rem; color: #64748b; }
+        .note {
+            background: #eef2ff;
+            border-left: 4px solid #6366f1;
+            padding: 1rem 1.5rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+            font-size: 0.88rem;
+            color: #3730a3;
+        }
+    </style>
+</head>
+<body>
+
+<div class="hero">
+    <h1>SafePay Chat Widget</h1>
+    <p>Add a professional AI chatbot to any website with a single line of code.</p>
+</div>
+
+<div class="container">
+    <div class="section">
+        <h2>Quick Start</h2>
+        <p>Add this single line anywhere in your HTML (before the closing <code>&lt;/body&gt;</code> tag):</p>
+        <div class="code-block">
+            <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+<span class="comment">&lt;!-- SafePay Assistant Widget --&gt;</span>
+<span class="tag">&lt;script</span> <span class="attr">src</span>=<span class="str">"http://127.0.0.1:8000/widget.js"</span> <span class="attr">async</span><span class="tag">&gt;&lt;/script&gt;</span>
+        </div>
+        <div class="note">
+            💡 The widget will appear as a floating chat bubble in the bottom-right corner.
+            It auto-opens after 3 seconds. Click the bubble to open/close the chat panel.
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Configuration Options</h2>
+        <p>Customize the widget using <code>data-*</code> attributes:</p>
+        <div class="code-block">
+            <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+<span class="tag">&lt;script</span>
+  <span class="attr">src</span>=<span class="str">"http://127.0.0.1:8000/widget.js"</span>
+  <span class="attr">data-api</span>=<span class="str">"https://your-api-server.com"</span>      <span class="comment">&lt;!-- API base URL (auto-detected if omitted) --&gt;</span>
+  <span class="attr">data-position</span>=<span class="str">"bottom-right"</span>                  <span class="comment">&lt;!-- "bottom-right" or "bottom-left" --&gt;</span>
+  <span class="attr">data-auto-open</span>=<span class="str">"false"</span>                       <span class="comment">&lt;!-- Disable auto-open (default: true) --&gt;</span>
+  <span class="attr">async</span>
+<span class="tag">&gt;&lt;/script&gt;</span>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Features</h2>
+        <div class="features">
+            <div class="feature">
+                <div class="icon">🚀</div>
+                <h3>One-line embed</h3>
+                <p>Single script tag, no build step</p>
+            </div>
+            <div class="feature">
+                <div class="icon">🎨</div>
+                <h3>CSS isolated</h3>
+                <p>Runs in iframe, won't affect your site</p>
+            </div>
+            <div class="feature">
+                <div class="icon">📱</div>
+                <h3>Mobile responsive</h3>
+                <p>Full-screen on mobile, popup on desktop</p>
+            </div>
+            <div class="feature">
+                <div class="icon">⚡</div>
+                <h3>Auto-detects API</h3>
+                <p>Infers server URL from script src</p>
+            </div>
+            <div class="feature">
+                <div class="icon">💬</div>
+                <h3>Markdown answers</h3>
+                <p>Rich formatting with source citations</p>
+            </div>
+            <div class="feature">
+                <div class="icon">🔧</div>
+                <h3>Configurable</h3>
+                <p>Position, auto-open, API URL</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>How It Works</h2>
+        <p>The widget is made of two parts:</p>
+        <ul style="margin-left: 1.5rem; color: #475569;">
+            <li><strong>widget.js</strong> — Injects a floating chat bubble and an iframe into the page.</li>
+            <li><strong>widget.html</strong> — The chat UI loaded inside the iframe (fully CSS-isolated from the host page).</li>
+        </ul>
+        <p>The iframe communicates with your FastAPI backend's <code>/ask</code> endpoint via CORS-enabled fetch requests.</p>
+    </div>
+</div>
+
+<script>
+    function copyCode(btn) {
+        var code = btn.parentElement.textContent.replace('Copy', '').trim();
+        navigator.clipboard.writeText(code).then(function () {
+            btn.textContent = '✓ Copied';
+            setTimeout(function () { btn.textContent = 'Copy'; }, 2000);
+        });
+    }
+</script>
+
+<!-- ── This is the actual widget embed! The chat bubble will appear in the bottom-right. ── -->
+<script src="http://127.0.0.1:8000/widget.js" async></script>
+
+</body>
+</html>

@@ -1,0 +1,207 @@
+# SafePay Knowledge Base
+# Cleaned and structured from getsafepay.com and developer docs.
+# This is the sole source of truth for the SafePay assistant.
+
+Safepay | Engineered for the aspirational
+Innovating for the ambitious
+Accelerate your business with our groundbreaking fintech platform. Safepay unifies payments, analytics, and routing in one innovative solution, empowering growth from startups to enterprises.
+Modular solutions
+One platform to manage it all
+From seamless payment experiences and robust solutions to routing transactions and end-to-end Raast infrastructure, we provide everything you need to meet your collection goals. Use Safepay to reduce costs, grow revenue, and run your business more efficiently on a fully integrated platform. Handle all of your payments-related needs, manage revenue operations, and launch (or invent) new business models.
+Payments
+Accept and optimize payments from anywhere in the world.
+Increase authorization rates, optimize your checkout conversion, and offer local payment methods in every market. We have payment solutions fit for every platform.
+Embedded Checkout
+Hosted Checkout
+Shopify
+SDKs
+APIs
+Plugins
+Subscriptions
+Capture recurring revenue
+Capture recurring revenue, support recurring business models, minimize churn, and automate finance operations.
+Buy Now Pay Later (BNPL)
+Software as a Service (SaaS)
+Memberships
+Online Courses & E-Learning
+Health & Wellness Services
+Connect
+Connect multiple payment gateways
+Connect multiple payment gateways and route payments through custom rules with our enterprise-grade payment orchestrator.
+Customize Your Own Rules
+Optimize Payments
+Keep Your Preferred Provider
+Maximize Profit and Reduce Costs
+Unified Data Analytics and Reporting
+Unlock global payment diversity with one integration
+Seamlessly tap into worldwide commerce by instantly accessing popular local payment methods through a single, powerful integration. Our platform empowers you to accept credit and debit cards globally, alongside the most current and preferred payment options in each market.
+Empowering innovators: streamlined payment solutions
+Accelerate your development with intuitive, robust APIs
+Maximize your team's productivity with our unified payment ecosystem. We've navigated the complex web of gateways, payments, and rails distilling it into a single, powerful platform. This allows your developers to focus on what truly matters: building exceptional experiences for your customers.
+:
+Rapid Integration
+Our user-friendly APIs enable swift implementation
+Comprehensive Solution
+One platform for all your payment needs
+Global Reach
+Seamlessly operate across multiple markets
+Developer-Centric
+Tools and documentation designed for ease of use
+Simplified integration options for global businesses
+Whether you're a small business owner or a growing enterprise, Safepay offers flexible solutions to meet your payment needs, no extensive technical knowledge required.
+Payment links
+Atoms
+Create an invoice, or share a payment link directly from your Dashboard to start generating revenue in minutes—no code required. You can share the link through Social Media, Whatsapp, Email, SMS or even a Call Centre.
+Streamlined international invoicing
+Expand your global reach with our multi-currency invoicing system. Generate and send professional invoices in 8 different currencies.
+Invoices made easy
+Streamline B2B payments by adding clickable payment links to digital invoices, making payments seamless for everyone.
+Ease of collection
+Send links to anyone anywhere in the world. Even if their local currency is not supported they can still use Visa or Mastercard to pay in USD from any country.
+Innovative customizable components
+Select from our suite of advanced UI components and tailor the user experience to match your site design, theme and brand identity.
+Boost Conversions
+Pre-built components with accessibility, error handling, and autofill. Streamline development and enhance user experience.
+Expand Your Market
+Innovative payment integration for new opportunities. Easily manage methods and gain insights through your Safepay Dashboard.
+Future-Ready Payments
+Stay ahead with Safepay's evolving Atoms. Continuously updated to keep you at the forefront of payment technology.
+Pre-integrated e-commerce solutions
+Get up and running quickly with our pre-built integrations for popular e-commerce platforms:
+Shopify hosted checkout
+Seamlessly integrate Safepay into your Shopify store's checkout process.
+Shopify onsite checkout
+Offer a smooth, on-brand embedded payment experience directly on your Shopify site.
+WooCommerce plugin
+Easily add Safepay to your WordPress-based online store.
+Start accepting payments today
+With Safepay's user-friendly tools and pre-built integrations, you can begin processing payments and growing your business in no time—regardless of your technical expertise.
+Transparent pricing
+Clear, upfront costs with no hidden fees.
+Seamless onboarding
+From sign-up to first transaction in no time.
+Safepay Documentation
+Docs
+Blog
+API Reference
+Home
+No-code
+Developers
+Contribute
+Overview
+Project timeline
+Website checklist
+Set up Safepay
+Business Operations
+Settlement File
+More
+FAQ
+Safepay Home Page
+Live Dashboard
+Test Dashboard
+Documentation to help you integrate payments into your apps
+Follow our guides and tutorials to build amazing payment experiences for your customers.
+Support multiple payment options in one system while giving your customers the best user experience at every step.
+Quick Start
+Accept payments across mobile
+and web apps
+Explore our guides and tutorials to integrate Safepay.
+Start learning important concepts
+Check out the glossary so you
+can understand how our platform works.
+Use Safepay without writing code
+Start accepting payments with Safepay by,
+creating a payment link.
+Create a prebuilt payment form
+Explore the different ways you can
+accept payments with Safepay
+Understand how to use webhooks
+Receive important updates related to
+payments and your account
+Discover our developer resources
+API Explorer
+Use Safepay's API reference on Postman
+Server-side libraries
+Find a library in your preferred language
+Example integrations
+Have a look at our online payments examples
+Testing tools
+Use test card numbers, Webhook logs, and more
+Connect with us
+See the source code, connect with others, and get connected.
+GitHub
+View our SDK, submit a PR, or report an issue.
+Instagram
+Follow Safepay on Instagram for product updates.
+LinkedIn
+Get the latest on Safepay.
+Postman
+All our APIs available as Postman collections.
+Was this doc helpful?
+Share your feedback
+
+---
+
+## Contact Support
+SafePay Customer Support Phone: 021 35622870
+If a user needs help, has an issue, or wants to speak to a human, direct them to call 021 35622870.
+Support is available for: account issues, payment failures, settlement questions, integration help, refund requests, and general inquiries.
+
+## Important Topics the Chatbot Should Cover
+1. What is SafePay — company overview and platform description
+2. Payments — accepting credit/debit cards, bank transfers, local and global payment methods
+3. Embedded Checkout — hosted checkout, onsite checkout, Shopify, SDKs, APIs, plugins
+4. Subscriptions — recurring revenue, BNPL, SaaS, memberships, online courses, health & wellness
+5. Payment Links — no-code invoices, multi-currency invoicing (8 currencies), shareable via social media, WhatsApp, email, SMS
+6. Atoms — customizable UI components, pre-built components, accessibility, brand-matched design
+7. Connect (Payment Orchestration) — multiple gateways, custom routing rules, optimize payments, keep preferred provider
+8. E-commerce Integrations — Shopify (hosted & onsite checkout), WooCommerce plugin
+9. Pricing — transparent pricing, no hidden fees, seamless onboarding
+10. Developer Resources — API reference, Postman collections, server-side libraries, example integrations, testing tools, webhooks, glossary
+11. Documentation — quick start guides, no-code setup, website checklist, business operations, settlement files
+12. Community — GitHub (SDK, PRs, issues), Instagram, LinkedIn, Postman
+13. Contact Support — phone: 021 35622870, for account issues, payment failures, settlements, integration help, refunds
+
+---
+
+## Safepay API Documentation
+
+### API Overview
+Safepay is a regulated payments service provider that enables developers to orchestrate money movement between customers and businesses with ease and speed. The Safepay API makes it simple for businesses and financial platforms to create payment sessions, manage subscriptions, issue invoices, and exchange value by sending and receiving money.
+
+The Safepay API is based on REST principles, returns JSON responses, and uses standard HTTP response codes.
+
+### Environments
+Safepay offers two environments to developers: production and sandbox.
+- Sandbox: Any transaction performed in the sandbox environment has no financial impact. Safepay provides test credentials for payment instruments that can be used while integrating.
+- Production: Used for live transactions after completing onboarding.
+- To begin integrating, sign up for a free sandbox account to get access to all of Safepay's APIs. After completing integration, contact the Safepay team to create a production account and complete onboarding.
+
+### API Authentication
+Safepay supports authentication through JWT tokens as well as API secret keys. Most APIs support both JWT and Secret Key based authentication, but where an API supports a specific type of authentication, it will be mentioned in the documentation.
+
+- JWT Token: Set the Authorization header to "Bearer" followed by the JWT token.
+- Merchant Secret Key: Set a header called "X-SFPY-MERCHANT-SECRET" and use the merchant Secret Key as the value. The Secret Key can be found in the Developer section on the merchant dashboard.
+- Time-based Token: For client-to-server requests, a time-based token may first be generated server-side using the Secret Key. This is passed similarly to the JWT token by setting the Authorization header to "Bearer" followed by the time-based token.
+
+### Login Company Endpoint
+POST /v1/company/login — Authenticates a company/admin user and returns a token.
+Request body requires email and password fields. The response returns a token (client token), name, email, api_key, and other company details.
+
+### Create Merchant JWT Endpoint
+POST /auth/v1/company/authenticate — Generates a JWT session token for a merchant.
+Request body requires client, email, and password fields. The email and password are those of the Admin user who created the account. The JWT token can be extracted from the "data" object at the "session" property. Each session token is valid for a 24 hour period.
+
+### API Sections
+The Safepay API documentation covers these main sections:
+- Introduction — API overview, environments, and getting started
+- API Authentication — JWT tokens, secret keys, login, and merchant JWT generation
+- API Keys — managing API credentials
+- Merchant Shoppers — managing customer/shopper records
+- Payments — creating payment sessions and processing transactions
+- Subscriptions — managing recurring payments and subscription plans
+- Quick Links — shortcuts to common resources
+
+### Base URLs
+- Sandbox API: https://sandbox.api.getsafepay.com
+- Authentication endpoint: https://sandbox.api.getsafepay.com/auth/v1/company/authenticate
