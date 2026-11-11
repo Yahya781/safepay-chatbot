@@ -13,11 +13,12 @@ from langchain_groq import ChatGroq
 from langchain_community.document_loaders import TextLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_chroma import Chroma
-from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_community.embeddings import FastEmbedEmbeddings
 from langchain_classic.chains import ConversationalRetrievalChain
 from langchain_core.prompts import PromptTemplate
 from dotenv import load_dotenv
 import os
+import shutil
 
 load_dotenv()
 
@@ -54,6 +55,7 @@ Your job is to answer questions about SafePay's products, features, pricing, int
 
 PRIMARY_MODEL = "qwen/qwen3.8-27b"
 FALLBACK_MODEL = "openai/gpt-oss-120b"
+EMBED_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 
 
 def build_llm(model_name):
@@ -67,8 +69,35 @@ def build_llm(model_name):
     )
 
 
-def build_vectorstore():
-    """Load knowledge bases, chunk, embed, and return the Chroma vector store."""
+PERSIST_DIR = os.getenv("CHROMA_DIR", "./chroma_db")
+
+
+def get_embeddings():
+    # ONNX runtime (no torch) keeps memory well under 512 MB. Same model as before.
+    return FastEmbedEmbeddings(
+        model_name=EMBED_MODEL,
+        cache_dir=os.getenv("FASTEMBED_CACHE_PATH"),
+        batch_size=8,   # small batches keep ONNX's working memory low
+        threads=1,
+    )
+
+
+def build_vectorstore(rebuild=False):
+    """Return the Chroma vector store.
+
+    Loads the persisted index if one exists (fast, low memory). Otherwise —
+    or when rebuild=True — embeds the knowledge base from scratch. On Render
+    the index is built once at build time (see build_index.py).
+    """
+    embeddings = get_embeddings()
+
+    if not rebuild and os.path.isdir(PERSIST_DIR):
+        store = Chroma(persist_directory=PERSIST_DIR, embedding_function=embeddings)
+        count = store._collection.count()
+        if count > 0:
+            print(f"Loaded persisted index from {PERSIST_DIR} ({count} chunks)")
+            return store
+
     documents = []
     for kb_file in [
         "safepay_mainsite_knowledge.txt",
@@ -93,16 +122,13 @@ def build_vectorstore():
     chunks = splitter.split_documents(documents)
     print(f"Created {len(chunks)} chunks from knowledge base")
 
-    # Create embeddings
-    embeddings = HuggingFaceEmbeddings(model="all-MiniLM-L6-v2")
-
-    # Store in ChromaDB
-    vectorstore = Chroma.from_documents(
+    # Start from an empty index so re-runs never duplicate chunks
+    shutil.rmtree(PERSIST_DIR, ignore_errors=True)
+    return Chroma.from_documents(
         documents=chunks,
         embedding=embeddings,
-        persist_directory="./chroma_db",
+        persist_directory=PERSIST_DIR,
     )
-    return vectorstore
 
 
 def build_qa_chain(vectorstore=None, model_name=PRIMARY_MODEL):

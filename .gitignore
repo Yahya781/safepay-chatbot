@@ -10,7 +10,7 @@ venv/
 
 # Vector store (regenerated from knowledge base files)
 chroma_db/
-.hf_cache/
+.model_cache/
 
 # OS / editor
 .DS_Store
