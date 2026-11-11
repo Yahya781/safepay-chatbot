@@ -56,7 +56,7 @@ def build_chains():
     """Build the vector store + primary and fallback QA chains.
 
     Called eagerly at startup (see @app.on_event("startup")) so the
-    first user request is fast and Railway's health check waits for
+    first user request is fast and the host's health check waits for
     the chains to be ready before routing traffic.
     """
     global qa_chain, fallback_chain, vectorstore
@@ -82,9 +82,8 @@ class Question(BaseModel):
 
 @app.get("/health")
 def health():
-    """Health check. Returns 503 until the QA chains are ready so Railway
-    keeps waiting (up to healthcheckTimeout) instead of routing traffic
-    to a cold app."""
+    """Health check. Returns 503 until the QA chains are ready so the
+    platform doesn't route traffic to a cold app."""
     if qa_chain is None:
         raise HTTPException(status_code=503, detail="chains not ready")
     return {"status": "ok", "chain_loaded": True}

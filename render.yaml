@@ -1,0 +1,25 @@
+# Render Blueprint — https://render.com/docs/blueprint-spec
+# Deploy: Render Dashboard → New → Blueprint → select this repo.
+services:
+  - type: web
+    name: safepay-chatbot
+    runtime: python
+    region: singapore          # closest Render region to Pakistan
+    plan: standard             # 2 GB RAM. torch + embeddings won't fit in 512 MB (starter/free).
+    branch: main
+    autoDeployTrigger: commit
+    buildCommand: |
+      pip install --upgrade pip &&
+      pip install -r requirements.txt &&
+      python download_model.py
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.8
+      - key: GROQ_API_KEY
+        sync: false            # set in the Render dashboard, never commit it
+      # Keep the embedding model inside the project dir so the build-time
+      # download is still there at runtime (~/.cache is not carried over).
+      - key: HF_HOME
+        value: /opt/render/project/src/.hf_cache

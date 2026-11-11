@@ -1,6 +1,10 @@
 # SafePay Assistant — Python dependencies
 # Install: pip install -r requirements.txt
 
+# CPU-only PyTorch wheels (avoids ~2 GB of CUDA libraries on Render)
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+
 # Web framework
 fastapi
 uvicorn[standard]

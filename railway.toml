@@ -1,6 +1,0 @@
-[deploy]
-# Give the app extra time to build the vector store on cold start
-healthcheckPath = "/health"
-healthcheckTimeout = 300
-restartPolicyType = "ON_FAILURE"
-restartPolicyMaxRetries = 3
